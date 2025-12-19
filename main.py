@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)  # "main" ではなく __name__ を使う�
 TOKEN = os.getenv('DISCORD_TOKEN')
 DSN = os.getenv('DSN')
 GUILD_ID = os.getenv('GUILD_ID') # 開発用サーバーID（あれば）
-PREFIX = os.getenv('PREFIX', '!')
+PREFIX = os.getenv('PREFIX', '?')
 
 if TOKEN is None:
     logger.critical("環境変数 'DISCORD_TOKEN' が設定されていません。終了します。")

@@ -10,6 +10,7 @@ services:
     environment:
       # Docker内では "localhost" ではなく "サービス名(voicevox)" で通信します
       - VOICEVOX_URL=http://voicevox:50021
+      - PREFIX=?
 
   # VOICEVOXエンジン (ずんだもん達の本体)
   voicevox:

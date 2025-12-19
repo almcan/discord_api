@@ -4,3 +4,8 @@ gTTS
 PyNaCl
 asyncpg
 aiohttp
+Pillow
+pandas
+tabulate
+selenium
+beautifulsoup4

@@ -57,21 +57,19 @@ class MyBot(commands.Bot):
         initial_extensions = [
             "cogs.romazi_to_hiragana", 
 
-            "cogs.Pokeconf",
-            "cogs.SQL",
-            "cogs.HOME",
+            # "cogs.Pokeconf",
+            # "cogs.SQL",
+            # "cogs.HOME",
             "cogs.Func",
             "cogs.Role",
-            "cogs.Wordle",
+            # "cogs.Wordle",
             "cogs.cmd_card",
             "cogs.tts",
             "cogs.unite_info", 
             "cogs.unite",
-            "cogs.reaction",
-            "cogs.Greet",
-            "cogs.Game",
-            "cogs.batteledata_commit",
-            "cogs.manage_unite_data"
+            # "cogs.reaction",
+            # "cogs.batteledata_commit",
+            # "cogs.manage_unite_data"
         ]
 
         logger.info("--- Cog Loading Started ---")

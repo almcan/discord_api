@@ -4,11 +4,26 @@ FROM python:3.13-slim
 # 作業ディレクトリを作成
 WORKDIR /app
 
+# ログをリアルタイムで出す設定
+ENV PYTHONUNBUFFERED=1
+
+# 必要なパッケージ（Chromium含む）をインストール
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    chromium \
+    chromium-driver \
+    fonts-noto-cjk \
+    && rm -rf /var/lib/apt/lists/*
+
 # ライブラリ一覧をコピーしてインストール
 COPY requirements.txt .
-# ffmpeg が必要（音声再生のため）
-RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/* \
-    && pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# フォントフォルダをコピー（念のためローカルのも入れる）
+COPY fonts /app/fonts
+
+# 画像フォルダをコピー
+COPY images /app/images
 
 # ソースコードを全てコピー
 COPY . .

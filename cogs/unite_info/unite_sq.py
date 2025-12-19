@@ -768,22 +768,23 @@ if __name__ == "__main__":
         print("処理対象のURLがありません。pokemon_urls.json を確認してください。")
     else:
         print("\n--- ブラウザ起動中 ---")
-        service = ChromeService()
         options = webdriver.ChromeOptions()
-        options.add_argument('--headless') 
+        options.add_argument('--headless') # 画面を表示しない
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
-        driver = webdriver.Chrome(service=service, options=options)
-        driver.implicitly_wait(5)
+        options.add_argument('--disable-gpu')
+        options.binary_location = "/usr/bin/chromium"
 
         try:
+            service = ChromeService() 
+            driver = webdriver.Chrome(service=service, options=options)
+            driver.implicitly_wait(5)
             all_data = []
             print(f"\n--- 処理開始: 対象 {len(target_urls)} 件 ---")
 
             for i, url in enumerate(target_urls):
                 print(f"\n[{i+1}/{len(target_urls)}] 処理中...")
                 
-                # ★修正: driver を渡して呼び出す
                 data = scrape_pokemon_data(driver, url)
                 
                 if data:
@@ -804,6 +805,7 @@ if __name__ == "__main__":
         
         finally:
             print("ブラウザを閉じます。")
-            driver.quit()
+            if 'driver' in locals():
+                driver.quit()
             
         print("完了")
