@@ -1,3 +1,4 @@
+import io
 import discord
 from discord.ext import commands
 import json
@@ -255,13 +256,18 @@ class UniteInfoCog(commands.Cog):
                          line_values.append(display_value)
                      stats_file_content += " | ".join(line_values) + "\n"
 
-                author_id = context.author.id if isinstance(context, commands.Context) else context.user.id
+                stats_buffer = io.BytesIO(stats_file_content.encode('utf-8'))
+                stats_buffer.seek(0) # バッファの読み込み位置を先頭に戻す
+
+                # 送信時のファイル名を決定
                 safe_pokemon_name = "".join(c if c.isalnum() else "_" for c in pokemon_display_name)
-                temp_file_path = f"{safe_pokemon_name}_{author_id}_stats.txt"
-                with open(temp_file_path, "w", encoding="utf-8") as f:
-                    f.write(stats_file_content)
-                await send_func(f"**{pokemon_display_name}** の全レベルステータスはこちらです:", file=discord.File(temp_file_path))
-                os.remove(temp_file_path)
+                filename = f"{safe_pokemon_name}_stats.txt"
+
+                # ディスクに保存せず、メモリ上のデータ(stats_buffer)を直接渡す
+                await send_func(
+                    f"**{pokemon_display_name}** の全レベルステータスはこちらです:", 
+                    file=discord.File(stats_buffer, filename=filename)
+                )
             except Exception as e:
                 print(f"ステータスファイル ({pokemon_display_name}) 作成/送信エラー: {e}")
                 await error_send_func("ステータス情報の表示中にエラーが発生しました。", ephemeral=error_ephemeral)

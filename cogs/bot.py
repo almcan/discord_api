@@ -26,33 +26,36 @@ class JapaneseHelpCommand(commands.DefaultHelpCommand):
 # Bot本体のクラス定義
 # ------------------------------------------------------------------
 class MyBot(commands.Bot):
-    def __init__(self, command_prefix, DSN):
+    # ★変更点1: testing_guild_id を受け取るように変更
+    def __init__(self, command_prefix, DSN, testing_guild_id=None):
         super().__init__(
             command_prefix=command_prefix,
             intents=discord.Intents.all(),
             help_command=JapaneseHelpCommand()
         )
         self.dsn = DSN
+        self.testing_guild_id = testing_guild_id # IDを保存
         self.pool = None
         # タイムゾーンはここで定義しておくと便利
         self.jst = zoneinfo.ZoneInfo('Asia/Tokyo') 
 
     async def setup_hook(self):
         """
-        Bot起動時に最初に実行される処理。
-        ここでCog（機能拡張）をロードします。
+        Bot起動時（ログイン直後、接続前）に1回だけ実行される処理。
+        Cogのロードとコマンド同期はここで行うのがベストプラクティス。
         """
         logger.info("--- Setup Hook Started ---")
 
+        # 1. データベース接続
         try:
             self.pool = await asyncpg.create_pool(dsn=self.dsn)
             logger.info("[OK] Database connection pool created.")
         except Exception:
             logger.exception("[ERROR] Failed to connect to database")
-        # ロードしたいCogのリスト
-        # ※ ファイル名が正しいか必ず確認してください (大文字小文字など)
+
+        # 2. Cog（機能拡張）のロード
         initial_extensions = [
-            "cogs.romazi_to_hiragana",  # ← これを上に移動！
+            "cogs.romazi_to_hiragana", 
 
             "cogs.Pokeconf",
             "cogs.SQL",
@@ -86,30 +89,34 @@ class MyBot(commands.Bot):
                 logger.exception(f"[ERROR] Failed to load {extension}")
         logger.info("--- Cog Loading Finished ---")
 
+        # 3. コマンド同期 (Sync)
+        # setup_hook内で実行することで、再接続時の無駄なSyncを防ぐ
+        logger.info("--- Command Sync Started ---")
+        try:
+            if self.testing_guild_id:
+                guild_obj = discord.Object(id=int(self.testing_guild_id))
+                self.tree.copy_global_to(guild=guild_obj)
+                await self.tree.sync(guild=guild_obj)
+                logger.info(f"✅ [SYNC] Command tree synced to SPECIFIC guild: {self.testing_guild_id} (Dev Mode)")
+            else:
+                await self.tree.sync()
+                logger.info("🌎 [SYNC] Command tree synced GLOBALLY (Production Mode)")
+        except Exception as e:
+            logger.error(f"❌ [ERROR] Failed to sync command tree: {e}")
+        
+        logger.info("--- Setup Hook Finished ---")
+
     async def close(self):
         """Bot終了時の処理"""
-        # ★追加: 終了時にDB接続を閉じる
         if self.pool:
             await self.pool.close()
             logger.info("[INFO] Database connection closed.")
         await super().close()
 
-        # スラッシュコマンドの同期 (必要に応じてコメントアウトを外す)
-        # 開発中は特定のギルドのみに同期したほうが早いですが、
-        # ここではグローバル同期の例を書いておきます。
-        # try:
-        #     synced = await self.tree.sync()
-        #     print(f"Synced {len(synced)} slash commands.")
-        # except Exception as e:
-        #     print(f"Failed to sync slash commands: {e}")
-
     async def on_ready(self):
-        """起動完了時の処理"""
-        # 親クラス(commands.Bot)のon_readyがあれば呼ぶ（通常は不要だが念のため）
-        # await super().on_ready()
+        """起動完了時の処理（タスク開始など）"""
+        # ここではもう sync は行わない
         
-        # ログイン情報の表示などは main.py の on_ready に任せてもいいが、
-        # タスクの起動はここで行うのが確実
         if not self.update_pokemon_home_database.is_running():
             self.update_pokemon_home_database.start()
             logger.info("[TASK] Pokémon HOME database update task started.")
@@ -128,7 +135,6 @@ class MyBot(commands.Bot):
         if battledata_cog:
             try:
                 logger.info(f"{now} - Starting periodic Pokémon HOME DB update...")
-                # ★注意: battledata_cog の中身も asyncpg に対応させる必要があります
                 await battledata_cog.run_update_logic()
                 logger.info(f"{now} - Update completed successfully.")
             except Exception:
@@ -145,16 +151,10 @@ class MyBot(commands.Bot):
     # ------------------------------------------------------------------
 
     async def on_command_error(self, ctx: commands.Context, error):
-        """
-        グローバルエラーハンドリング
-        Botクラス直下の場合は @commands.Cog.listener は不要で、
-        メソッド名が一致していればオーバーライドされます。
-        """
-        # コマンドが見つからないエラーは無視する（頻発するため）
+        """グローバルエラーハンドリング"""
         if isinstance(error, commands.CommandNotFound):
             return
 
-        # Embedでのエラー表示
         embed = discord.Embed(
             title="ERROR!",
             description=f"```{ctx.message.content}```",
@@ -171,7 +171,6 @@ class MyBot(commands.Bot):
             inline=False
         )
         
-        # 権限不足などでメッセージが送れない場合のエラーを避けるtry-except
         try:
             await ctx.send(embed=embed, delete_after=120)
         except discord.Forbidden:
