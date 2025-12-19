@@ -1,2 +1,6 @@
 discord.py
 python-dotenv
+gTTS
+PyNaCl
+asyncpg
+aiohttp
