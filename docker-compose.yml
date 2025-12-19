@@ -1,0 +1,6 @@
+services:
+  bot:
+    build: .
+    restart: always  # エラーで落ちても、PC再起動時も自動で立ち上がる
+    env_file:
+      - .env         # .envファイルを読み込む
