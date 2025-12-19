@@ -18,3 +18,5 @@ services:
     ports:
       - "50022:50021"
     tty: true
+    logging:
+      driver: "none"

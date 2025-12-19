@@ -37,7 +37,6 @@ class MyBot(commands.Bot):
     async def setup_hook(self):
         print("--- Setup Hook Started ---")
 
-        # データベース接続 (DSNがダミーだと失敗しますが、tryで守られているので落ちません)
         try:
             self.pool = await asyncpg.create_pool(dsn=self.dsn)
             print("[OK] Database connection pool created.")

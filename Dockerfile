@@ -6,7 +6,9 @@ WORKDIR /app
 
 # ライブラリ一覧をコピーしてインストール
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# ffmpeg が必要（音声再生のため）
+RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/* \
+    && pip install --no-cache-dir -r requirements.txt
 
 # ソースコードを全てコピー
 COPY . .
