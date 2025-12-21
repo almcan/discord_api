@@ -26,7 +26,7 @@ class ManageDataCog(commands.Cog):
         self.scraper_script_to_execute = ACTUAL_SCRAPER_SCRIPT_PATH
         self.json_to_load = EXPECTED_JSON_FILENAME
 
-    @commands.command(name='unite_info_reset')
+    @commands.command(name='unite_info_reset', hidden=True)
     async def unite_info_reset(self, ctx: commands.Context):
         """
         パスワード認証後、データ更新スクリプトを実行し、

@@ -31,7 +31,7 @@ class Func(commands.Cog):
     # ==================================================
     # 機能1: シャッフル
     # ==================================================
-    @commands.command(name="shuffle", description="?shuffle 並び替える単語群")
+    @commands.command(name="shuffle", description="!shuffle 並び替える単語群")
     async def shuffle(self, ctx: commands.Context, *, word: str = commands.parameter(description="並び替える単語群")):
         """
         与えられた複数の単語や数字をランダムに並び替えます
@@ -45,10 +45,10 @@ class Func(commands.Cog):
     # ==================================================
     # 機能2: ダイス (Game.py統合)
     # ==================================================
-    @commands.command(name="dice", description="?dice ダイス数 目の数")
+    @commands.command(name="dice", description="!dice ダイス数 目の数")
     @commands.cooldown(rate=2, per=60, type=commands.BucketType.guild)
     async def dice(self, ctx: commands.Context, a: int, b: int):
-        """サイコロを振る (例: ?dice 2 6 -> 6面ダイスを2個)"""
+        """サイコロを振る (例: !dice 2 6 -> 6面ダイスを2個)"""
         result = random.choices(range(1, b + 1), k=a)
         return await ctx.send(
             f'{a}D{b}の結果は{sum(result)}です．\n内訳{result}'
