@@ -8,11 +8,12 @@ services:
     depends_on:
       - voicevox  # voicevoxが起動してからbotを起動する
     environment:
-      # Docker内では "localhost" ではなく "サービス名(voicevox)" で通信します
       - VOICEVOX_URL=http://voicevox:50021
       - PREFIX=?
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - UNITE_RESET_PASSWORD=${UNITE_RESET_PASSWORD}
 
-  # VOICEVOXエンジン (ずんだもん達の本体)
+  # VOICEVOXエンジン
   voicevox:
     image: voicevox/voicevox_engine:cpu-ubuntu20.04-latest
     restart: always

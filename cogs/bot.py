@@ -62,14 +62,14 @@ class MyBot(commands.Bot):
             # "cogs.HOME",
             "cogs.Func",
             "cogs.Role",
-            # "cogs.Wordle",
+            "cogs.Wordle",
             "cogs.cmd_card",
             "cogs.tts",
             "cogs.unite_info", 
             "cogs.unite",
             # "cogs.reaction",
             # "cogs.batteledata_commit",
-            # "cogs.manage_unite_data"
+            "cogs.manage_unite_data"
         ]
 
         logger.info("--- Cog Loading Started ---")

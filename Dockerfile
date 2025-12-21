@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
     chromium \
     chromium-driver \
     fonts-noto-cjk \
+    poppler-utils \
     && rm -rf /var/lib/apt/lists/*
 
 # ライブラリ一覧をコピーしてインストール

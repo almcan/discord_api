@@ -9,3 +9,12 @@ pandas
 tabulate
 selenium
 beautifulsoup4
+numpy
+psycopg2-binary
+pdf2image
+matplotlib
+japanize-matplotlib
+gspread
+oauth2client
+gspread-dataframe
+jaconv
