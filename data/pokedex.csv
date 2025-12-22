@@ -1,0 +1,1178 @@
+﻿id,no,name,eng,type1,type2,ability1,ability2,ability3,h,a,b,c,d,s,icon
+1.1,1,フシギダネ,Bulbasaur,くさ,どく,しんりょく,ようりょくそ,なし,45,49,49,65,65,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/001.png
+2.1,2,フシギソウ,Ivysaur,くさ,どく,しんりょく,ようりょくそ,なし,60,62,63,80,80,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/002.png
+3.1,3,フシギバナ,Venusaur,くさ,どく,しんりょく,ようりょくそ,なし,80,82,83,100,100,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/003.png
+3.2,3,メガフシギバナ,Mega Venusaur,くさ,どく,あついしぼう,なし,なし,80,100,123,122,120,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/003-m.png
+4.1,4,ヒトカゲ,Charmander,ほのお,なし,もうか,サンパワー,なし,39,52,43,60,50,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/004.png
+5.1,5,リザード,Charmeleon,ほのお,なし,もうか,サンパワー,なし,58,64,58,80,65,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/005.png
+6.1,6,リザードン,Charizard,ほのお,ひこう,もうか,サンパワー,なし,78,84,78,109,85,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/006.png
+6.2,6,メガリザードンX,Mega Charizard X,ほのお,ドラゴン,かたいツメ,なし,なし,78,130,111,130,85,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/006-mx.png
+6.3,6,メガリザードンY,Mega Charizard Y,ほのお,ひこう,ひでり,なし,なし,78,104,78,159,115,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/05/006-my.png
+7.1,7,ゼニガメ,Squirtle,みず,なし,げきりゅう,あめうけざら,なし,44,48,65,50,64,43,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/007.png
+8.1,8,カメール,Wartortle,みず,なし,げきりゅう,あめうけざら,なし,59,63,80,65,80,58,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/008.png
+9.1,9,カメックス,Blastoise,みず,なし,げきりゅう,あめうけざら,なし,79,83,100,85,105,78,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/009.png
+9.2,9,メガカメックス,Mega Blastoise,みず,なし,メガランチャー,なし,なし,79,103,120,135,115,78,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/009-m.png
+10.1,10,キャタピー,Caterpie,むし,なし,りんぷん,にげあし,なし,45,30,35,20,20,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/010.png
+11.1,11,トランセル,Metapod,むし,なし,だっぴ,なし,なし,50,20,55,25,25,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/011.png
+12.1,12,バタフリー,Butterfree,むし,ひこう,ふくがん,いろめがね,なし,60,45,50,90,80,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/012.png
+13.1,13,ビードル,Weedle,むし,どく,りんぷん,にげあし,なし,40,35,30,20,20,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/013.png
+14.1,14,コクーン,Kakuna,むし,どく,だっぴ,なし,なし,45,25,50,25,25,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/014.png
+15.1,15,スピアー,Beedrill,むし,どく,むしのしらせ,スナイパー,なし,65,90,40,45,80,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/015.png
+15.2,15,メガスピアー,Mega Beedrill,むし,どく,てきおうりょく,なし,なし,65,150,40,15,80,145,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/015-m.png
+16.1,16,ポッポ,Pidgey,ノーマル,ひこう,するどいめ,ちどりあし,はとむね,40,45,40,35,35,56,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/016.png
+17.1,17,ピジョン,Pidgeotto,ノーマル,ひこう,するどいめ,ちどりあし,はとむね,63,60,55,50,50,71,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/017.png
+18.1,18,ピジョット,Pidgeot,ノーマル,ひこう,するどいめ,ちどりあし,はとむね,83,80,75,70,70,101,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/018.png
+18.2,18,メガピジョット,Mega Pidgeot,ノーマル,ひこう,ノーガード,なし,なし,83,80,80,135,80,121,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/05/018-m.png
+19.1,19,コラッタ,Rattata,ノーマル,なし,にげあし,こんじょう,はりきり,30,56,35,25,35,72,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/019.png
+19.2,19,コラッタ(アローラ),Alolan Rattata,あく,ノーマル,くいしんぼう,はりきり,あついしぼう,30,56,35,25,35,72,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/019-a.png
+20.1,20,ラッタ,Raticate,ノーマル,なし,にげあし,こんじょう,はりきり,55,81,60,50,70,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/020.png
+20.2,20,ラッタ(アローラ),Alolan Raticate,あく,ノーマル,くいしんぼう,はりきり,あついしぼう,75,71,70,40,80,77,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/020-a.png
+21.1,21,オニスズメ,Spearow,ノーマル,ひこう,するどいめ,スナイパー,なし,40,60,30,31,31,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/021.png
+22.1,22,オニドリル,Fearow,ノーマル,ひこう,するどいめ,スナイパー,なし,65,90,65,61,61,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/022.png
+23.1,23,アーボ,Ekans,どく,なし,いかく,だっぴ,きんちょうかん,35,60,44,40,54,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/023.png
+24.1,24,アーボック,Arbok,どく,なし,いかく,だっぴ,きんちょうかん,60,95,69,65,79,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/024.png
+25.1,25,ピカチュウ,Pikachu,でんき,なし,せいでんき,ひらいしん,なし,35,55,40,50,50,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/025.png
+26.1,26,ライチュウ,Raichu,でんき,なし,せいでんき,ひらいしん,なし,60,90,55,90,80,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/026.png
+26.2,26,ライチュウ(アローラ),Alolan Raichu,でんき,エスパー,サーフテール,なし,なし,60,85,50,95,85,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/026-a.png
+27.1,27,サンド,Sandshrew,じめん,なし,すながくれ,すなかき,なし,50,75,85,20,30,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/027.png
+27.2,27,サンド(アローラ),Alolan Sandshrew,こおり,はがね,ゆきがくれ,ゆきかき,なし,50,75,90,10,35,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/027-a.png
+28.1,28,サンドパン,Sandslash,じめん,なし,すながくれ,すなかき,なし,75,100,110,45,55,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/028.png
+28.2,28,サンドパン(アローラ),Alolan Sandslash,こおり,はがね,ゆきがくれ,ゆきかき,なし,75,100,120,25,65,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/028-a.png
+29.1,29,ニドラン♀,Nidoran♀,どく,なし,どくのトゲ,とうそうしん,はりきり,55,47,52,40,40,41,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/029.png
+30.1,30,ニドリーナ,Nidorina,どく,なし,どくのトゲ,とうそうしん,はりきり,70,62,67,55,55,56,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/030.png
+31.1,31,ニドクイン,Nidoqueen,どく,じめん,どくのトゲ,とうそうしん,ちからずく,90,92,87,75,85,76,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/031.png
+32.1,32,ニドラン♂,Nidoran♂,どく,なし,どくのトゲ,とうそうしん,はりきり,46,57,40,40,40,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/032.png
+33.1,33,ニドリーノ,Nidorino,どく,なし,どくのトゲ,とうそうしん,はりきり,61,72,57,55,55,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/033.png
+34.1,34,ニドキング,Nidoking,どく,じめん,どくのトゲ,とうそうしん,ちからずく,81,102,77,85,75,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/034.png
+35.1,35,ピッピ,Clefairy,フェアリー,なし,メロメロボディ,マジックガード,フレンドガード,70,45,48,60,65,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/035.png
+36.1,36,ピクシー,Clefable,フェアリー,なし,メロメロボディ,マジックガード,てんねん,95,70,73,95,90,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/036.png
+37.1,37,ロコン,Vulpix,ほのお,なし,もらいび,ひでり,なし,38,41,40,50,65,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/037.png
+37.2,37,ロコン(アローラ),Alolan Vulpix,こおり,なし,ゆきがくれ,ゆきふらし,なし,38,41,40,50,65,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/037-a.png
+38.1,38,キュウコン,Ninetales,ほのお,なし,もらいび,ひでり,なし,73,76,75,81,100,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/038.png
+38.2,38,キュウコン(アローラ),Alolan Ninetales,こおり,フェアリー,ゆきがくれ,ゆきふらし,なし,73,67,75,81,100,109,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/038-a.png
+39.1,39,プリン,Jigglypuff,ノーマル,フェアリー,メロメロボディ,かちき,フレンドガード,115,45,20,45,25,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/039.png
+40.1,40,プクリン,Wigglytuff,ノーマル,フェアリー,メロメロボディ,かちき,おみとおし,140,70,45,85,50,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/040.png
+41.1,41,ズバット,Zubat,どく,ひこう,せいしんりょく,すりぬけ,なし,40,45,35,30,40,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/041.png
+42.1,42,ゴルバット,Golbat,どく,ひこう,せいしんりょく,すりぬけ,なし,75,80,70,65,75,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/042.png
+43.1,43,ナゾノクサ,Oddish,くさ,どく,ようりょくそ,にげあし,なし,45,50,55,75,65,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/043.png
+44.1,44,クサイハナ,Gloom,くさ,どく,ようりょくそ,あくしゅう,なし,60,65,70,85,75,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/044.png
+45.1,45,ラフレシア,Vileplume,くさ,どく,ようりょくそ,ほうし,なし,75,80,85,110,90,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/045.png
+46.1,46,パラス,Paras,むし,くさ,ほうし,かんそうはだ,しめりけ,35,70,55,45,55,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/046.png
+47.1,47,パラセクト,Parasect,むし,くさ,ほうし,かんそうはだ,しめりけ,60,95,80,60,80,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/047.png
+48.1,48,コンパン,Venonat,むし,どく,ふくがん,いろめがね,にげあし,60,55,50,40,55,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/048.png
+49.1,49,モルフォン,Venomoth,むし,どく,りんぷん,いろめがね,ミラクルスキン,70,65,60,90,75,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/049.png
+50.1,50,ディグダ,Diglett,じめん,なし,すながくれ,ありじごく,すなのちから,10,55,25,35,45,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/050.png
+50.2,50,ディグダ(アローラ),Alolan Diglett,じめん,はがね,すながくれ,カーリーヘアー,すなのちから,10,55,30,35,45,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/050-a.png
+51.1,51,ダグトリオ,Dugtrio,じめん,なし,すながくれ,ありじごく,すなのちから,35,100,50,50,70,120,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/051.png
+51.2,51,ダグトリオ(アローラ),Alolan Dugtrio,じめん,はがね,すながくれ,カーリーヘアー,すなのちから,35,100,60,50,70,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/051-a.png
+52.1,52,ニャース,Meowth,ノーマル,なし,ものひろい,テクニシャン,きんちょうかん,40,45,35,40,40,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/052.png
+52.2,52,ニャース(アローラ),Alolan Meowth,あく,なし,ものひろい,テクニシャン,びびり,40,35,35,50,40,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/052-a.png
+52.3,52,ニャース(ガラル),Galarian Meowth,はがね,なし,ものひろい,かたいツメ,きんちょうかん,50,65,55,40,40,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/052-g.png
+53.1,53,ペルシアン,Persian,ノーマル,なし,じゅうなん,テクニシャン,きんちょうかん,65,70,60,65,65,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/053.png
+53.2,53,ペルシアン(アローラ),Alolan Persian,あく,なし,ファーコート,テクニシャン,びびり,65,60,60,75,65,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/053-a.png
+54.1,54,コダック,Psyduck,みず,なし,しめりけ,ノーてんき,すいすい,50,52,48,65,50,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/054.png
+55.1,55,ゴルダック,Golduck,みず,なし,しめりけ,ノーてんき,すいすい,80,82,78,95,80,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/055.png
+56.1,56,マンキー,Mankey,かくとう,なし,やるき,いかりのつぼ,まけんき,40,80,35,35,45,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/056.png
+57.1,57,オコリザル,Primeape,かくとう,なし,やるき,いかりのつぼ,まけんき,65,105,60,60,70,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/057.png
+58.1,58,ガーディ,Growlithe,ほのお,なし,いかく,もらいび,せいぎのこころ,55,70,45,70,50,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/058.png
+58.2,58,ガーディ(ヒスイ),Hisuian Growlithe,ほのお,いわ,いかく,もらいび,いしあたま,60,75,45,65,50,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/058-h.png
+59.1,59,ウインディ,Arcanine,ほのお,なし,いかく,もらいび,せいぎのこころ,90,110,80,100,80,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/059.png
+59.2,59,ウインディ(ヒスイ),Hisuian Arcanine,ほのお,いわ,いかく,もらいび,いしあたま,95,115,80,95,80,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/059-h.png
+60.1,60,ニョロモ,Poliwag,みず,なし,ちょすい,しめりけ,すいすい,40,50,40,40,40,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/060.png
+61.1,61,ニョロゾ,Poliwhirl,みず,なし,ちょすい,しめりけ,すいすい,65,65,65,50,50,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/061.png
+62.1,62,ニョロボン,Poliwrath,みず,かくとう,ちょすい,しめりけ,すいすい,90,95,95,70,90,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/062.png
+63.1,63,ケーシィ,Abra,エスパー,なし,シンクロ,せいしんりょく,マジックガード,25,20,15,105,55,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/063.png
+64.1,64,ユンゲラー,Kadabra,エスパー,なし,シンクロ,せいしんりょく,マジックガード,40,35,30,120,70,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/064.png
+65.1,65,フーディン,Alakazam,エスパー,なし,シンクロ,せいしんりょく,マジックガード,55,50,45,135,95,120,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/065.png
+65.2,65,メガフーディン,Mega Alakazam,エスパー,なし,トレース,なし,なし,55,50,65,175,105,150,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/065-m.png
+66.1,66,ワンリキー,Machop,かくとう,なし,こんじょう,ノーガード,ふくつのこころ,70,80,50,35,35,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/066.png
+67.1,67,ゴーリキー,Machoke,かくとう,なし,こんじょう,ノーガード,ふくつのこころ,80,100,70,50,60,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/067.png
+68.1,68,カイリキー,Machamp,かくとう,なし,こんじょう,ノーガード,ふくつのこころ,90,130,80,65,85,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/068.png
+69.1,69,マダツボミ,Bellsprout,くさ,どく,ようりょくそ,くいしんぼう,なし,50,75,35,70,30,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/069.png
+70.1,70,ウツドン,Weepinbell,くさ,どく,ようりょくそ,くいしんぼう,なし,65,90,50,85,45,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/070.png
+71.1,71,ウツボット,Victreebel,くさ,どく,ようりょくそ,くいしんぼう,なし,80,105,65,100,70,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/071.png
+72.1,72,メノクラゲ,Tentacool,みず,どく,クリアボディ,ヘドロえき,あめうけざら,40,40,35,50,100,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/072.png
+73.1,73,ドククラゲ,Tentacruel,みず,どく,クリアボディ,ヘドロえき,あめうけざら,80,70,65,80,120,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/073.png
+74.1,74,イシツブテ,Geodude,いわ,じめん,いしあたま,がんじょう,すながくれ,40,80,100,30,30,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/074.png
+74.2,74,イシツブテ(アローラ),Alolan Geodude,いわ,でんき,じりょく,がんじょう,エレキスキン,40,80,100,30,30,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/074-a.png
+75.1,75,ゴローン,Graveler,いわ,じめん,いしあたま,がんじょう,すながくれ,55,95,115,45,45,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/075.png
+75.2,75,ゴローン(アローラ),Alolan Graveler,いわ,でんき,じりょく,がんじょう,エレキスキン,55,95,115,45,45,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/075-a.png
+76.1,76,ゴローニャ,Golem,いわ,じめん,いしあたま,がんじょう,すながくれ,80,120,130,55,65,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/076.png
+76.2,76,ゴローニャ(アローラ),Alolan Golem,いわ,でんき,じりょく,がんじょう,エレキスキン,80,120,130,55,65,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/076-a.png
+77.1,77,ポニータ,Ponyta,ほのお,なし,にげあし,もらいび,ほのおのからだ,50,85,55,65,65,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/077.png
+77.2,77,ポニータ(ガラル),Galarian Ponyta,エスパー,なし,にげあし,パステルベール,きけんよち,50,85,55,65,65,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/077-g.png
+78.1,78,ギャロップ,Rapidash,ほのお,なし,にげあし,もらいび,ほのおのからだ,65,100,70,80,80,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/078.png
+78.2,78,ギャロップ(ガラル),Galarian Rapidash,エスパー,フェアリー,にげあし,パステルベール,きけんよち,65,100,70,80,80,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/078-g.png
+79.1,79,ヤドン,Slowpoke,みず,エスパー,どんかん,マイペース,さいせいりょく,90,65,65,40,40,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/079.png
+79.2,79,ヤドン(ガラル),Galarian Slowpoke,エスパー,なし,くいしんぼう,マイペース,さいせいりょく,90,65,65,40,40,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/079-g.png
+80.1,80,ヤドラン,Slowbro,みず,エスパー,どんかん,マイペース,さいせいりょく,95,75,110,100,80,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/080.png
+80.2,80,メガヤドラン,Mega Evolution Slowbro,みず,エスパー,シェルアーマー,なし,なし,95,75,180,130,80,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/080-m.png
+80.3,80,ヤドラン(ガラル),Galarian Slowbro,どく,エスパー,クイックドロウ,マイペース,さいせいりょく,95,100,95,100,70,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/080-g.png
+81.1,81,コイル,Magnemite,でんき,はがね,じりょく,がんじょう,アナライズ,25,35,70,95,55,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/081.png
+82.1,82,レアコイル,Magneton,でんき,はがね,じりょく,がんじょう,アナライズ,50,60,95,120,70,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/082.png
+83.1,83,カモネギ,Farfetch'd,ノーマル,ひこう,するどいめ,せいしんりょく,まけんき,52,90,55,58,62,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/083.png
+83.2,83,カモネギ(ガラル),Galarian Farfetch'd,かくとう,なし,ふくつのこころ,きもったま,なし,52,95,55,58,62,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/083-g.png
+84.1,84,ドードー,Doduo,ノーマル,ひこう,にげあし,はやおき,ちどりあし,35,85,45,35,35,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/084.png
+85.1,85,ドードリオ,Dodrio,ノーマル,ひこう,にげあし,はやおき,ちどりあし,60,110,70,60,60,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/085.png
+86.1,86,パウワウ,Seel,みず,なし,あついしぼう,うるおいボディ,アイスボディ,65,45,55,45,70,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/086.png
+87.1,87,ジュゴン,Dewgong,みず,こおり,あついしぼう,うるおいボディ,アイスボディ,90,70,80,70,95,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/087.png
+88.1,88,ベトベター,Grimer,どく,なし,あくしゅう,ねんちゃく,どくしゅ,80,80,50,40,50,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/088.png
+88.2,88,ベトベター(アローラ),Alolan Grimer,どく,あく,どくしゅ,くいしんぼう,かがくのちから,80,80,50,40,50,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/088-a.png
+89.1,89,ベトベトン,Muk,どく,なし,あくしゅう,ねんちゃく,どくしゅ,105,105,75,65,100,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/089.png
+89.2,89,ベトベトン(アローラ),Alolan Muk,どく,あく,どくしゅ,くいしんぼう,かがくのちから,105,105,75,65,100,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/089-a.png
+90.1,90,シェルダー,Shellder,みず,なし,シェルアーマー,スキルリンク,ぼうじん,30,65,100,45,25,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/090.png
+91.1,91,パルシェン,Cloyster,みず,こおり,シェルアーマー,スキルリンク,ぼうじん,50,95,180,85,45,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/091.png
+92.1,92,ゴース,Gastly,ゴースト,どく,ふゆう,なし,なし,30,35,30,100,35,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/092.png
+93.1,93,ゴースト,Haunter,ゴースト,どく,ふゆう,なし,なし,45,50,45,115,55,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/093.png
+94.1,94,ゲンガー,Gengar,ゴースト,どく,のろわれボディ,なし,なし,60,65,60,130,75,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/094.png
+94.2,94,メガゲンガー,Mega Gengar,ゴースト,どく,かげふみ,なし,なし,60,65,80,170,95,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/05/094-m.png
+95.1,95,イワーク,Onix,いわ,じめん,いしあたま,がんじょう,くだけるよろい,35,45,160,30,45,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/095.png
+96.1,96,スリープ,Drowzee,エスパー,なし,ふみん,よちむ,せいしんりょく,60,48,45,43,90,42,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/096.png
+97.1,97,スリーパー,Hypno,エスパー,なし,ふみん,よちむ,せいしんりょく,85,73,70,73,115,67,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/097.png
+98.1,98,クラブ,Krabby,みず,なし,かいりきバサミ,シェルアーマー,ちからずく,30,105,90,25,25,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/098.png
+99.1,99,キングラー,Kingler,みず,なし,かいりきバサミ,シェルアーマー,ちからずく,55,130,115,50,50,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/099.png
+100.1,100,ビリリダマ,Voltorb,でんき,なし,ぼうおん,せいでんき,ゆうばく,40,30,50,55,55,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/100.png
+100.2,100,ビリリダマ(ヒスイ),Hisuian Voltorb,でんき,くさ,ぼうおん,せいでんき,ゆうばく,40,30,50,55,55,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/100-h.png
+101.1,101,マルマイン,Electrode,でんき,なし,ぼうおん,せいでんき,ゆうばく,60,50,70,80,80,150,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/101.png
+101.2,101,マルマイン(ヒスイ),Hisuian Electrode,でんき,くさ,ぼうおん,せいでんき,ゆうばく,60,50,70,80,80,150,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/101-h.png
+102.1,102,タマタマ,Exeggcute,くさ,エスパー,ようりょくそ,しゅうかく,なし,60,40,80,60,45,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/102.png
+103.1,103,ナッシー,Exeggutor,くさ,エスパー,ようりょくそ,しゅうかく,なし,95,95,85,125,75,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/103.png
+103.2,103,ナッシー(アローラ),Alolan Exeggutor,くさ,ドラゴン,おみとおし,しゅうかく,なし,95,105,85,125,75,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/103-a.png
+104.1,104,カラカラ,Cubone,じめん,なし,いしあたま,ひらいしん,カブトアーマー,50,50,95,40,50,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/104.png
+105.1,105,ガラガラ,Marowak,じめん,なし,いしあたま,ひらいしん,カブトアーマー,60,80,110,50,80,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/105.png
+105.2,105,ガラガラ(アローラ),Alolan Marowak,ほのお,ゴースト,のろわれボディ,ひらいしん,いしあたま,60,80,110,50,80,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/105-a.png
+106.1,106,サワムラー,Hitmonlee,かくとう,なし,じゅうなん,すてみ,かるわざ,50,120,53,35,110,87,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/106.png
+107.1,107,エビワラー,Hitmonchan,かくとう,なし,するどいめ,てつのこぶし,せいしんりょく,50,105,79,35,110,76,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/107.png
+108.1,108,ベロリンガ,Lickitung,ノーマル,なし,マイペース,どんかん,ノーてんき,90,55,75,60,75,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/108.png
+109.1,109,ドガース,Koffing,どく,なし,ふゆう,かがくへんかガス,あくしゅう,40,65,95,60,45,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/109.png
+110.1,110,マタドガス,Weezing,どく,なし,ふゆう,かがくへんかガス,あくしゅう,65,90,120,85,70,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/110.png
+110.2,110,マタドガス(ガラル),Galarian Weezing,どく,フェアリー,ふゆう,かがくへんかガス,ミストメイカー,65,90,120,85,70,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/110-g.png
+111.1,111,サイホーン,Rhyhorn,じめん,いわ,ひらいしん,いしあたま,すてみ,80,85,95,30,30,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/111.png
+112.1,112,サイドン,Rhydon,じめん,いわ,ひらいしん,いしあたま,すてみ,105,130,120,45,45,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/112.png
+113.1,113,ラッキー,Chansey,ノーマル,なし,しぜんかいふく,てんのめぐみ,いやしのこころ,250,5,5,35,105,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/113.png
+114.1,114,モンジャラ,Tangela,くさ,なし,ようりょくそ,リーフガード,さいせいりょく,65,55,115,100,40,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/114.png
+115.1,115,ガルーラ,Kangaskhan,ノーマル,なし,はやおき,きもったま,せいしんりょく,105,95,80,40,80,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/115.png
+115.2,115,メガガルーラ,Mega Kangaskhan,ノーマル,なし,おやこあい,なし,なし,105,125,100,60,100,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/115-m.png
+116.1,116,タッツー,Horsea,みず,なし,すいすい,スナイパー,しめりけ,30,40,70,70,25,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/116.png
+117.1,117,シードラ,Seadra,みず,なし,どくのトゲ,スナイパー,しめりけ,55,65,95,95,45,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/117.png
+118.1,118,トサキント,Goldeen,みず,なし,すいすい,みずのベール,ひらいしん,45,67,60,35,50,63,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/118.png
+119.1,119,アズマオウ,Seaking,みず,なし,すいすい,みずのベール,ひらいしん,80,92,65,65,80,68,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/119.png
+120.1,120,ヒトデマン,Staryu,みず,なし,はっこう,しぜんかいふく,アナライズ,30,45,55,70,55,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/120.png
+121.1,121,スターミー,Starmie,みず,エスパー,はっこう,しぜんかいふく,アナライズ,60,75,85,100,85,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/121.png
+122.1,122,バリヤード,Mr. Mime,エスパー,フェアリー,ぼうおん,フィルター,テクニシャン,40,45,65,100,120,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/122.png
+122.2,122,バリヤード(ガラル),Galarian Mr. Mime,こおり,エスパー,やるき,バリアフリー,アイスボディ,50,65,65,90,90,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/122-g.png
+123.1,123,ストライク,Scyther,むし,ひこう,むしのしらせ,テクニシャン,ふくつのこころ,70,110,80,55,80,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/123.png
+124.1,124,ルージュラ,Jynx,こおり,エスパー,どんかん,よちむ,かんそうはだ,65,50,35,115,95,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/124.png
+125.1,125,エレブー,Electabuzz,でんき,なし,せいでんき,やるき,なし,65,83,57,95,85,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/125.png
+126.1,126,ブーバー,Magmar,ほのお,なし,ほのおのからだ,やるき,なし,65,95,57,100,85,93,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/126.png
+127.1,127,カイロス,Pinsir,むし,なし,かいりきバサミ,かたやぶり,じしんかじょう,65,125,100,55,70,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/127.png
+127.2,127,メガカイロス,Mega Pinsir,むし,ひこう,スカイスキン,なし,なし,65,155,120,65,90,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/127-m.png
+128.1,128,ケンタロス,Tauros,ノーマル,なし,いかく,いかりのつぼ,ちからずく,75,100,95,40,70,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/128.png
+128.2,128,ケンタロス(パルデア単),Paldean Tauros,かくとう,なし,いかく,いかりのつぼ,はんすう,75,110,105,30,70,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/128-aケンタロス.png
+128.3,128,ケンタロス(パルデア炎),Paldean Tauros,かくとう,ほのお,いかく,いかりのつぼ,はんすう,75,110,105,30,70,100,https://img.yakkun.com/poke/icon32/n128b.gif
+128.4,128,ケンタロス(パルデア水),Paldean Tauros,かくとう,みず,いかく,いかりのつぼ,はんすう,75,110,105,30,70,100,https://img.yakkun.com/poke/icon32/n128c.gif
+129.1,129,コイキング,Magikarp,みず,なし,すいすい,びびり,なし,20,10,55,15,20,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/129.png
+130.1,130,ギャラドス,Gyarados,みず,ひこう,いかく,じしんかじょう,なし,95,125,79,60,100,81,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/130.png
+130.2,130,メガギャラドス,Mega Gyarados,みず,あく,かたやぶり,なし,なし,95,155,109,70,130,81,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/130-m.png
+131.1,131,ラプラス,Lapras,みず,こおり,ちょすい,シェルアーマー,うるおいボディ,130,85,80,85,95,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/131.png
+132.1,132,メタモン,Ditto,ノーマル,なし,じゅうなん,かわりもの,なし,48,48,48,48,48,48,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/132.png
+133.1,133,イーブイ,Eevee,ノーマル,なし,にげあし,てきおうりょく,きけんよち,55,55,50,45,65,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/133.png
+134.1,134,シャワーズ,Vaporeon,みず,なし,ちょすい,うるおいボディ,なし,130,65,60,110,95,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/134.png
+135.1,135,サンダース,Jolteon,でんき,なし,ちくでん,はやあし,なし,65,65,60,110,95,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/135.png
+136.1,136,ブースター,Flareon,ほのお,なし,もらいび,こんじょう,なし,65,130,60,95,110,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/136.png
+137.1,137,ポリゴン,Porygon,ノーマル,なし,トレース,ダウンロード,アナライズ,65,60,70,85,75,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/137.png
+138.1,138,オムナイト,Omanyte,いわ,みず,すいすい,シェルアーマー,くだけるよろい,35,40,100,90,55,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/138.png
+139.1,139,オムスター,Omastar,いわ,みず,すいすい,シェルアーマー,くだけるよろい,70,60,125,115,70,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/139.png
+140.1,140,カブト,Kabuto,いわ,みず,すいすい,カブトアーマー,くだけるよろい,30,80,90,55,45,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/140.png
+141.1,141,カブトプス,Kabutops,いわ,みず,すいすい,カブトアーマー,くだけるよろい,60,115,105,65,70,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/141.png
+142.1,142,プテラ,Aerodactyl,いわ,ひこう,いしあたま,プレッシャー,きんちょうかん,80,105,65,60,75,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/142.png
+142.2,142,メガプテラ,Mega Aerodactyl,いわ,ひこう,かたいツメ,なし,なし,80,135,85,70,95,150,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/142-m.png
+143.1,143,カビゴン,Snorlax,ノーマル,なし,めんえき,あついしぼう,くいしんぼう,160,110,65,65,110,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/143.png
+144.1,144,フリーザー,Articuno,こおり,ひこう,プレッシャー,ゆきがくれ,なし,90,85,100,95,125,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/144.png
+144.2,144,フリーザー(ガラル),Galarian Articuno,エスパー,ひこう,かちき,なし,なし,90,85,85,125,100,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/144-g.png
+145.1,145,サンダー,Zapdos,でんき,ひこう,プレッシャー,せいでんき,なし,90,90,85,125,90,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/145.png
+145.2,145,サンダー(ガラル),Galarian Zapdos,かくとう,ひこう,まけんき,なし,なし,90,125,90,85,90,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/145-g.png
+146.1,146,ファイヤー,Moltres,ほのお,ひこう,プレッシャー,ほのおのからだ,なし,90,100,90,125,85,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/146.png
+146.2,146,ファイヤー(ガラル),Galarian Moltres,あく,ひこう,ぎゃくじょう,なし,なし,90,85,90,100,125,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/146-g.png
+147.1,147,ミニリュウ,Dratini,ドラゴン,なし,だっぴ,ふしぎなうろこ,なし,41,64,45,50,50,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/147.png
+148.1,148,ハクリュー,Dragonair,ドラゴン,なし,だっぴ,ふしぎなうろこ,なし,61,84,65,70,70,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/148.png
+149.1,149,カイリュー,Dragonite,ドラゴン,ひこう,せいしんりょく,マルチスケイル,なし,91,134,95,100,100,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/149.png
+150.1,150,ミュウツー,Mewtwo,エスパー,なし,プレッシャー,きんちょうかん,なし,106,110,90,154,90,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/150.png
+150.2,150,メガミュウツーX,Mega Mewtwo X,エスパー,なし,ふくつのこころ,なし,なし,106,190,100,154,100,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/150-mx.png
+150.3,150,メガミュウツーY,Mega Mewtwo Y,エスパー,かくとう,ふみん,なし,なし,106,150,70,194,120,140,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/150-my.png
+151.1,151,ミュウ,Mew,エスパー,なし,シンクロ,なし,なし,100,100,100,100,100,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/151.png
+152.1,152,チコリータ,Chikorita,くさ,なし,しんりょく,リーフガード,なし,45,49,65,49,65,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/152.png
+153.1,153,ベイリーフ,Bayleef,くさ,なし,しんりょく,リーフガード,なし,60,62,80,63,80,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/153.png
+154.1,154,メガニウム,Meganium,くさ,なし,しんりょく,リーフガード,なし,80,82,100,83,100,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/154.png
+155.1,155,ヒノアラシ,Cyndaquil,ほのお,なし,もうか,もらいび,なし,39,52,43,60,50,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/155.png
+156.1,156,マグマラシ,Quilava,ほのお,なし,もうか,もらいび,なし,58,64,58,80,65,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/156.png
+157.1,157,バクフーン,Typhlosion,ほのお,なし,もうか,もらいび,なし,78,84,78,109,85,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/157.png
+157.2,157,バクフーン(ヒスイ),Hisuian Typhlosion,ほのお,ゴースト,もうか,おみとおし,なし,73,84,78,119,85,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/157-h.png
+158.1,158,ワニノコ,Totodile,みず,なし,げきりゅう,ちからずく,なし,50,65,64,44,48,43,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/158.png
+159.1,159,アリゲイツ,Croconaw,みず,なし,げきりゅう,ちからずく,なし,65,80,80,59,63,58,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/159.png
+160.1,160,オーダイル,Feraligatr,みず,なし,げきりゅう,ちからずく,なし,85,105,100,79,83,78,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/160.png
+161.1,161,オタチ,Sentret,ノーマル,なし,にげあし,するどいめ,おみとおし,35,46,34,35,45,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/161.png
+162.1,162,オオタチ,Furret,ノーマル,なし,にげあし,するどいめ,おみとおし,85,76,64,45,55,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/162.png
+163.1,163,ホーホー,Hoothoot,ノーマル,ひこう,ふみん,するどいめ,いろめがね,60,30,30,36,56,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/163.png
+164.1,164,ヨルノズク,Noctowl,ノーマル,ひこう,ふみん,するどいめ,いろめがね,100,50,50,86,96,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/164.png
+165.1,165,レディバ,Ledyba,むし,ひこう,むしのしらせ,はやおき,びびり,40,20,30,40,80,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/165.png
+166.1,166,レディアン,Ledian,むし,ひこう,むしのしらせ,はやおき,てつのこぶし,55,35,50,55,110,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/166.png
+167.1,167,イトマル,Spinarak,むし,どく,むしのしらせ,ふみん,スナイパー,40,60,40,40,40,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/167.png
+168.1,168,アリアドス,Ariados,むし,どく,むしのしらせ,ふみん,スナイパー,70,90,70,60,70,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/168.png
+169.1,169,クロバット,Crobat,どく,ひこう,せいしんりょく,すりぬけ,なし,85,90,80,70,80,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/169.png
+170.1,170,チョンチー,Chinchou,みず,でんき,ちくでん,はっこう,ちょすい,75,38,38,56,56,67,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/170.png
+171.1,171,ランターン,Lanturn,みず,でんき,ちくでん,はっこう,ちょすい,125,58,58,76,76,67,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/171.png
+172.1,172,ピチュー,Pichu,でんき,なし,せいでんき,ひらいしん,なし,20,40,15,35,35,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/172.png
+173.1,173,ピィ,Cleffa,フェアリー,なし,メロメロボディ,マジックガード,フレンドガード,50,25,28,45,55,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/173.png
+174.1,174,ププリン,Igglybuff,ノーマル,フェアリー,メロメロボディ,かちき,フレンドガード,90,30,15,40,20,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/174.png
+175.1,175,トゲピー,Togepi,フェアリー,なし,はりきり,てんのめぐみ,きょううん,35,20,65,40,65,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/175.png
+176.1,176,トゲチック,Togetic,フェアリー,ひこう,はりきり,てんのめぐみ,きょううん,55,40,85,80,105,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/176.png
+177.1,177,ネイティ,Natu,エスパー,ひこう,シンクロ,はやおき,マジックミラー,40,50,45,70,45,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/177.png
+178.1,178,ネイティオ,Xatu,エスパー,ひこう,シンクロ,はやおき,マジックミラー,65,75,70,95,70,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/178.png
+179.1,179,メリープ,Mareep,でんき,なし,せいでんき,プラス,なし,55,40,40,65,45,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/179.png
+180.1,180,モココ,Flaaffy,でんき,なし,せいでんき,プラス,なし,70,55,55,80,60,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/180.png
+181.1,181,デンリュウ,Ampharos,でんき,なし,せいでんき,プラス,なし,90,75,85,115,90,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/181.png
+181.2,181,メガデンリュウ,Mega Ampharos,でんき,ドラゴン,かたやぶり,なし,なし,90,95,105,165,110,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/181-m.png
+182.1,182,キレイハナ,Bellossom,くさ,なし,ようりょくそ,いやしのこころ,なし,75,80,95,90,100,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/182.png
+183.1,183,マリル,Marill,みず,フェアリー,あついしぼう,ちからもち,そうしょく,70,20,50,20,50,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/183.png
+184.1,184,マリルリ,Azumarill,みず,フェアリー,あついしぼう,ちからもち,そうしょく,100,50,80,60,80,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/184.png
+185.1,185,ウソッキー,Sudowoodo,いわ,なし,がんじょう,いしあたま,びびり,70,100,115,30,65,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/185.png
+186.1,186,ニョロトノ,Politoed,みず,なし,ちょすい,しめりけ,あめふらし,90,75,75,90,100,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/186.png
+187.1,187,ハネッコ,Hoppip,くさ,ひこう,ようりょくそ,リーフガード,すりぬけ,35,35,40,35,55,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/187.png
+188.1,188,ポポッコ,Skiploom,くさ,ひこう,ようりょくそ,リーフガード,すりぬけ,55,45,50,45,65,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/188.png
+189.1,189,ワタッコ,Jumpluff,くさ,ひこう,ようりょくそ,リーフガード,すりぬけ,75,55,70,55,95,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/189.png
+190.1,190,エイパム,Aipom,ノーマル,なし,にげあし,ものひろい,スキルリンク,55,70,55,40,55,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/190.png
+191.1,191,ヒマナッツ,Sunkern,くさ,なし,ようりょくそ,サンパワー,はやおき,30,30,30,30,30,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/191.png
+192.1,192,キマワリ,Sunflora,くさ,なし,ようりょくそ,サンパワー,はやおき,75,75,55,105,85,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/192.png
+193.1,193,ヤンヤンマ,Yanma,むし,ひこう,かそく,ふくがん,おみとおし,65,65,45,75,45,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/193.png
+194.1,194,ウパー,Wooper,みず,じめん,しめりけ,ちょすい,てんねん,55,45,45,25,25,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/194.png
+194.2,194,ウパー(パルデア),Paldean Wooper,どく,じめん,どくのトゲ,ちょすい,てんねん,55,45,45,25,25,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/194-pウパー.png
+195.1,195,ヌオー,Quagsire,みず,じめん,しめりけ,ちょすい,てんねん,95,85,85,65,65,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/195.png
+196.1,196,エーフィ,Espeon,エスパー,なし,シンクロ,マジックミラー,なし,65,65,60,130,95,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/196.png
+197.1,197,ブラッキー,Umbreon,あく,なし,シンクロ,せいしんりょく,なし,95,65,110,60,130,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/197.png
+198.1,198,ヤミカラス,Murkrow,あく,ひこう,ふみん,きょううん,いたずらごころ,60,85,42,85,42,91,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/198.png
+199.1,199,ヤドキング,Slowking,みず,エスパー,どんかん,マイペース,さいせいりょく,95,75,80,100,110,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/199.png
+199.2,199,ヤドキング(ガラル),Galarian Slowking,どく,エスパー,きみょうなくすり,マイペース,さいせいりょく,95,65,80,110,110,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/199-g.png
+200.1,200,ムウマ,Misdreavus,ゴースト,なし,ふゆう,なし,なし,60,60,60,85,85,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/200.png
+201.1,201,アンノーン,Unown,エスパー,なし,ふゆう,なし,なし,48,72,48,72,48,48,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/05/201.png
+202.1,202,ソーナンス,Wobbuffet,エスパー,なし,かげふみ,テレパシー,なし,190,33,58,33,58,33,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/202.png
+203.1,203,キリンリキ,Girafarig,ノーマル,エスパー,せいしんりょく,はやおき,そうしょく,70,80,65,90,65,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/203.png
+204.1,204,クヌギダマ,Pineco,むし,なし,がんじょう,ぼうじん,なし,50,65,90,35,35,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/204.png
+205.1,205,フォレトス,Forretress,むし,はがね,がんじょう,ぼうじん,なし,75,90,140,60,60,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/205.png
+206.1,206,ノコッチ,Dunsparce,ノーマル,なし,てんのめぐみ,にげあし,びびり,100,70,70,65,65,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/206.png
+207.1,207,グライガー,Gligar,じめん,ひこう,かいりきバサミ,すながくれ,めんえき,65,75,105,35,65,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/207.png
+208.1,208,ハガネール,Steelix,はがね,じめん,いしあたま,がんじょう,ちからずく,75,85,200,55,65,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/208.png
+208.2,208,メガハガネール,Mega Steelix,はがね,じめん,すなのちから,なし,なし,75,125,230,55,95,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/208-m.png
+209.1,209,ブルー,Snubbull,フェアリー,なし,いかく,にげあし,びびり,60,80,50,40,40,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/209.png
+210.1,210,グランブル,Granbull,フェアリー,なし,いかく,はやあし,びびり,90,120,75,60,60,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/210.png
+211.1,211,ハリーセン,Qwilfish,みず,どく,どくのトゲ,すいすい,いかく,65,95,85,55,55,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/211.png
+211.2,211,ハリーセン(ヒスイ),Hisuian Qwilfish,あく,どく,どくのトゲ,すいすい,いかく,65,95,85,55,55,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/211-h.png
+212.1,212,ハッサム,Scizor,むし,はがね,むしのしらせ,テクニシャン,ライトメタル,70,130,100,55,80,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/212.png
+212.2,212,メガハッサム,Mega Scizor,むし,はがね,テクニシャン,なし,なし,70,150,140,65,100,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/212-m.png
+213.1,213,ツボツボ,Shuckle,むし,いわ,がんじょう,くいしんぼう,あまのじゃく,20,10,230,10,230,5,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/213.png
+214.1,214,ヘラクロス,Heracross,むし,かくとう,むしのしらせ,こんじょう,じしんかじょう,80,125,75,40,95,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/214.png
+214.2,214,メガヘラクロス,Mega Heracross,むし,かくとう,スキルリンク,なし,なし,80,185,115,40,105,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/214-m.png
+215.1,215,ニューラ,Sneasel,あく,こおり,せいしんりょく,するどいめ,わるいてぐせ,55,95,55,35,75,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/215.png
+215.2,215,ニューラ(ヒスイ),Hisuian Sneasel,かくとう,どく,せいしんりょく,するどいめ,わるいてぐせ,55,95,55,35,75,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/215-h.png
+216.1,216,ヒメグマ,Teddiursa,ノーマル,なし,ものひろい,はやあし,みつあつめ,60,80,50,50,50,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/216.png
+217.1,217,リングマ,Ursaring,ノーマル,なし,こんじょう,はやあし,きんちょうかん,90,130,75,75,75,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/217.png
+218.1,218,マグマッグ,Slugma,ほのお,なし,マグマのよろい,ほのおのからだ,くだけるよろい,40,40,40,70,40,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/218.png
+219.1,219,マグカルゴ,Magcargo,ほのお,いわ,マグマのよろい,ほのおのからだ,くだけるよろい,60,50,120,90,80,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/219.png
+220.1,220,ウリムー,Swinub,こおり,じめん,どんかん,ゆきがくれ,あついしぼう,50,50,40,30,30,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/220.png
+221.1,221,イノムー,Piloswine,こおり,じめん,どんかん,ゆきがくれ,あついしぼう,100,100,80,60,60,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/221.png
+222.1,222,サニーゴ,Corsola,みず,いわ,はりきり,しぜんかいふく,さいせいりょく,65,55,95,65,95,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/222.png
+222.2,222,サニーゴ(ガラル),Galarian Corsola,ゴースト,なし,くだけるよろい,のろわれボディ,なし,60,55,100,65,100,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/222-g.png
+223.1,223,テッポウオ,Remoraid,みず,なし,はりきり,スナイパー,ムラっけ,35,65,35,65,35,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/223.png
+224.1,224,オクタン,Octillery,みず,なし,きゅうばん,スナイパー,ムラっけ,75,105,75,105,75,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/224.png
+225.1,225,デリバード,Delibird,こおり,ひこう,やるき,はりきり,ふみん,45,55,45,65,45,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/225.png
+226.1,226,マンタイン,Mantine,みず,ひこう,すいすい,ちょすい,みずのベール,85,40,70,80,140,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/226.png
+227.1,227,エアームド,Skarmory,はがね,ひこう,するどいめ,がんじょう,くだけるよろい,65,80,140,40,70,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/227.png
+228.1,228,デルビル,Houndour,あく,ほのお,はやおき,もらいび,きんちょうかん,45,60,30,80,50,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/228.png
+229.1,229,ヘルガー,Houndoom,あく,ほのお,はやおき,もらいび,きんちょうかん,75,90,50,110,80,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/229.png
+229.2,229,メガヘルガー,Mega Houndoom,あく,ほのお,サンパワー,なし,なし,75,90,90,140,90,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/229-m.png
+230.1,230,キングドラ,Kingdra,みず,ドラゴン,すいすい,スナイパー,しめりけ,75,95,95,95,95,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/230.png
+231.1,231,ゴマゾウ,Phanpy,じめん,なし,ものひろい,すながくれ,なし,90,60,60,40,40,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/231.png
+232.1,232,ドンファン,Donphan,じめん,なし,がんじょう,すながくれ,なし,90,120,120,60,60,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/232.png
+233.1,233,ポリゴン2,Porygon2,ノーマル,なし,トレース,ダウンロード,アナライズ,85,80,90,105,95,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/233.png
+234.1,234,オドシシ,Stantler,ノーマル,なし,いかく,おみとおし,そうしょく,73,95,62,85,65,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/234.png
+235.1,235,ドーブル,Smeargle,ノーマル,なし,マイペース,テクニシャン,ムラっけ,55,20,35,20,45,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/235.png
+236.1,236,バルキー,Tyrogue,かくとう,なし,こんじょう,ふくつのこころ,やるき,35,35,35,35,35,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/236.png
+237.1,237,カポエラー,Hitmontop,かくとう,なし,いかく,テクニシャン,ふくつのこころ,50,95,95,35,110,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/237.png
+238.1,238,ムチュール,Smoochum,こおり,エスパー,どんかん,よちむ,うるおいボディ,45,30,15,85,65,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/238.png
+239.1,239,エレキッド,Elekid,でんき,なし,せいでんき,やるき,なし,45,63,37,65,55,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/239.png
+240.1,240,ブビィ,Magby,ほのお,なし,ほのおのからだ,やるき,なし,45,75,37,70,55,83,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/240.png
+241.1,241,ミルタンク,Miltank,ノーマル,なし,あついしぼう,きもったま,そうしょく,95,80,105,40,70,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/241.png
+242.1,242,ハピナス,Blissey,ノーマル,なし,しぜんかいふく,てんのめぐみ,いやしのこころ,255,10,10,75,135,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/242.png
+243.1,243,ライコウ,Raikou,でんき,なし,プレッシャー,せいしんりょく,なし,90,85,75,115,100,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/243.png
+244.1,244,エンテイ,Entei,ほのお,なし,プレッシャー,せいしんりょく,なし,115,115,85,90,75,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/244.png
+245.1,245,スイクン,Suicune,みず,なし,プレッシャー,せいしんりょく,なし,100,75,115,90,115,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/245.png
+246.1,246,ヨーギラス,Larvitar,いわ,じめん,こんじょう,すながくれ,なし,50,64,50,45,50,41,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/246.png
+247.1,247,サナギラス,Pupitar,いわ,じめん,だっぴ,なし,なし,70,84,70,65,70,51,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/247.png
+248.1,248,バンギラス,Tyranitar,いわ,あく,すなおこし,きんちょうかん,なし,100,134,110,95,100,61,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/248.png
+248.2,248,メガバンギラス,Mega Tyranitar,いわ,あく,すなおこし,なし,なし,100,164,150,95,120,71,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/248-m.png
+249.1,249,ルギア,Lugia,エスパー,ひこう,プレッシャー,マルチスケイル,なし,106,90,130,90,154,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/249.png
+250.1,250,ホウオウ,Ho-Oh,ほのお,ひこう,プレッシャー,さいせいりょく,なし,106,130,90,110,154,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/250.png
+251.1,251,セレビィ,Celebi,エスパー,くさ,しぜんかいふく,なし,なし,100,100,100,100,100,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/251.png
+252.1,252,キモリ,Treecko,くさ,なし,しんりょく,かるわざ,なし,40,45,35,65,55,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/252.png
+253.1,253,ジュプトル,Grovyle,くさ,なし,しんりょく,かるわざ,なし,50,65,45,85,65,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/253.png
+254.1,254,ジュカイン,Sceptile,くさ,なし,しんりょく,かるわざ,なし,70,85,65,105,85,120,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/254.png
+254.2,254,メガジュカイン,Mega Sceptile,くさ,ドラゴン,ひらいしん,なし,なし,70,110,75,145,85,145,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/254-m.png
+255.1,255,アチャモ,Torchic,ほのお,なし,もうか,かそく,なし,45,60,40,70,50,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/255.png
+256.1,256,ワカシャモ,Combusken,ほのお,かくとう,もうか,かそく,なし,60,85,60,85,60,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/256.png
+257.1,257,バシャーモ,Blaziken,ほのお,かくとう,もうか,かそく,なし,80,120,70,110,70,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/257.png
+257.2,257,メガバシャーモ,Mega Blaziken,ほのお,かくとう,かそく,なし,なし,80,160,80,130,80,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/257-m.png
+258.1,258,ミズゴロウ,Mudkip,みず,なし,げきりゅう,しめりけ,なし,50,70,50,50,50,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/258.png
+259.1,259,ヌマクロー,Marshtomp,みず,じめん,げきりゅう,しめりけ,なし,70,85,70,60,70,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/259.png
+260.1,260,ラグラージ,Swampert,みず,じめん,げきりゅう,しめりけ,なし,100,110,90,85,90,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/260.png
+260.2,260,メガラグラージ,Mega Swampert,みず,じめん,すいすい,なし,なし,100,150,110,95,110,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/260-m.png
+261.1,261,ポチエナ,Poochyena,あく,なし,にげあし,はやあし,びびり,35,55,35,30,30,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/261.png
+262.1,262,グラエナ,Mightyena,あく,なし,いかく,はやあし,じしんかじょう,70,90,70,60,60,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/262.png
+263.1,263,ジグザグマ,Zigzagoon,ノーマル,なし,ものひろい,くいしんぼう,はやあし,38,30,41,30,41,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/263.png
+263.2,263,ジグザグマ(ガラル),Galarian Zigzagoon,あく,ノーマル,ものひろい,くいしんぼう,はやあし,38,30,41,30,41,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/263-g.png
+264.1,264,マッスグマ,Linoone,ノーマル,なし,ものひろい,くいしんぼう,はやあし,78,70,61,50,61,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/264.png
+264.2,264,マッスグマ(ガラル),Galarian Linoone,あく,ノーマル,ものひろい,くいしんぼう,はやあし,78,70,61,50,61,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/264-g.png
+265.1,265,ケムッソ,Wurmple,むし,なし,りんぷん,にげあし,なし,45,45,35,20,30,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/265.png
+266.1,266,カラサリス,Silcoon,むし,なし,だっぴ,なし,なし,50,35,55,25,25,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/266.png
+267.1,267,アゲハント,Beautifly,むし,ひこう,むしのしらせ,とうそうしん,なし,60,70,50,100,50,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/267.png
+268.1,268,マユルド,Cascoon,むし,なし,だっぴ,なし,なし,50,35,55,25,25,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/268.png
+269.1,269,ドクケイル,Dustox,むし,どく,りんぷん,ふくがん,なし,60,50,70,50,90,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/269.png
+270.1,270,ハスボー,Lotad,みず,くさ,すいすい,あめうけざら,マイペース,40,30,30,40,50,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/270.png
+271.1,271,ハスブレロ,Lombre,みず,くさ,すいすい,あめうけざら,マイペース,60,50,50,60,70,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/271.png
+272.1,272,ルンパッパ,Ludicolo,みず,くさ,すいすい,あめうけざら,マイペース,80,70,70,90,100,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/272.png
+273.1,273,タネボー,Seedot,くさ,なし,ようりょくそ,はやおき,わるいてぐせ,40,40,50,30,30,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/273.png
+274.1,274,コノハナ,Nuzleaf,くさ,あく,ようりょくそ,はやおき,わるいてぐせ,70,70,40,60,40,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/274.png
+275.1,275,ダーテング,Shiftry,くさ,あく,ようりょくそ,はやおき,わるいてぐせ,90,100,60,90,60,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/275.png
+276.1,276,スバメ,Taillow,ノーマル,ひこう,こんじょう,きもったま,なし,40,55,30,30,30,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/276.png
+277.1,277,オオスバメ,Swellow,ノーマル,ひこう,こんじょう,きもったま,なし,60,85,60,75,50,125,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/277.png
+278.1,278,キャモメ,Wingull,みず,ひこう,するどいめ,うるおいボディ,あめうけざら,40,30,30,55,30,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/278.png
+279.1,279,ペリッパー,Pelipper,みず,ひこう,するどいめ,あめふらし,あめうけざら,60,50,100,95,70,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/279.png
+280.1,280,ラルトス,Ralts,エスパー,フェアリー,シンクロ,トレース,テレパシー,28,25,25,45,35,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/280.png
+281.1,281,キルリア,Kirlia,エスパー,フェアリー,シンクロ,トレース,テレパシー,38,35,35,65,55,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/281.png
+282.1,282,サーナイト,Gardevoir,エスパー,フェアリー,シンクロ,トレース,テレパシー,68,65,65,125,115,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/282.png
+282.2,282,メガサーナイト,Mega Gardevoir,エスパー,フェアリー,フェアリースキン,なし,なし,68,85,65,165,135,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/282-m.png
+283.1,283,アメタマ,Surskit,むし,みず,すいすい,あめうけざら,なし,40,30,32,50,52,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/283.png
+284.1,284,アメモース,Masquerain,むし,ひこう,いかく,きんちょうかん,なし,70,60,62,100,82,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/284.png
+285.1,285,キノココ,Shroomish,くさ,なし,ほうし,ポイズンヒール,はやあし,60,40,60,40,60,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/285.png
+286.1,286,キノガッサ,Breloom,くさ,かくとう,ほうし,ポイズンヒール,テクニシャン,60,130,80,60,60,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/286.png
+287.1,287,ナマケロ,Slakoth,ノーマル,なし,なまけ,なし,なし,60,60,60,35,35,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/287.png
+288.1,288,ヤルキモノ,Vigoroth,ノーマル,なし,やるき,なし,なし,80,80,80,55,55,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/288.png
+289.1,289,ケッキング,Slaking,ノーマル,なし,なまけ,なし,なし,150,160,100,95,65,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/289.png
+290.1,290,ツチニン,Nincada,むし,じめん,ふくがん,にげあし,なし,31,45,90,30,30,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/290.png
+291.1,291,テッカニン,Ninjask,むし,ひこう,かそく,すりぬけ,なし,61,90,45,50,50,160,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/291.png
+292.1,292,ヌケニン,Shedinja,むし,ゴースト,ふしぎなまもり,なし,なし,1,90,45,30,30,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/292.png
+293.1,293,ゴニョニョ,Whismur,ノーマル,なし,ぼうおん,びびり,なし,64,51,23,51,23,28,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/293.png
+294.1,294,ドゴーム,Loudred,ノーマル,なし,ぼうおん,きもったま,なし,84,71,43,71,43,48,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/294.png
+295.1,295,バクオング,Exploud,ノーマル,なし,ぼうおん,きもったま,なし,104,91,63,91,73,68,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/295.png
+296.1,296,マクノシタ,Makuhita,かくとう,なし,あついしぼう,こんじょう,ちからずく,72,60,30,20,30,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/296.png
+297.1,297,ハリテヤマ,Hariyama,かくとう,なし,あついしぼう,こんじょう,ちからずく,144,120,60,40,60,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/297.png
+298.1,298,ルリリ,Azurill,ノーマル,フェアリー,あついしぼう,ちからもち,そうしょく,50,20,40,20,40,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/298.png
+299.1,299,ノズパス,Nosepass,いわ,なし,がんじょう,じりょく,すなのちから,30,45,135,45,90,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/299.png
+300.1,300,エネコ,Skitty,ノーマル,なし,メロメロボディ,ノーマルスキン,ミラクルスキン,50,45,45,35,35,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/300.png
+301.1,301,エネコロロ,Delcatty,ノーマル,なし,メロメロボディ,ノーマルスキン,ミラクルスキン,70,65,65,55,55,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/301.png
+302.1,302,ヤミラミ,Sableye,あく,ゴースト,するどいめ,あとだし,いたずらごころ,50,75,75,65,65,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/302.png
+302.2,302,メガヤミラミ,Mega Sableye,あく,ゴースト,マジックミラー,なし,なし,50,85,125,85,115,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/302-m.png
+303.1,303,クチート,Mawile,はがね,フェアリー,かいりきバサミ,いかく,ちからずく,50,85,85,55,55,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/303.png
+303.2,303,メガクチート,Mega Mawile,はがね,フェアリー,ちからもち,なし,なし,50,105,125,55,95,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/303-m.png
+304.1,304,ココドラ,Aron,はがね,いわ,がんじょう,いしあたま,ヘヴィメタル,50,70,100,40,40,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/304.png
+305.1,305,コドラ,Lairon,はがね,いわ,がんじょう,いしあたま,ヘヴィメタル,60,90,140,50,50,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/305.png
+306.1,306,ボスゴドラ,Aggron,はがね,いわ,がんじょう,いしあたま,ヘヴィメタル,70,110,180,60,60,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/306.png
+306.2,306,メガボスゴドラ,Mega Aggron,はがね,いわ,フィルター,なし,なし,70,140,230,60,80,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/306-m.png
+307.1,307,アサナン,Meditite,かくとう,エスパー,ヨガパワー,テレパシー,なし,30,40,55,40,55,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/307.png
+308.1,308,チャーレム,Medicham,かくとう,エスパー,ヨガパワー,テレパシー,なし,60,60,75,60,75,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/308.png
+308.2,308,メガチャーレム,Mega Medicham,かくとう,エスパー,ヨガパワー,なし,なし,60,100,85,80,85,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/308-m.png
+309.1,309,ラクライ,Electrike,でんき,なし,せいでんき,ひらいしん,マイナス,40,45,40,65,40,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/309.png
+310.1,310,ライボルト,Manectric,でんき,なし,せいでんき,ひらいしん,マイナス,70,75,60,105,60,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/310.png
+310.2,310,メガライボルト,Mega Manectric,でんき,なし,いかく,なし,なし,70,75,80,135,80,135,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/310-m.png
+311.1,311,プラスル,Plusle,でんき,なし,プラス,ひらいしん,なし,60,50,40,85,75,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/311.png
+312.1,312,マイナン,Minun,でんき,なし,マイナス,ちくでん,なし,60,40,50,75,85,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/312.png
+313.1,313,バルビート,Volbeat,むし,なし,はっこう,むしのしらせ,いたずらごころ,65,73,75,47,85,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/313.png
+314.1,314,イルミーゼ,Illumise,むし,なし,どんかん,いろめがね,いたずらごころ,65,47,75,73,85,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/314.png
+315.1,315,ロゼリア,Roselia,くさ,どく,しぜんかいふく,どくのトゲ,リーフガード,50,60,45,100,80,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/315.png
+316.1,316,ゴクリン,Gulpin,どく,なし,ヘドロえき,ねんちゃく,くいしんぼう,70,43,53,43,53,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/316.png
+317.1,317,マルノーム,Swalot,どく,なし,ヘドロえき,ねんちゃく,くいしんぼう,100,73,83,73,83,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/317.png
+318.1,318,キバニア,Carvanha,みず,あく,さめはだ,かそく,なし,45,90,20,65,20,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/318.png
+319.1,319,サメハダー,Sharpedo,みず,あく,さめはだ,かそく,なし,70,120,40,95,40,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/319.png
+319.2,319,メガサメハダー,Mega Sharpedo,みず,あく,がんじょうあご,なし,なし,70,140,70,110,65,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/319-m.png
+320.1,320,ホエルコ,Wailmer,みず,なし,みずのベール,どんかん,プレッシャー,130,70,35,70,35,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/320.png
+321.1,321,ホエルオー,Wailord,みず,なし,みずのベール,どんかん,プレッシャー,170,90,45,90,45,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/321.png
+322.1,322,ドンメル,Numel,ほのお,じめん,どんかん,たんじゅん,マイペース,60,60,40,65,45,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/322.png
+323.1,323,バクーダ,Camerupt,ほのお,じめん,マグマのよろい,ハードロック,いかりのつぼ,70,100,70,105,75,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/323.png
+323.2,323,メガバクーダ,Mega Camerupt,ほのお,じめん,ちからずく,なし,なし,70,120,100,145,105,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/323-m.png
+324.1,324,コータス,Torkoal,ほのお,なし,しろいけむり,ひでり,シェルアーマー,70,85,140,85,70,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/324.png
+325.1,325,バネブー,Spoink,エスパー,なし,あついしぼう,マイペース,くいしんぼう,60,25,35,70,80,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/325.png
+326.1,326,ブーピッグ,Grumpig,エスパー,なし,あついしぼう,マイペース,くいしんぼう,80,45,65,90,110,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/326.png
+327.1,327,パッチール,Spinda,ノーマル,なし,マイペース,ちどりあし,あまのじゃく,60,60,60,60,60,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/327.png
+328.1,328,ナックラー,Trapinch,じめん,なし,かいりきバサミ,ありじごく,ちからずく,45,100,45,45,45,10,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/328.png
+329.1,329,ビブラーバ,Vibrava,じめん,ドラゴン,ふゆう,なし,なし,50,70,50,50,50,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/329.png
+330.1,330,フライゴン,Flygon,じめん,ドラゴン,ふゆう,なし,なし,80,100,80,80,80,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/330.png
+331.1,331,サボネア,Cacnea,くさ,なし,すながくれ,ちょすい,なし,50,85,40,85,40,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/331.png
+332.1,332,ノクタス,Cacturne,くさ,あく,すながくれ,ちょすい,なし,70,115,60,115,60,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/332.png
+333.1,333,チルット,Swablu,ノーマル,ひこう,しぜんかいふく,ノーてんき,なし,45,40,60,40,75,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/333.png
+334.1,334,チルタリス,Altaria,ドラゴン,ひこう,しぜんかいふく,ノーてんき,なし,75,70,90,70,105,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/334.png
+334.2,334,メガチルタリス,Mega Altaria,ドラゴン,フェアリー,フェアリースキン,なし,なし,75,110,110,110,105,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/334-m.png
+335.1,335,ザングース,Zangoose,ノーマル,なし,めんえき,どくぼうそう,なし,73,115,60,60,60,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/335.png
+336.1,336,ハブネーク,Seviper,どく,なし,だっぴ,すりぬけ,なし,73,100,60,100,60,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/336.png
+337.1,337,ルナトーン,Lunatone,いわ,エスパー,ふゆう,なし,なし,90,55,65,95,85,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/337.png
+338.1,338,ソルロック,Solrock,いわ,エスパー,ふゆう,なし,なし,90,95,85,55,65,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/338.png
+339.1,339,ドジョッチ,Barboach,みず,じめん,どんかん,きけんよち,うるおいボディ,50,48,43,46,41,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/339.png
+340.1,340,ナマズン,Whiscash,みず,じめん,どんかん,きけんよち,うるおいボディ,110,78,73,76,71,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/340.png
+341.1,341,ヘイガニ,Corphish,みず,なし,かいりきバサミ,シェルアーマー,てきおうりょく,43,80,65,50,35,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/341.png
+342.1,342,シザリガー,Crawdaunt,みず,あく,かいりきバサミ,シェルアーマー,てきおうりょく,63,120,85,90,55,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/342.png
+343.1,343,ヤジロン,Baltoy,じめん,エスパー,ふゆう,なし,なし,40,40,55,40,70,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/343.png
+344.1,344,ネンドール,Claydol,じめん,エスパー,ふゆう,なし,なし,60,70,105,70,120,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/344.png
+345.1,345,リリーラ,Lileep,いわ,くさ,きゅうばん,よびみず,なし,66,41,77,61,87,23,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/345.png
+346.1,346,ユレイドル,Cradily,いわ,くさ,きゅうばん,よびみず,なし,86,81,97,81,107,43,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/346.png
+347.1,347,アノプス,Anorith,いわ,むし,カブトアーマー,すいすい,なし,45,95,50,40,50,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/347.png
+348.1,348,アーマルド,Armaldo,いわ,むし,カブトアーマー,すいすい,なし,75,125,100,70,80,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/348.png
+349.1,349,ヒンバス,Feebas,みず,なし,すいすい,どんかん,てきおうりょく,20,15,20,10,55,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/349.png
+350.1,350,ミロカロス,Milotic,みず,なし,ふしぎなうろこ,かちき,メロメロボディ,95,60,79,100,125,81,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/350.png
+351.1,351,ポワルン,Castform,ノーマル,なし,てんきや,なし,なし,70,70,70,70,70,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/351.png
+352.1,352,カクレオン,Kecleon,ノーマル,なし,へんしょく,へんげんじざい,なし,60,90,70,60,120,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/352.png
+353.1,353,カゲボウズ,Shuppet,ゴースト,なし,ふみん,おみとおし,のろわれボディ,44,75,35,63,33,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/353.png
+354.1,354,ジュペッタ,Banette,ゴースト,なし,ふみん,おみとおし,のろわれボディ,64,115,65,83,63,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/354.png
+354.2,354,メガジュペッタ,Mega Banette,ゴースト,なし,いたずらごころ,なし,なし,64,165,75,93,83,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/354-m.png
+355.1,355,ヨマワル,Duskull,ゴースト,なし,ふゆう,おみとおし,なし,20,40,90,30,90,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/355.png
+356.1,356,サマヨール,Dusclops,ゴースト,なし,プレッシャー,おみとおし,なし,40,70,130,60,130,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/356.png
+357.1,357,トロピウス,Tropius,くさ,ひこう,ようりょくそ,サンパワー,しゅうかく,99,68,83,72,87,51,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/357.png
+358.1,358,チリーン,Chimecho,エスパー,なし,ふゆう,なし,なし,75,50,80,95,90,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/358.png
+359.1,359,アブソル,Absol,あく,なし,プレッシャー,きょううん,せいぎのこころ,65,130,60,75,60,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/359.png
+359.2,359,メガアブソル,Mega Absol,あく,なし,マジックミラー,なし,なし,65,150,60,115,60,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/359-m.png
+360.1,360,ソーナノ,Wynaut,エスパー,なし,かげふみ,テレパシー,なし,95,23,48,23,48,23,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/360.png
+361.1,361,ユキワラシ,Snorunt,こおり,なし,せいしんりょく,アイスボディ,ムラっけ,50,50,50,50,50,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/361.png
+362.1,362,オニゴーリ,Glalie,こおり,なし,せいしんりょく,アイスボディ,ムラっけ,80,80,80,80,80,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/362.png
+362.2,362,メガオニゴーリ,Mega Glalie,こおり,なし,フリーズスキン,なし,なし,80,120,80,120,80,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/362-m.png
+363.1,363,タマザラシ,Spheal,こおり,みず,あついしぼう,アイスボディ,どんかん,70,40,50,55,50,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/363.png
+364.1,364,トドグラー,Sealeo,こおり,みず,あついしぼう,アイスボディ,どんかん,90,60,70,75,70,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/364.png
+365.1,365,トドゼルガ,Walrein,こおり,みず,あついしぼう,アイスボディ,どんかん,110,80,90,95,90,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/365.png
+366.1,366,パールル,Clamperl,みず,なし,シェルアーマー,びびり,なし,35,64,85,74,55,32,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/366.png
+367.1,367,ハンテール,Huntail,みず,なし,すいすい,みずのベール,なし,55,104,105,94,75,52,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/367.png
+368.1,368,サクラビス,Gorebyss,みず,なし,すいすい,うるおいボディ,なし,55,84,105,114,75,52,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/368.png
+369.1,369,ジーランス,Relicanth,みず,いわ,すいすい,いしあたま,がんじょう,100,90,130,45,65,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/369.png
+370.1,370,ラブカス,Luvdisc,みず,なし,すいすい,うるおいボディ,なし,43,30,55,40,65,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/370.png
+371.1,371,タツベイ,Bagon,ドラゴン,なし,いしあたま,ちからずく,なし,45,75,60,40,30,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/371.png
+372.1,372,コモルー,Shelgon,ドラゴン,なし,いしあたま,ぼうじん,なし,65,95,100,60,50,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/372.png
+373.1,373,ボーマンダ,Salamence,ドラゴン,ひこう,いかく,じしんかじょう,なし,95,135,80,110,80,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/373.png
+373.2,373,メガボーマンダ,Mega Salamence,ドラゴン,ひこう,スカイスキン,なし,なし,95,145,130,120,90,120,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/373-m.png
+374.1,374,ダンバル,Beldum,はがね,エスパー,クリアボディ,ライトメタル,なし,40,55,80,35,60,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/374.png
+375.1,375,メタング,Metang,はがね,エスパー,クリアボディ,ライトメタル,なし,60,75,100,55,80,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/375.png
+376.1,376,メタグロス,Metagross,はがね,エスパー,クリアボディ,ライトメタル,なし,80,135,130,95,90,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/376.png
+376.2,376,メガメタグロス,Mega Metagross,はがね,エスパー,かたいツメ,なし,なし,80,145,150,105,110,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/376-m.png
+377.1,377,レジロック,Regirock,いわ,なし,クリアボディ,がんじょう,なし,80,100,200,50,100,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/377.png
+378.1,378,レジアイス,Regice,こおり,なし,クリアボディ,アイスボディ,なし,80,50,100,100,200,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/378.png
+379.1,379,レジスチル,Registeel,はがね,なし,クリアボディ,ライトメタル,なし,80,75,150,75,150,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/379.png
+380.1,380,ラティアス,Latias,ドラゴン,エスパー,ふゆう,なし,なし,80,80,90,110,130,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/380.png
+380.2,380,メガラティアス,Mega Latias,ドラゴン,エスパー,ふゆう,なし,なし,80,100,120,140,150,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/05/380-m.png
+381.1,381,ラティオス,Latios,ドラゴン,エスパー,ふゆう,なし,なし,80,90,80,130,110,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/381.png
+381.2,381,メガラティオス,Mega Latios,ドラゴン,エスパー,ふゆう,なし,なし,80,130,100,160,120,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/381-m.png
+382.1,382,カイオーガ,Kyogre,みず,なし,あめふらし,なし,なし,100,100,90,150,140,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/382.png
+382.2,382,ゲンシカイオーガ,Primal Kyogre,みず,なし,はじまりのうみ,なし,なし,100,150,90,180,160,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/382-p.png
+383.1,383,グラードン,Groudon,じめん,なし,ひでり,なし,なし,100,150,140,100,90,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/383.png
+383.2,383,ゲンシグラードン,Primal Groudon,じめん,ほのお,おわりのだいち,なし,なし,100,180,160,150,90,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/383-p.png
+384.1,384,レックウザ,Rayquaza,ドラゴン,ひこう,エアロック,なし,なし,105,150,90,150,90,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/384.png
+384.2,384,メガレックウザ,Mega Rayquaza,ドラゴン,ひこう,デルタストリーム,なし,なし,105,180,100,180,100,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/384-m.png
+385.1,385,ジラーチ,Jirachi,はがね,エスパー,てんのめぐみ,なし,なし,100,100,100,100,100,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/385.png
+386.1,386,デオキシス(ノーマル),Deoxys Normal Form,エスパー,なし,プレッシャー,なし,なし,50,150,50,150,50,150,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/386.png
+386.2,386,デオキシス(アタック),Deoxys Attack Form,エスパー,なし,プレッシャー,なし,なし,50,180,20,180,20,150,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/386-a.png
+386.3,386,デオキシス(ディフェンス),Deoxys Defence Form,エスパー,なし,プレッシャー,なし,なし,50,70,160,70,160,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/386-d.png
+386.4,386,デオキシス(スピード),Deoxys Speed Form,エスパー,なし,プレッシャー,なし,なし,50,95,90,95,90,180,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/386-s.png
+387.1,387,ナエトル,Turtwig,くさ,なし,しんりょく,シェルアーマー,なし,55,68,64,45,55,31,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/387.png
+388.1,388,ハヤシガメ,Grotle,くさ,なし,しんりょく,シェルアーマー,なし,75,89,85,55,65,36,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/388.png
+389.1,389,ドダイトス,Torterra,くさ,じめん,しんりょく,シェルアーマー,なし,95,109,105,75,85,56,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/389.png
+390.1,390,ヒコザル,Chimchar,ほのお,なし,もうか,てつのこぶし,なし,44,58,44,58,44,61,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/390.png
+391.1,391,モウカザル,Monferno,ほのお,かくとう,もうか,てつのこぶし,なし,64,78,52,78,52,81,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/391.png
+392.1,392,ゴウカザル,Infernape,ほのお,かくとう,もうか,てつのこぶし,なし,76,104,71,104,71,108,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/392.png
+393.1,393,ポッチャマ,Piplup,みず,なし,げきりゅう,まけんき,なし,53,51,53,61,56,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/393.png
+394.1,394,ポッタイシ,Prinplup,みず,なし,げきりゅう,まけんき,なし,64,66,68,81,76,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/394.png
+395.1,395,エンペルト,Empoleon,みず,はがね,げきりゅう,まけんき,なし,84,86,88,111,101,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/395.png
+396.1,396,ムックル,Starly,ノーマル,ひこう,するどいめ,すてみ,なし,40,55,30,30,30,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/396.png
+397.1,397,ムクバード,Staravia,ノーマル,ひこう,いかく,すてみ,なし,55,75,50,40,40,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/397.png
+398.1,398,ムクホーク,Staraptor,ノーマル,ひこう,いかく,すてみ,なし,85,120,70,50,60,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/398.png
+399.1,399,ビッパ,Bidoof,ノーマル,なし,たんじゅん,てんねん,ムラっけ,59,45,40,35,40,31,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/399.png
+400.1,400,ビーダル,Bibarel,ノーマル,みず,たんじゅん,てんねん,ムラっけ,79,85,60,55,60,71,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/400.png
+401.1,401,コロボーシ,Kricketot,むし,なし,だっぴ,にげあし,なし,37,25,41,25,41,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/401.png
+402.1,402,コロトック,Kricketune,むし,なし,むしのしらせ,テクニシャン,なし,77,85,51,55,51,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/402.png
+403.1,403,コリンク,Shinx,でんき,なし,とうそうしん,いかく,こんじょう,45,65,34,40,34,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/403.png
+404.1,404,ルクシオ,Luxio,でんき,なし,とうそうしん,いかく,こんじょう,60,85,49,60,49,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/404.png
+405.1,405,レントラー,Luxray,でんき,なし,とうそうしん,いかく,こんじょう,80,120,79,95,79,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/405.png
+406.1,406,スボミー,Budew,くさ,どく,しぜんかいふく,どくのトゲ,リーフガード,40,30,35,50,70,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/406.png
+407.1,407,ロズレイド,Roserade,くさ,どく,しぜんかいふく,どくのトゲ,テクニシャン,60,70,65,125,105,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/407.png
+408.1,408,ズガイドス,Cranidos,いわ,なし,かたやぶり,ちからずく,なし,67,125,40,30,30,58,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/408.png
+409.1,409,ラムパルド,Rampardos,いわ,なし,かたやぶり,ちからずく,なし,97,165,60,65,50,58,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/409.png
+410.1,410,タテトプス,Shieldon,いわ,はがね,がんじょう,ぼうおん,なし,30,42,118,42,88,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/410.png
+411.1,411,トリデプス,Bastiodon,いわ,はがね,がんじょう,ぼうおん,なし,60,52,168,47,138,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/411.png
+412.1,412,ミノムッチ,Burmy Plant Cloak,むし,なし,だっぴ,ぼうじん,なし,40,29,45,29,45,36,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/412.png
+413.1,413,ミノマダム(くさき),Wormadam Plant Cloak,むし,くさ,きけんよち,ぼうじん,なし,60,59,85,79,105,36,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/413.png
+413.2,413,ミノマダム(すなち),Wormadam Sandy Cloak,むし,じめん,きけんよち,ぼうじん,なし,60,79,105,59,85,36,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/413s.png
+413.3,413,ミノマダム(ゴミ),Wormadam Trash Cloak,むし,はがね,きけんよち,ぼうじん,なし,60,69,95,69,95,36,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/413t.png
+414.1,414,ガーメイル,Mothim,むし,ひこう,むしのしらせ,いろめがね,なし,70,94,50,94,50,66,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/414.png
+415.1,415,ミツハニー,Combee,むし,ひこう,みつあつめ,はりきり,なし,30,30,42,30,42,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/415.png
+416.1,416,ビークイン,Vespiquen,むし,ひこう,プレッシャー,きんちょうかん,なし,70,80,102,80,102,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/416.png
+417.1,417,パチリス,Pachirisu,でんき,なし,にげあし,ものひろい,ちくでん,60,45,70,45,90,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/417.png
+418.1,418,ブイゼル,Buizel,みず,なし,すいすい,みずのベール,なし,55,65,35,60,30,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/418.png
+419.1,419,フローゼル,Floatzel,みず,なし,すいすい,みずのベール,なし,85,105,55,85,50,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/419.png
+420.1,420,チェリンボ,Cherubi,くさ,なし,ようりょくそ,なし,なし,45,35,45,62,53,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/420.png
+421.1,421,チェリム,Cherrim Sunshine Form,くさ,なし,フラワーギフト,なし,なし,70,60,70,87,78,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/421p.png
+422.1,422,カラナクシ,Shellos West-Sea,みず,なし,ねんちゃく,よびみず,すなのちから,76,48,48,57,62,34,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/422.png
+423.1,423,トリトドン,Gastrodon West-Sea,みず,じめん,ねんちゃく,よびみず,すなのちから,111,83,68,92,82,39,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/423.png
+424.1,424,エテボース,Ambipom,ノーマル,なし,テクニシャン,ものひろい,スキルリンク,75,100,66,60,66,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/424.png
+425.1,425,フワンテ,Drifloon,ゴースト,ひこう,ゆうばく,かるわざ,ねつぼうそう,90,50,34,60,44,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/425.png
+426.1,426,フワライド,Drifblim,ゴースト,ひこう,ゆうばく,かるわざ,ねつぼうそう,150,80,44,90,54,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/426.png
+427.1,427,ミミロル,Buneary,ノーマル,なし,にげあし,ぶきよう,じゅうなん,55,66,44,44,56,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/427.png
+428.1,428,ミミロップ,Lopunny,ノーマル,なし,メロメロボディ,ぶきよう,じゅうなん,65,76,84,54,96,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/428.png
+428.2,428,メガミミロップ,Mega Lopunny,ノーマル,かくとう,きもったま,なし,なし,65,136,94,54,96,135,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/428-m.png
+429.1,429,ムウマージ,Mismagius,ゴースト,なし,ふゆう,なし,なし,60,60,60,105,105,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/429.png
+430.1,430,ドンカラス,Honchkrow,あく,ひこう,ふみん,きょううん,じしんかじょう,100,125,52,105,52,71,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/430.png
+431.1,431,ニャルマー,Glameow,ノーマル,なし,じゅうなん,マイペース,するどいめ,49,55,42,42,37,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/431.png
+432.1,432,ブニャット,Purugly,ノーマル,なし,あついしぼう,マイペース,まけんき,71,82,64,64,59,112,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/432.png
+433.1,433,リーシャン,Chingling,エスパー,なし,ふゆう,なし,なし,45,30,50,65,50,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/433.png
+434.1,434,スカンプー,Stunky,どく,あく,あくしゅう,ゆうばく,するどいめ,63,63,47,41,41,74,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/434.png
+435.1,435,スカタンク,Skuntank,どく,あく,あくしゅう,ゆうばく,するどいめ,103,93,67,71,61,84,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/435.png
+436.1,436,ドーミラー,Bronzor,はがね,エスパー,ふゆう,たいねつ,ヘヴィメタル,57,24,86,24,86,23,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/436.png
+437.1,437,ドータクン,Bronzong,はがね,エスパー,ふゆう,たいねつ,ヘヴィメタル,67,89,116,79,116,33,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/437.png
+438.1,438,ウソハチ,Bonsly,いわ,なし,がんじょう,いしあたま,びびり,50,80,95,10,45,10,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/438.png
+439.1,439,マネネ,Mime Jr.,エスパー,フェアリー,ぼうおん,フィルター,テクニシャン,20,25,45,70,90,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/439.png
+440.1,440,ピンプク,Happiny,ノーマル,なし,しぜんかいふく,てんのめぐみ,フレンドガード,100,5,5,15,65,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/440.png
+441.1,441,ペラップ,Chatot,ノーマル,ひこう,するどいめ,ちどりあし,はとむね,76,65,45,92,42,91,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/441.png
+442.1,442,ミカルゲ,Spiritomb,ゴースト,あく,プレッシャー,すりぬけ,なし,50,92,108,92,108,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/442.png
+443.1,443,フカマル,Gible,ドラゴン,じめん,すながくれ,さめはだ,なし,58,70,45,40,45,42,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/443.png
+444.1,444,ガバイト,Gabite,ドラゴン,じめん,すながくれ,さめはだ,なし,68,90,65,50,55,82,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/444.png
+445.1,445,ガブリアス,Garchomp,ドラゴン,じめん,すながくれ,さめはだ,なし,108,130,95,80,85,102,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/445.png
+445.2,445,メガガブリアス,Mega Garchomp,ドラゴン,じめん,すなのちから,なし,なし,108,170,115,120,95,92,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/445-m.png
+446.1,446,ゴンベ,Munchlax,ノーマル,なし,ものひろい,あついしぼう,くいしんぼう,135,85,40,40,85,5,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/446.png
+447.1,447,リオル,Riolu,かくとう,なし,ふくつのこころ,せいしんりょく,いたずらごころ,40,70,40,35,40,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/447.png
+448.1,448,ルカリオ,Lucario,かくとう,はがね,ふくつのこころ,せいしんりょく,せいぎのこころ,70,110,70,115,70,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/448.png
+448.2,448,メガルカリオ,Mega Lucario,かくとう,はがね,てきおうりょく,なし,なし,70,145,88,140,70,112,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/448-m.png
+449.1,449,ヒポポタス,Hippopotas,じめん,なし,すなおこし,すなのちから,なし,68,72,78,38,42,32,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/449.png
+450.1,450,カバルドン,Hippowdon,じめん,なし,すなおこし,すなのちから,なし,108,112,118,68,72,47,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/450.png
+451.1,451,スコルピ,Skorupi,どく,むし,カブトアーマー,スナイパー,するどいめ,40,50,90,30,55,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/451.png
+452.1,452,ドラピオン,Drapion,どく,あく,カブトアーマー,スナイパー,するどいめ,70,90,110,60,75,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/452.png
+453.1,453,グレッグル,Croagunk,どく,かくとう,きけんよち,かんそうはだ,どくしゅ,48,61,40,61,40,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/453.png
+454.1,454,ドクロッグ,Toxicroak,どく,かくとう,きけんよち,かんそうはだ,どくしゅ,83,106,65,86,65,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/454.png
+455.1,455,マスキッパ,Carnivine,くさ,なし,ふゆう,なし,なし,74,100,72,90,72,46,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/455.png
+456.1,456,ケイコウオ,Finneon,みず,なし,すいすい,よびみず,みずのベール,49,49,56,49,61,66,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/456.png
+457.1,457,ネオラント,Lumineon,みず,なし,すいすい,よびみず,みずのベール,69,69,76,69,86,91,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/457.png
+458.1,458,タマンタ,Mantyke,みず,ひこう,すいすい,ちょすい,みずのベール,45,20,50,60,120,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/458.png
+459.1,459,ユキカブリ,Snover,くさ,こおり,ゆきふらし,ぼうおん,なし,60,62,50,62,60,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/459.png
+460.1,460,ユキノオー,Abomasnow,くさ,こおり,ゆきふらし,ぼうおん,なし,90,92,75,92,85,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/460.png
+460.2,460,メガユキノオー,Mega Abomasnow,くさ,こおり,ゆきふらし,なし,なし,90,132,105,132,105,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/460-m.png
+461.1,461,マニューラ,Weavile,あく,こおり,プレッシャー,わるいてぐせ,なし,70,120,65,45,85,125,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/461.png
+462.1,462,ジバコイル,Magnezone,でんき,はがね,じりょく,がんじょう,アナライズ,70,70,115,130,90,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/462.png
+463.1,463,ベロベルト,Lickilicky,ノーマル,なし,マイペース,どんかん,ノーてんき,110,85,95,80,95,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/463.png
+464.1,464,ドサイドン,Rhyperior,じめん,いわ,ひらいしん,ハードロック,すてみ,115,140,130,55,55,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/464.png
+465.1,465,モジャンボ,Tangrowth,くさ,なし,ようりょくそ,リーフガード,さいせいりょく,100,100,125,110,50,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/465.png
+466.1,466,エレキブル,Electivire,でんき,なし,でんきエンジン,やるき,なし,75,123,67,95,85,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/466.png
+467.1,467,ブーバーン,Magmortar,ほのお,なし,ほのおのからだ,やるき,なし,75,95,67,125,95,83,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/467.png
+468.1,468,トゲキッス,Togekiss,フェアリー,ひこう,はりきり,てんのめぐみ,きょううん,85,50,95,120,115,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/468.png
+469.1,469,メガヤンマ,Yanmega,むし,ひこう,かそく,いろめがね,おみとおし,86,76,86,116,56,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/469.png
+470.1,470,リーフィア,Leafeon,くさ,なし,リーフガード,ようりょくそ,なし,65,110,130,60,65,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/470.png
+471.1,471,グレイシア,Glaceon,こおり,なし,ゆきがくれ,アイスボディ,なし,65,60,110,130,95,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/471.png
+472.1,472,グライオン,Gliscor,じめん,ひこう,かいりきバサミ,すながくれ,ポイズンヒール,75,95,125,45,75,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/472.png
+473.1,473,マンムー,Mamoswine,こおり,じめん,どんかん,ゆきがくれ,あついしぼう,110,130,80,70,60,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/473.png
+474.1,474,ポリゴンZ,Porygon-Z,ノーマル,なし,てきおうりょく,ダウンロード,アナライズ,85,80,70,135,75,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/474.png
+475.1,475,エルレイド,Gallade,エスパー,かくとう,ふくつのこころ,きれあじ,せいぎのこころ,68,125,65,65,115,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/475.png
+475.2,475,メガエルレイド,Mega Gallade,エスパー,かくとう,せいしんりょく,なし,なし,68,165,95,65,115,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/475-m.png
+476.1,476,ダイノーズ,Probopass,いわ,はがね,がんじょう,じりょく,すなのちから,60,55,145,75,150,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/476.png
+477.1,477,ヨノワール,Dusknoir,ゴースト,なし,プレッシャー,おみとおし,なし,45,100,135,65,135,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/477.png
+478.1,478,ユキメノコ,Froslass,こおり,ゴースト,ゆきがくれ,のろわれボディ,なし,70,80,70,80,70,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/478.png
+479.1,479,ロトム,Rotom,でんき,ゴースト,ふゆう,なし,なし,50,50,77,95,77,91,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/479.png
+479.2,479,ヒートロトム,Heat Rotom,でんき,ほのお,ふゆう,なし,なし,50,65,107,105,107,86,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/479h.png
+479.3,479,ウォッシュロトム,Wash Rotom,でんき,ひこう,ふゆう,なし,なし,50,65,107,105,107,86,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/479w.png
+479.4,479,フロストロトム,Mow Rotom,でんき,こおり,ふゆう,なし,なし,50,65,107,105,107,86,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/479m.png
+479.5,479,スピンロトム,Frost Rotom,でんき,みず,ふゆう,なし,なし,50,65,107,105,107,86,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/479f.png
+479.6,479,カットロトム,Fan Rotom,でんき,くさ,ふゆう,なし,なし,50,65,107,105,107,86,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/479s.png
+480.1,480,ユクシー,Uxie,エスパー,なし,ふゆう,なし,なし,75,75,130,75,130,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/480.png
+481.1,481,エムリット,Mesprit,エスパー,なし,ふゆう,なし,なし,80,105,105,105,105,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/481.png
+482.1,482,アグノム,Azelf,エスパー,なし,ふゆう,なし,なし,75,125,70,125,70,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/482.png
+483.1,483,ディアルガ,Dialga,はがね,ドラゴン,プレッシャー,テレパシー,なし,100,120,120,150,100,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/483.png
+483.2,483,ディアルガ(オリジン),Dialga Origin Form,はがね,ドラゴン,プレッシャー,テレパシー,なし,100,100,120,150,120,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/483-o.png
+484.1,484,パルキア,Palkia,みず,ドラゴン,プレッシャー,テレパシー,なし,90,120,100,150,120,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/484.png
+484.2,484,パルキア(オリジン),Palkia Origin Form,みず,ドラゴン,プレッシャー,テレパシー,なし,90,100,100,150,120,120,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/484-o.png
+485.1,485,ヒードラン,Heatran,ほのお,はがね,もらいび,ほのおのからだ,なし,91,90,106,130,106,77,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/485.png
+486.1,486,レジギガス,Regigigas,ノーマル,なし,スロースタート,なし,なし,110,160,110,80,110,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/486.png
+487.1,487,ギラティナ(アナザー),Giratina Altered Form,ゴースト,ドラゴン,プレッシャー,テレパシー,なし,150,100,120,100,120,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/487.png
+487.2,487,ギラティナ(オリジン),Giratina Origin Form,ゴースト,ドラゴン,ふゆう,なし,なし,150,120,100,120,100,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/487-o-1.png
+488.1,488,クレセリア,Cresselia,エスパー,なし,ふゆう,なし,なし,120,70,110,75,120,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/488.png
+489.1,489,フィオネ,Phione,みず,なし,うるおいボディ,なし,なし,80,80,80,80,80,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/489.png
+490.1,490,マナフィ,Manaphy,みず,なし,うるおいボディ,なし,なし,100,100,100,100,100,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/490.png
+491.1,491,ダークライ,Darkrai,あく,なし,ナイトメア,なし,なし,70,90,90,135,90,125,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/491.png
+492.1,492,シェイミ(ランド),Shaymin Land Form,くさ,なし,しぜんかいふく,なし,なし,100,100,100,100,100,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/492.png
+492.2,492,シェイミ(スカイ),Shaymin Sky Form,くさ,ひこう,てんのめぐみ,なし,なし,100,103,75,120,75,127,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/492s.png
+493.1,493,アルセウス,Arceus,ノーマル,なし,マルチタイプ,なし,なし,120,120,120,120,120,120,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/493.png
+494.1,494,ビクティニ,Victini,エスパー,ほのお,しょうりのほし,なし,なし,100,100,100,100,100,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/494.png
+495.1,495,ツタージャ,Snivy,くさ,なし,しんりょく,あまのじゃく,なし,45,45,55,45,55,63,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/495.png
+496.1,496,ジャノビー,Servine,くさ,なし,しんりょく,あまのじゃく,なし,60,60,75,60,75,83,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/496.png
+497.1,497,ジャローダ,Serperior,くさ,なし,しんりょく,あまのじゃく,なし,75,75,95,75,95,113,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/497.png
+498.1,498,ポカブ,Tepig,ほのお,なし,もうか,あついしぼう,なし,65,63,45,45,45,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/498.png
+499.1,499,チャオブー,Pignite,ほのお,かくとう,もうか,あついしぼう,なし,90,93,55,70,55,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/499.png
+500.1,500,エンブオー,Emboar,ほのお,かくとう,もうか,すてみ,なし,110,123,65,100,65,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/500.png
+501.1,501,ミジュマル,Oshawott,みず,なし,げきりゅう,シェルアーマー,なし,55,55,45,63,45,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/501.png
+502.1,502,フタチマル,Dewott,みず,なし,げきりゅう,シェルアーマー,なし,75,75,60,83,60,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/502.png
+503.1,503,ダイケンキ,Samurott,みず,なし,げきりゅう,シェルアーマー,なし,95,100,85,108,70,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/503.png
+503.2,503,ダイケンキ(ヒスイ),Hisuian Samurott,みず,あく,げきりゅう,きれあじ,なし,90,108,80,100,65,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/503-h.png
+504.1,504,ミネズミ,Patrat,ノーマル,なし,にげあし,するどいめ,アナライズ,45,55,39,35,39,42,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/504.png
+505.1,505,ミルホッグ,Watchog,ノーマル,なし,はっこう,するどいめ,アナライズ,60,85,69,60,69,77,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/505.png
+506.1,506,ヨーテリー,Lillipup,ノーマル,なし,やるき,ものひろい,にげあし,45,60,45,25,45,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/506.png
+507.1,507,ハーデリア,Herdier,ノーマル,なし,いかく,すなかき,きもったま,65,80,65,35,65,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/507.png
+508.1,508,ムーランド,Stoutland,ノーマル,なし,いかく,すなかき,きもったま,85,110,90,45,90,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/508.png
+509.1,509,チョロネコ,Purrloin,あく,なし,じゅうなん,かるわざ,いたずらごころ,41,50,37,50,37,66,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/509.png
+510.1,510,レパルダス,Liepard,あく,なし,じゅうなん,かるわざ,いたずらごころ,64,88,50,88,50,106,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/510.png
+511.1,511,ヤナップ,Pansage,くさ,なし,くいしんぼう,しんりょく,なし,50,53,48,53,48,64,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/511.png
+512.1,512,ヤナッキー,Simisage,くさ,なし,くいしんぼう,しんりょく,なし,75,98,63,98,63,101,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/512.png
+513.1,513,バオップ,Pansear,ほのお,なし,くいしんぼう,もうか,なし,50,53,48,53,48,64,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/513.png
+514.1,514,バオッキー,Simisear,ほのお,なし,くいしんぼう,もうか,なし,75,98,63,98,63,101,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/514.png
+515.1,515,ヒヤップ,Panpour,みず,なし,くいしんぼう,げきりゅう,なし,50,53,48,53,48,64,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/515.png
+516.1,516,ヒヤッキー,Simipour,みず,なし,くいしんぼう,げきりゅう,なし,75,98,63,98,63,101,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/516.png
+517.1,517,ムンナ,Munna,エスパー,なし,よちむ,シンクロ,テレパシー,76,25,45,67,55,24,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/517.png
+518.1,518,ムシャーナ,Musharna,エスパー,なし,よちむ,シンクロ,テレパシー,116,55,85,107,95,29,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/518.png
+519.1,519,マメパト,Pidove,ノーマル,ひこう,はとむね,きょううん,とうそうしん,50,55,50,36,30,43,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/519.png
+520.1,520,ハトーボー,Tranquill,ノーマル,ひこう,はとむね,きょううん,とうそうしん,62,77,62,50,42,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/520.png
+521.1,521,ケンホロウ,Unfezant,ノーマル,ひこう,はとむね,きょううん,とうそうしん,80,115,80,65,55,93,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/521.png
+522.1,522,シママ,Blitzle,でんき,なし,ひらいしん,でんきエンジン,そうしょく,45,60,32,50,32,76,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/522.png
+523.1,523,ゼブライカ,Zebstrika,でんき,なし,ひらいしん,でんきエンジン,そうしょく,75,100,63,80,63,116,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/523.png
+524.1,524,ダンゴロ,Roggenrola,いわ,なし,がんじょう,くだけるよろい,すなのちから,55,75,85,25,25,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/524.png
+525.1,525,ガントル,Boldore,いわ,なし,がんじょう,くだけるよろい,すなのちから,70,105,105,50,40,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/525.png
+526.1,526,ギガイアス,Gigalith,いわ,なし,がんじょう,すなおこし,すなのちから,85,135,130,60,80,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/526.png
+527.1,527,コロモリ,Woobat,エスパー,ひこう,てんねん,ぶきよう,たんじゅん,65,45,43,55,43,72,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/527.png
+528.1,528,ココロモリ,Swoobat,エスパー,ひこう,てんねん,ぶきよう,たんじゅん,67,57,55,77,55,114,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/528.png
+529.1,529,モグリュー,Drilbur,じめん,なし,すなかき,すなのちから,かたやぶり,60,85,40,30,45,68,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/529.png
+530.1,530,ドリュウズ,Excadrill,じめん,はがね,すなかき,すなのちから,かたやぶり,110,135,60,50,65,88,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/530.png
+531.1,531,タブンネ,Audino,ノーマル,なし,いやしのこころ,さいせいりょく,ぶきよう,103,60,86,60,86,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/531.png
+531.2,531,メガタブンネ,Mega Audino,ノーマル,なし,いやしのこころ,なし,なし,103,60,126,80,126,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/531-m.png
+532.1,532,ドッコラー,Timburr,かくとう,なし,こんじょう,ちからずく,てつのこぶし,75,80,55,25,35,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/532.png
+533.1,533,ドテッコツ,Gurdurr,かくとう,なし,こんじょう,ちからずく,てつのこぶし,85,105,85,40,50,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/533.png
+534.1,534,ローブシン,Conkeldurr,かくとう,なし,こんじょう,ちからずく,てつのこぶし,105,140,95,55,65,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/534.png
+535.1,535,オタマロ,Tympole,みず,なし,すいすい,うるおいボディ,ちょすい,50,50,40,50,40,64,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/535.png
+536.1,536,ガマガル,Palpitoad,みず,じめん,すいすい,うるおいボディ,ちょすい,75,65,55,65,55,69,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/536.png
+537.1,537,ガマゲロゲ,Seismitoad,みず,じめん,すいすい,どくしゅ,ちょすい,105,95,75,85,75,74,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/537.png
+538.1,538,ナゲキ,Throh,かくとう,なし,こんじょう,せいしんりょく,かたやぶり,120,100,85,30,85,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/538.png
+539.1,539,ダゲキ,Sawk,かくとう,なし,がんじょう,せいしんりょく,かたやぶり,75,125,75,30,75,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/539.png
+540.1,540,クルミル,Sewaddle,むし,くさ,むしのしらせ,ようりょくそ,ぼうじん,45,53,70,40,60,42,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/540.png
+541.1,541,クルマユ,Swadloon,むし,くさ,リーフガード,ようりょくそ,ぼうじん,55,63,90,50,80,42,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/541.png
+542.1,542,ハハコモリ,Leavanny,むし,くさ,むしのしらせ,ようりょくそ,ぼうじん,75,103,80,70,80,92,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/542.png
+543.1,543,フシデ,Venipede,むし,どく,どくのトゲ,むしのしらせ,かそく,30,45,59,30,39,57,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/543.png
+544.1,544,ホイーガ,Whirlipede,むし,どく,どくのトゲ,むしのしらせ,かそく,40,55,99,40,79,47,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/544.png
+545.1,545,ペンドラー,Scolipede,むし,どく,どくのトゲ,むしのしらせ,かそく,60,100,89,55,69,112,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/545.png
+546.1,546,モンメン,Cottonee,くさ,フェアリー,いたずらごころ,すりぬけ,ようりょくそ,40,27,60,37,50,66,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/546.png
+547.1,547,エルフーン,Whimsicott,くさ,フェアリー,いたずらごころ,すりぬけ,ようりょくそ,60,67,85,77,75,116,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/547.png
+548.1,548,チュリネ,Petilil,くさ,なし,ようりょくそ,マイペース,リーフガード,45,35,50,70,50,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/548.png
+549.1,549,ドレディア,Lilligant,くさ,なし,ようりょくそ,マイペース,リーフガード,70,60,75,110,75,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/549.png
+549.2,549,ドレディア(ヒスイ),Hisuian Lilligant,くさ,かくとう,ようりょくそ,はりきり,リーフガード,70,105,75,50,75,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/549-h.png
+550.1,550,バスラオ(赤),Basculin,みず,なし,すてみ,てきおうりょく,かたやぶり,70,92,65,80,55,98,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/550r.png
+550.2,550,バスラオ(青),Basculin,みず,なし,いしあたま,てきおうりょく,かたやぶり,70,92,65,80,55,98,https://img.yakkun.com/poke/icon32/n550f.gif
+550.3,550,バスラオ(白),Basculin,みず,なし,びびり,てきおうりょく,かたやぶり,70,92,65,80,55,98,https://img.yakkun.com/poke/icon32/n550w.gif
+551.1,551,メグロコ,Sandile,じめん,あく,いかく,じしんかじょう,いかりのつぼ,50,72,35,35,35,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/551.png
+552.1,552,ワルビル,Krokorok,じめん,あく,いかく,じしんかじょう,いかりのつぼ,60,82,45,45,45,74,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/552.png
+553.1,553,ワルビアル,Krookodile,じめん,あく,いかく,じしんかじょう,いかりのつぼ,95,117,80,65,70,92,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/553.png
+554.1,554,ダルマッカ,Darumaka,ほのお,なし,はりきり,せいしんりょく,なし,70,90,45,15,45,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/554.png
+554.2,554,ダルマッカ(ガラル),Galarian Darumaka,こおり,なし,はりきり,せいしんりょく,なし,70,90,45,15,45,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/554-g.png
+555.1,555,ヒヒダルマ,Darmanitan,ほのお,なし,ちからずく,ダルマモード,なし,105,140,55,30,55,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/555.png
+555.2,555,ヒヒダルマ(ダルマ),Darmanitan Zen Mode,ほのお,エスパー,ちからずく,ダルマモード,なし,105,30,105,140,105,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/555-z.png
+555.3,555,ヒヒダルマ(ガラル),Galarian Darmanitan,こおり,なし,ごりむちゅう,ダルマモード,なし,105,140,55,30,55,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/555-g.png
+555.4,555,ヒヒダルマ(ダルマ・ガラル),Galarian Darmanitan,こおり,ほのお,ごりむちゅう,ダルマモード,なし,105,160,55,30,55,135,https://img.yakkun.com/poke/icon32/n555h.gif
+556.1,556,マラカッチ,Maractus,くさ,なし,ちょすい,ようりょくそ,よびみず,75,86,67,106,67,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/556.png
+557.1,557,イシズマイ,Dwebble,むし,いわ,がんじょう,シェルアーマー,くだけるよろい,50,65,85,35,35,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/557.png
+558.1,558,イワパレス,Crustle,むし,いわ,がんじょう,シェルアーマー,くだけるよろい,70,105,125,65,75,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/558.png
+559.1,559,ズルッグ,Scraggy,あく,かくとう,だっぴ,じしんかじょう,いかく,50,75,70,35,70,48,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/559.png
+560.1,560,ズルズキン,Scrafty,あく,かくとう,だっぴ,じしんかじょう,いかく,65,90,115,45,115,58,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/560.png
+561.1,561,シンボラー,Sigilyph,エスパー,ひこう,ミラクルスキン,マジックガード,いろめがね,72,58,80,103,80,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/561.png
+562.1,562,デスマス,Yamask,ゴースト,なし,ミイラ,なし,なし,38,30,85,55,65,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/562.png
+562.2,562,デスマス(ガラル),Galarian Yamask,じめん,ゴースト,さまようたましい,なし,なし,38,55,85,30,65,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/562-g.png
+563.1,563,デスカーン,Cofagrigus,ゴースト,なし,ミイラ,なし,なし,58,50,145,95,105,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/563.png
+564.1,564,プロトーガ,Tirtouga,みず,いわ,ハードロック,がんじょう,すいすい,54,78,103,53,45,22,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/564.png
+565.1,565,アバゴーラ,Carracosta,みず,いわ,ハードロック,がんじょう,すいすい,74,108,133,83,65,32,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/565.png
+566.1,566,アーケン,Archen,いわ,ひこう,よわき,なし,なし,55,112,45,74,45,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/566.png
+567.1,567,アーケオス,Archeops,いわ,ひこう,よわき,なし,なし,75,140,65,112,65,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/567.png
+568.1,568,ヤブクロン,Trubbish,どく,なし,あくしゅう,ねんちゃく,ゆうばく,50,50,62,40,62,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/568.png
+569.1,569,ダストダス,Garbodor,どく,なし,あくしゅう,くだけるよろい,ゆうばく,80,95,82,60,82,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/569.png
+570.1,570,ゾロア,Zorua,あく,なし,イリュージョン,なし,なし,40,65,40,80,40,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/570.png
+570.2,570,ゾロア(ヒスイ),Hisuian Zorua,ノーマル,ゴースト,イリュージョン,なし,なし,35,60,40,85,40,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/570-h.png
+571.1,571,ゾロアーク,Zoroark,あく,なし,イリュージョン,なし,なし,60,105,60,120,60,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/571.png
+571.2,571,ゾロアーク(ヒスイ),Hisuian Zoroark,ノーマル,ゴースト,イリュージョン,なし,なし,55,100,60,125,60,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/571-h.png
+572.1,572,チラーミィ,Minccino,ノーマル,なし,メロメロボディ,テクニシャン,スキルリンク,55,50,40,40,40,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/572.png
+573.1,573,チラチーノ,Cinccino,ノーマル,なし,メロメロボディ,テクニシャン,スキルリンク,75,95,60,65,60,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/573.png
+574.1,574,ゴチム,Gothita,エスパー,なし,おみとおし,かちき,かげふみ,45,30,50,55,65,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/574.png
+575.1,575,ゴチミル,Gothorita,エスパー,なし,おみとおし,かちき,かげふみ,60,45,70,75,85,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/575.png
+576.1,576,ゴチルゼル,Gothitelle,エスパー,なし,おみとおし,かちき,かげふみ,70,55,95,95,110,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/576.png
+577.1,577,ユニラン,Solosis,エスパー,なし,ぼうじん,マジックガード,さいせいりょく,45,30,40,105,50,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/577.png
+578.1,578,ダブラン,Duosion,エスパー,なし,ぼうじん,マジックガード,さいせいりょく,65,40,50,125,60,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/578.png
+579.1,579,ランクルス,Reuniclus,エスパー,なし,ぼうじん,マジックガード,さいせいりょく,110,65,75,125,85,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/579.png
+580.1,580,コアルヒー,Ducklett,みず,ひこう,するどいめ,はとむね,うるおいボディ,62,44,50,44,50,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/580.png
+581.1,581,スワンナ,Swanna,みず,ひこう,するどいめ,はとむね,うるおいボディ,75,87,63,87,63,98,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/581.png
+582.1,582,バニプッチ,Vanillite,こおり,なし,アイスボディ,ゆきがくれ,くだけるよろい,36,50,50,65,60,44,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/582.png
+583.1,583,バニリッチ,Vanillish,こおり,なし,アイスボディ,ゆきがくれ,くだけるよろい,51,65,65,80,75,59,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/583.png
+584.1,584,バイバニラ,Vanilluxe,こおり,なし,アイスボディ,ゆきふらし,くだけるよろい,71,95,85,110,95,79,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/584.png
+585.1,585,シキジカ,Deerling Spring Form,ノーマル,くさ,ようりょくそ,そうしょく,てんのめぐみ,60,60,50,40,50,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/585.png
+586.1,586,メブキジカ,Sawsbuck Spring Form,ノーマル,くさ,ようりょくそ,そうしょく,てんのめぐみ,80,100,70,60,70,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/586.png
+587.1,587,エモンガ,Emolga,でんき,ひこう,せいでんき,でんきエンジン,なし,55,75,60,75,60,103,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/587.png
+588.1,588,カブルモ,Karrablast,むし,なし,むしのしらせ,だっぴ,ノーガード,50,75,45,40,45,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/588.png
+589.1,589,シュバルゴ,Escavalier,むし,はがね,むしのしらせ,シェルアーマー,ぼうじん,70,135,105,60,105,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/589.png
+590.1,590,タマゲタケ,Foongus,くさ,どく,ほうし,さいせいりょく,なし,69,55,45,55,55,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/590.png
+591.1,591,モロバレル,Amoonguss,くさ,どく,ほうし,さいせいりょく,なし,114,85,70,85,80,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/591.png
+592.1,592,プルリル,Frillish,みず,ゴースト,ちょすい,のろわれボディ,しめりけ,55,40,50,65,85,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/592.png
+593.1,593,ブルンゲル,Jellicent,みず,ゴースト,ちょすい,のろわれボディ,しめりけ,100,60,70,85,105,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/593.png
+594.1,594,ママンボウ,Alomomola,みず,なし,いやしのこころ,うるおいボディ,さいせいりょく,165,75,80,40,45,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/594.png
+595.1,595,バチュル,Joltik,むし,でんき,ふくがん,きんちょうかん,むしのしらせ,50,47,50,57,50,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/595.png
+596.1,596,デンチュラ,Galvantula,むし,でんき,ふくがん,きんちょうかん,むしのしらせ,70,77,60,97,60,108,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/596.png
+597.1,597,テッシード,Ferroseed,くさ,はがね,てつのトゲ,なし,なし,44,50,91,24,86,10,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/597.png
+598.1,598,ナットレイ,Ferrothorn,くさ,はがね,てつのトゲ,きけんよち,なし,74,94,131,54,116,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/598.png
+599.1,599,ギアル,Klink,はがね,なし,プラス,マイナス,クリアボディ,40,55,70,45,60,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/599.png
+600.1,600,ギギアル,Klang,はがね,なし,プラス,マイナス,クリアボディ,60,80,95,70,85,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/600.png
+601.1,601,ギギギアル,Klinklang,はがね,なし,プラス,マイナス,クリアボディ,60,100,115,70,85,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/601.png
+602.1,602,シビシラス,Tynamo,でんき,なし,ふゆう,なし,なし,35,55,40,45,40,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/602.png
+603.1,603,シビビール,Eelektrik,でんき,なし,ふゆう,なし,なし,65,85,70,75,70,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/603.png
+604.1,604,シビルドン,Eelektross,でんき,なし,ふゆう,なし,なし,85,115,80,105,80,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/604.png
+605.1,605,リグレー,Elgyem,エスパー,なし,テレパシー,シンクロ,アナライズ,55,55,55,85,55,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/605.png
+606.1,606,オーベム,Beheeyem,エスパー,なし,テレパシー,シンクロ,アナライズ,75,75,75,125,95,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/606.png
+607.1,607,ヒトモシ,Litwick,ゴースト,ほのお,もらいび,ほのおのからだ,すりぬけ,50,30,55,65,55,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/607.png
+608.1,608,ランプラー,Lampent,ゴースト,ほのお,もらいび,ほのおのからだ,すりぬけ,60,40,60,95,60,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/608.png
+609.1,609,シャンデラ,Chandelure,ゴースト,ほのお,もらいび,ほのおのからだ,すりぬけ,60,55,90,145,90,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/609.png
+610.1,610,キバゴ,Axew,ドラゴン,なし,とうそうしん,かたやぶり,きんちょうかん,46,87,60,30,40,57,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/610.png
+611.1,611,オノンド,Fraxure,ドラゴン,なし,とうそうしん,かたやぶり,きんちょうかん,66,117,70,40,50,67,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/611.png
+612.1,612,オノノクス,Haxorus,ドラゴン,なし,とうそうしん,かたやぶり,きんちょうかん,76,147,90,60,70,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/612.png
+613.1,613,クマシュン,Cubchoo,こおり,なし,ゆきがくれ,ゆきかき,びびり,55,70,40,60,40,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/613.png
+614.1,614,ツンベアー,Beartic,こおり,なし,ゆきがくれ,ゆきかき,すいすい,95,130,80,70,80,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/614.png
+615.1,615,フリージオ,Cryogonal,こおり,なし,ふゆう,なし,なし,80,50,50,95,135,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/615.png
+616.1,616,チョボマキ,Shelmet,むし,なし,うるおいボディ,シェルアーマー,ぼうじん,50,40,85,40,65,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/616.png
+617.1,617,アギルダー,Accelgor,むし,なし,うるおいボディ,ねんちゃく,かるわざ,80,70,40,100,60,145,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/617.png
+618.1,618,マッギョ,Stunfisk,じめん,でんき,せいでんき,じゅうなん,すながくれ,109,66,84,81,99,32,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/618.png
+618.2,618,マッギョ(ガラル),Galarian Stunfisk,じめん,はがね,ぎたい,なし,なし,109,81,99,66,84,32,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/618-g.png
+619.1,619,コジョフー,Mienfoo,かくとう,なし,せいしんりょく,さいせいりょく,すてみ,45,85,50,55,50,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/619.png
+620.1,620,コジョンド,Mienshao,かくとう,なし,せいしんりょく,さいせいりょく,すてみ,65,125,60,95,60,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/620.png
+621.1,621,クリムガン,Druddigon,ドラゴン,なし,さめはだ,ちからずく,かたやぶり,77,120,90,60,90,48,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/621.png
+622.1,622,ゴビット,Golett,じめん,ゴースト,てつのこぶし,ぶきよう,ノーガード,59,74,50,35,50,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/622.png
+623.1,623,ゴルーグ,Golurk,じめん,ゴースト,てつのこぶし,ぶきよう,ノーガード,89,124,80,55,80,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/623.png
+624.1,624,コマタナ,Pawniard,あく,はがね,まけんき,せいしんりょく,プレッシャー,45,85,70,40,40,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/624.png
+625.1,625,キリキザン,Bisharp,あく,はがね,まけんき,せいしんりょく,プレッシャー,65,125,100,60,70,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/625.png
+626.1,626,バッフロン,Bouffalant,ノーマル,なし,すてみ,そうしょく,ぼうおん,95,110,95,40,95,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/626.png
+627.1,627,ワシボン,Rufflet,ノーマル,ひこう,するどいめ,ちからずく,はりきり,70,83,50,37,50,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/627.png
+628.1,628,ウォーグル,Braviary,ノーマル,ひこう,するどいめ,ちからずく,まけんき,100,123,75,57,75,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/628.png
+628.2,628,ウォーグル(ヒスイ),Hisuian Braviary,エスパー,ひこう,するどいめ,ちからずく,いろめがね,110,83,70,112,70,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/628-h.png
+629.1,629,バルチャイ,Vullaby,あく,ひこう,はとむね,ぼうじん,くだけるよろい,70,55,75,45,65,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/629.png
+630.1,630,バルジーナ,Mandibuzz,あく,ひこう,はとむね,ぼうじん,くだけるよろい,110,65,105,55,95,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/630.png
+631.1,631,クイタラン,Heatmor,ほのお,なし,くいしんぼう,もらいび,しろいけむり,85,97,66,105,66,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/631.png
+632.1,632,アイアント,Durant,むし,はがね,むしのしらせ,はりきり,なまけ,58,109,112,48,48,109,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/632.png
+633.1,633,モノズ,Deino,あく,ドラゴン,はりきり,なし,なし,52,65,50,45,50,38,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/633.png
+634.1,634,ジヘッド,Zweilous,あく,ドラゴン,はりきり,なし,なし,72,85,70,65,70,58,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/634.png
+635.1,635,サザンドラ,Hydreigon,あく,ドラゴン,ふゆう,なし,なし,92,105,90,125,90,98,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/635.png
+636.1,636,メラルバ,Larvesta,むし,ほのお,ほのおのからだ,むしのしらせ,なし,55,85,55,50,55,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/636.png
+637.1,637,ウルガモス,Volcarona,むし,ほのお,ほのおのからだ,むしのしらせ,なし,85,60,65,135,105,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/637.png
+638.1,638,コバルオン,Cobalion,はがね,かくとう,せいぎのこころ,なし,なし,91,90,129,90,72,108,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/638.png
+639.1,639,テラキオン,Terrakion,いわ,かくとう,せいぎのこころ,なし,なし,91,129,90,72,90,108,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/639.png
+640.1,640,ビリジオン,Virizion,くさ,かくとう,せいぎのこころ,なし,なし,91,90,72,90,129,108,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/640.png
+641.1,641,トルネロス(化身),Tornadus Incarnate Form,ひこう,なし,いたずらごころ,まけんき,なし,79,115,70,125,80,111,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/641.png
+641.2,641,トルネロス(霊獣),Tornadus Therian Form,ひこう,なし,さいせいりょく,なし,なし,79,100,80,110,90,121,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/641-s.png
+642.1,642,ボルトロス(化身),Thundurus Incarnate Form,でんき,ひこう,いたずらごころ,まけんき,なし,79,115,70,125,80,111,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/642.png
+642.2,642,ボルトロス(霊獣),Thundurus Therian Form,でんき,ひこう,ちくでん,なし,なし,79,105,70,145,80,101,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/642-s.png
+643.1,643,レシラム,Reshiram,ドラゴン,ほのお,ターボブレイズ,なし,なし,100,120,100,150,120,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/643.png
+644.1,644,ゼクロム,Zekrom,ドラゴン,でんき,テラボルテージ,なし,なし,100,150,120,120,100,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/644.png
+645.1,645,ランドロス(化身),Landorus Incarnate Form,じめん,ひこう,すなのちから,ちからずく,なし,89,125,90,115,80,101,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/645.png
+645.2,645,ランドロス(霊獣),Landorus Therian Form,じめん,ひこう,いかく,なし,なし,89,145,90,105,80,91,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/645-s.png
+646.1,646,キュレム,Kyurem,ドラゴン,こおり,プレッシャー,なし,なし,125,130,90,130,90,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/646.png
+646.2,646,ホワイトキュレム,White Kyurem,ドラゴン,こおり,ターボブレイズ,なし,なし,125,120,90,170,100,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/646-w.png
+646.3,646,ブラックキュレム,Black Kyurem,ドラゴン,こおり,テラボルテージ,なし,なし,125,170,100,120,90,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/646-b.png
+647.1,647,ケルディオ(いつも),Keldeo Ordinary Form,みず,かくとう,せいぎのこころ,なし,なし,91,72,90,129,90,108,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/647.png
+647.2,647,ケルディオ(覚悟),Keldeo Resolute Form,みず,かくとう,せいぎのこころ,なし,なし,91,72,90,129,90,108,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/647-r.png
+648.1,648,メロエッタ(ボイス),Meloetta Voice Form,ノーマル,エスパー,てんのめぐみ,なし,なし,100,77,77,128,128,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/648.png
+648.2,648,メロエッタ(ステップ),Meloetta Step Form,ノーマル,かくとう,てんのめぐみ,なし,なし,100,128,90,77,77,128,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/648s.png
+649.1,649,ゲノセクト,Genesect,むし,はがね,ダウンロード,なし,なし,71,120,95,120,95,99,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/649.png
+650.1,650,ハリマロン,Chespin,くさ,なし,しんりょく,ぼうだん,なし,56,61,65,48,45,38,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/650.png
+651.1,651,ハリボーグ,Quilladin,くさ,なし,しんりょく,ぼうだん,なし,61,78,95,56,58,57,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/651.png
+652.1,652,ブリガロン,Chesnaught,くさ,かくとう,しんりょく,ぼうだん,なし,88,107,122,74,75,64,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/652.png
+653.1,653,フォッコ,Fennekin,ほのお,なし,もうか,マジシャン,なし,40,45,40,62,60,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/653.png
+654.1,654,テールナー,Braixen,ほのお,なし,もうか,マジシャン,なし,59,59,58,90,70,73,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/654.png
+655.1,655,マフォクシー,Delphox,ほのお,エスパー,もうか,マジシャン,なし,75,69,72,114,100,104,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/655.png
+656.1,656,ケロマツ,Froakie,みず,なし,げきりゅう,へんげんじざい,なし,41,56,40,62,44,71,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/656.png
+657.1,657,ゲコガシラ,Frogadier,みず,なし,げきりゅう,へんげんじざい,なし,54,63,52,83,56,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/657.png
+658.1,658,ゲッコウガ,Greninja,みず,あく,げきりゅう,へんげんじざい,なし,72,95,67,103,71,122,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/658.png
+658.2,658,サトシゲッコウガ,Ash-Greninja,みず,あく,きずなへんげ,なし,なし,72,145,67,153,71,132,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/658-s.png
+659.1,659,ホルビー,Bunnelby,ノーマル,なし,ものひろい,ほおぶくろ,ちからもち,38,36,38,32,36,57,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/659.png
+660.1,660,ホルード,Diggersby,ノーマル,じめん,ものひろい,ほおぶくろ,ちからもち,85,56,77,50,77,78,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/660.png
+661.1,661,ヤヤコマ,Fletchling,ノーマル,ひこう,はとむね,はやてのつばさ,なし,45,50,43,40,38,62,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/661.png
+662.1,662,ヒノヤコマ,Fletchinder,ほのお,ひこう,ほのおのからだ,はやてのつばさ,なし,62,73,55,56,52,84,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/662.png
+663.1,663,ファイアロー,Talonflame,ほのお,ひこう,ほのおのからだ,はやてのつばさ,なし,78,81,71,74,69,126,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/663.png
+664.1,664,コフキムシ,Scatterbug,むし,なし,りんぷん,ふくがん,フレンドガード,38,35,40,27,25,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/664.png
+665.1,665,コフーライ,Spewpa,むし,なし,だっぴ,フレンドガード,なし,45,22,60,27,30,29,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/665.png
+666.1,666,ビビヨン,Vivillon,むし,ひこう,りんぷん,ふくがん,フレンドガード,80,52,50,90,50,89,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/666.png
+667.1,667,シシコ,Litleo,ほのお,ノーマル,とうそうしん,きんちょうかん,じしんかじょう,62,50,58,73,54,72,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/667.png
+668.1,668,カエンジシ,Pyroar,ほのお,ノーマル,とうそうしん,きんちょうかん,じしんかじょう,86,68,72,109,66,106,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/668.png
+669.1,669,フラベベ,Flabebe,フェアリー,なし,フラワーベール,きょうせい,なし,44,38,39,61,79,42,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/669.png
+670.1,670,フラエッテ,Floette,フェアリー,なし,フラワーベール,きょうせい,なし,54,45,47,75,98,52,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/670.png
+671.1,671,フラージェス,Florges,フェアリー,なし,フラワーベール,きょうせい,なし,78,65,68,112,154,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/671.png
+672.1,672,メェークル,Skiddo,くさ,なし,そうしょく,くさのけがわ,なし,66,65,48,62,57,52,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/672.png
+673.1,673,ゴーゴート,Gogoat,くさ,なし,そうしょく,くさのけがわ,なし,123,100,62,97,81,68,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/673.png
+674.1,674,ヤンチャム,Pancham,かくとう,なし,てつのこぶし,かたやぶり,きもったま,67,82,62,46,48,43,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/674.png
+675.1,675,ゴロンダ,Pangoro,かくとう,あく,てつのこぶし,かたやぶり,きもったま,95,124,78,69,71,58,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/675.png
+676.1,676,トリミアン,Furfrou,ノーマル,なし,ファーコート,なし,なし,75,80,60,65,90,102,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/676.png
+677.1,677,ニャスパー,Espurr,エスパー,なし,するどいめ,すりぬけ,マイペース,62,48,54,63,60,68,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/677.png
+678.1,678,ニャオニクス♂,Meowstic,エスパー,なし,するどいめ,すりぬけ,いたずらごころ,74,48,76,83,81,104,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/678.png
+678.2,678,ニャオニクス♀,Meowstic,エスパー,なし,するどいめ,すりぬけ,かちき,74,48,76,83,81,104,https://img.yakkun.com/poke/icon32/n678f.gif
+679.1,679,ヒトツキ,Honedge,はがね,ゴースト,ノーガード,なし,なし,45,80,100,35,37,28,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/679.png
+680.1,680,ニダンギル,Doublade,はがね,ゴースト,ノーガード,なし,なし,59,110,150,45,49,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/680.png
+681.1,681,ギルガルド(シールド),Aegislash Shield Form,はがね,ゴースト,バトルスイッチ,なし,なし,60,50,140,50,140,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/681.png
+681.2,681,ギルガルド(ブレード),Aegislash Blade Form,はがね,ゴースト,バトルスイッチ,なし,なし,60,140,50,140,50,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/10/681-b.png
+682.1,682,シュシュプ,Spritzee,フェアリー,なし,いやしのこころ,アロマベール,なし,78,52,60,63,65,23,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/682.png
+683.1,683,フレフワン,Aromatisse,フェアリー,なし,いやしのこころ,アロマベール,なし,101,72,72,99,89,29,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/683.png
+684.1,684,ペロッパフ,Swirlix,フェアリー,なし,スイートベール,かるわざ,なし,62,48,66,59,57,49,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/684.png
+685.1,685,ペロリーム,Slurpuff,フェアリー,なし,スイートベール,かるわざ,なし,82,80,86,85,75,72,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/685.png
+686.1,686,マーイーカ,Inkay,あく,エスパー,あまのじゃく,きゅうばん,すりぬけ,53,54,53,37,46,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/686.png
+687.1,687,カラマネロ,Malamar,あく,エスパー,あまのじゃく,きゅうばん,すりぬけ,86,92,88,68,75,73,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/687.png
+688.1,688,カメテテ,Binacle,いわ,みず,かたいツメ,スナイパー,わるいてぐせ,42,52,67,39,56,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/688.png
+689.1,689,ガメノデス,Barbaracle,いわ,みず,かたいツメ,スナイパー,わるいてぐせ,72,105,115,54,86,68,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/689.png
+690.1,690,クズモー,Skrelp,どく,みず,どくのトゲ,どくしゅ,てきおうりょく,50,60,60,60,60,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/690.png
+691.1,691,ドラミドロ,Dragalge,どく,ドラゴン,どくのトゲ,どくしゅ,てきおうりょく,65,75,90,97,123,44,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/691.png
+692.1,692,ウデッポウ,Clauncher,みず,なし,メガランチャー,なし,なし,50,53,62,58,63,44,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/692.png
+693.1,693,ブロスター,Clawitzer,みず,なし,メガランチャー,なし,なし,71,73,88,120,89,59,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/693.png
+694.1,694,エリキテル,Helioptile,でんき,ノーマル,かんそうはだ,すながくれ,サンパワー,44,38,33,61,43,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/694.png
+695.1,695,エレザード,Heliolisk,でんき,ノーマル,かんそうはだ,すながくれ,サンパワー,62,55,52,109,94,109,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/695.png
+696.1,696,チゴラス,Tyrunt,いわ,ドラゴン,がんじょうあご,がんじょう,なし,58,89,77,45,45,48,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/696.png
+697.1,697,ガチゴラス,Tyrantrum,いわ,ドラゴン,がんじょうあご,いしあたま,なし,82,121,119,69,59,71,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/697.png
+698.1,698,アマルス,Amaura,いわ,こおり,フリーズスキン,ゆきふらし,なし,77,59,50,67,63,46,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/698.png
+699.1,699,アマルルガ,Aurorus,いわ,こおり,フリーズスキン,ゆきふらし,なし,123,77,72,99,92,58,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/699.png
+700.1,700,ニンフィア,Sylveon,フェアリー,なし,メロメロボディ,フェアリースキン,なし,95,65,65,110,130,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/700.png
+701.1,701,ルチャブル,Hawlucha,かくとう,ひこう,じゅうなん,かるわざ,かたやぶり,78,92,75,74,63,118,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/701.png
+702.1,702,デデンネ,Dedenne,でんき,フェアリー,ほおぶくろ,ものひろい,プラス,67,58,57,81,67,101,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/702.png
+703.1,703,メレシー,Carbink,いわ,フェアリー,クリアボディ,がんじょう,なし,50,50,150,50,150,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/703.png
+704.1,704,ヌメラ,Goomy,ドラゴン,なし,そうしょく,うるおいボディ,ぬめぬめ,45,50,35,55,75,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/704.png
+705.1,705,ヌメイル,Sliggoo,ドラゴン,なし,そうしょく,うるおいボディ,ぬめぬめ,68,75,53,83,113,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/705.png
+705.2,705,ヌメイル(ヒスイ),Hisuian Sliggoo,はがね,ドラゴン,そうしょく,シェルアーマー,ぬめぬめ,58,75,83,83,113,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/705-h.png
+706.1,706,ヌメルゴン,Goodra,ドラゴン,なし,そうしょく,うるおいボディ,ぬめぬめ,90,100,70,110,150,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/706.png
+706.2,706,ヌメルゴン(ヒスイ),Hisuian Goodra,はがね,ドラゴン,そうしょく,シェルアーマー,ぬめぬめ,80,100,100,110,150,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/706-h.png
+707.1,707,クレッフィ,Klefki,はがね,フェアリー,いたずらごころ,マジシャン,なし,57,80,91,80,87,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/707.png
+708.1,708,ボクレー,Phantump,ゴースト,くさ,しぜんかいふく,おみとおし,しゅうかく,43,70,48,50,60,38,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/708.png
+709.1,709,オーロット,Trevenant,ゴースト,くさ,しぜんかいふく,おみとおし,しゅうかく,85,110,76,65,82,56,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/709.png
+710.1,710,バケッチャ(普通),Pumpkaboo,ゴースト,くさ,ものひろい,おみとおし,ふみん,49,66,70,44,55,51,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/710.png
+710.2,710,バケッチャ(小),Pumpkaboo,ゴースト,くさ,ものひろい,おみとおし,ふみん,44,66,70,44,55,56,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/710.png
+710.3,710,バケッチャ(大),Pumpkaboo,ゴースト,くさ,ものひろい,おみとおし,ふみん,54,66,70,44,55,46,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/710.png
+710.4,710,バケッチャ(特大),Pumpkaboo,ゴースト,くさ,ものひろい,おみとおし,ふみん,59,66,70,44,55,41,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/710.png
+711.1,711,パンプジン(普通),Gourgeist,ゴースト,くさ,ものひろい,おみとおし,ふみん,65,90,122,58,75,84,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/711.png
+711.2,711,パンプジン(小),Gourgeist,ゴースト,くさ,ものひろい,おみとおし,ふみん,55,85,122,58,75,99,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/711.png
+711.3,711,パンプジン(大),Gourgeist,ゴースト,くさ,ものひろい,おみとおし,ふみん,75,95,122,58,75,69,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/711.png
+711.4,711,パンプジン(特大),Gourgeist,ゴースト,くさ,ものひろい,おみとおし,ふみん,85,100,122,58,75,54,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/711.png
+712.1,712,カチコール,Bergmite,こおり,なし,マイペース,アイスボディ,がんじょう,55,69,85,32,35,28,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/712.png
+713.1,713,クレベース,Avalugg,こおり,なし,マイペース,アイスボディ,がんじょう,95,117,184,44,46,28,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/713.png
+713.2,713,クレベース(ヒスイ),Hisuian Avalugg,こおり,いわ,がんじょうあご,アイスボディ,がんじょう,95,127,184,34,36,38,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/713-h.png
+714.1,714,オンバット,Noibat,ひこう,ドラゴン,おみとおし,すりぬけ,テレパシー,40,30,35,45,40,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/714.png
+715.1,715,オンバーン,Noivern,ひこう,ドラゴン,おみとおし,すりぬけ,テレパシー,85,70,80,97,80,123,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/715.png
+716.1,716,ゼルネアス,Xerneas Active Mode,フェアリー,なし,フェアリーオーラ,なし,なし,126,131,95,131,98,99,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/10/716-a.png
+717.1,717,イベルタル,Yveltal,あく,ひこう,ダークオーラ,なし,なし,126,131,95,131,98,99,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/717.png
+718.1,718,ジガルデ(50%),Zygarde 50% Form,ドラゴン,じめん,オーラブレイク,なし,なし,108,100,121,81,95,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/718.png
+718.2,718,ジガルデ(10%),Zygarde 10% Form,ドラゴン,じめん,オーラブレイク,なし,なし,54,100,71,61,85,115,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/718-10-1.png
+718.3,718,ジガルデ(パーフェクト),Zygarde Perfect Form,ドラゴン,じめん,スワームチェンジ,なし,なし,216,100,121,91,95,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/718-p-1.png
+719.1,719,ディアンシー,Diancie,いわ,フェアリー,クリアボディ,なし,なし,50,100,150,100,150,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/719.png
+719.2,719,メガディアンシー,Mega Diancie,いわ,フェアリー,マジックミラー,なし,なし,50,160,110,160,110,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/719-m.png
+720.1,720,フーパ(いましめ),Hoopa Confined Form,エスパー,ゴースト,マジシャン,なし,なし,80,110,60,150,130,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/720.png
+720.2,720,フーパ(ときはな),Hoopa Unbound Form,エスパー,あく,マジシャン,なし,なし,80,160,60,170,130,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/720-t.png
+721.1,721,ボルケニオン,Volcanion,ほのお,みず,ちょすい,なし,なし,80,110,120,130,90,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/721.png
+722.1,722,モクロー,Rowlet,くさ,ひこう,しんりょく,えんかく,なし,68,55,55,50,50,42,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/722.png
+723.1,723,フクスロー,Dartrix,くさ,ひこう,しんりょく,えんかく,なし,78,75,75,70,70,52,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/723.png
+724.1,724,ジュナイパー,Decidueye,くさ,ゴースト,しんりょく,えんかく,なし,78,107,75,100,100,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/724.png
+724.2,724,ジュナイパー(ヒスイ),Hisuian Decidueye,くさ,かくとう,しんりょく,きもったま,なし,88,112,80,95,95,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/724-h.png
+725.1,725,ニャビー,Litten,ほのお,なし,もうか,いかく,なし,45,65,40,60,40,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/725.png
+726.1,726,ニャヒート,Torracat,ほのお,なし,もうか,いかく,なし,65,85,50,80,50,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/726.png
+727.1,727,ガオガエン,Incineroar,ほのお,あく,もうか,いかく,なし,95,115,90,80,90,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/727.png
+728.1,728,アシマリ,Popplio,みず,なし,げきりゅう,うるおいボイス,なし,50,54,54,66,56,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/728.png
+729.1,729,オシャマリ,Brionne,みず,なし,げきりゅう,うるおいボイス,なし,60,69,69,91,81,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/729.png
+730.1,730,アシレーヌ,Primarina,みず,フェアリー,げきりゅう,うるおいボイス,なし,80,74,74,126,116,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/730.png
+731.1,731,ツツケラ,Pikipek,ノーマル,ひこう,するどいめ,スキルリンク,ものひろい,35,75,30,30,30,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/731.png
+732.1,732,ケララッパ,Trumbeak,ノーマル,ひこう,するどいめ,スキルリンク,ものひろい,55,85,50,40,50,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/732.png
+733.1,733,ドデカバシ,Toucannon,ノーマル,ひこう,するどいめ,スキルリンク,ちからずく,80,120,75,75,75,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/733.png
+734.1,734,ヤングース,Yungoos,ノーマル,なし,はりこみ,がんじょうあご,てきおうりょく,48,70,30,30,30,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/734.png
+735.1,735,デカグース,Gumshoos,ノーマル,なし,はりこみ,がんじょうあご,てきおうりょく,88,110,60,55,60,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/735.png
+736.1,736,アゴジムシ,Grubbin,むし,なし,むしのしらせ,なし,なし,47,62,45,55,45,46,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/736.png
+737.1,737,デンヂムシ,Charjabug,むし,でんき,バッテリー,なし,なし,57,82,95,55,75,36,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/737.png
+738.1,738,クワガノン,Vikavolt,むし,でんき,ふゆう,なし,なし,77,70,90,145,75,43,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/738.png
+739.1,739,マケンカニ,Crabrawler,かくとう,なし,かいりきバサミ,てつのこぶし,いかりのつぼ,47,82,57,42,47,63,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/739.png
+740.1,740,ケケンカニ,Crabominable,かくとう,こおり,かいりきバサミ,てつのこぶし,いかりのつぼ,97,132,77,62,67,43,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/740.png
+741.1,741,オドリドリ(めらめら),Oricorio Baile Style,ほのお,ひこう,おどりこ,なし,なし,75,70,70,98,70,93,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/741.png
+741.2,741,オドリドリ(ぱちぱち),Oricorio Pom-Pom Style,でんき,ひこう,おどりこ,なし,なし,75,70,70,98,70,93,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/741-e.png
+741.3,741,オドリドリ(ふらふら),Oricorio Pa'u Style,エスパー,ひこう,おどりこ,なし,なし,75,70,70,98,70,93,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/741-p.png
+741.4,741,オドリドリ(まいまい),Oricorio Sensu Style,ゴースト,ひこう,おどりこ,なし,なし,75,70,70,98,70,93,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/741-g.png
+742.1,742,アブリー,Cutiefly,むし,フェアリー,みつあつめ,りんぷん,スイートベール,40,45,40,55,40,84,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/742.png
+743.1,743,アブリボン,Ribombee,むし,フェアリー,みつあつめ,りんぷん,スイートベール,60,55,60,95,70,124,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/743.png
+744.1,744,イワンコ,Rockruff,いわ,なし,するどいめ,やるき,ふくつのこころ,45,65,40,30,40,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/744.png
+745.1,745,ルガルガン(まひる),Lycanroc Regular Form,いわ,なし,するどいめ,すなかき,ふくつのこころ,75,115,65,55,65,112,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/745.png
+745.2,745,ルガルガン(まよなか),Lycanroc Midnight Form,いわ,なし,するどいめ,やるき,ノーガード,85,115,75,55,75,82,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/745-m.png
+745.3,745,ルガルガン(たそがれ),Lycanroc Dusk Form,いわ,なし,かたいツメ,なし,なし,75,117,65,55,65,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/745-t.png
+746.1,746,ヨワシ(単独),Wishiwashi Solo Form,みず,なし,ぎょぐん,なし,なし,45,20,20,25,25,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/746.png
+746.2,746,ヨワシ(群れ),Wishiwashi School Form,みず,なし,ぎょぐん,なし,なし,45,140,130,140,135,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/746-m-1.png
+747.1,747,ヒドイデ,Mareanie,どく,みず,ひとでなし,じゅうなん,さいせいりょく,50,53,62,43,52,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/747.png
+748.1,748,ドヒドイデ,Toxapex,どく,みず,ひとでなし,じゅうなん,さいせいりょく,50,63,152,53,142,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/748.png
+749.1,749,ドロバンコ,Mudbray,じめん,なし,マイペース,じきゅうりょく,せいしんりょく,70,100,70,45,55,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/749.png
+750.1,750,バンバドロ,Mudsdale,じめん,なし,マイペース,じきゅうりょく,せいしんりょく,100,125,100,55,85,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/750.png
+751.1,751,シズクモ,Dewpider,みず,むし,すいほう,ちょすい,なし,38,40,52,40,72,27,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/751.png
+752.1,752,オニシズクモ,Araquanid,みず,むし,すいほう,ちょすい,なし,68,70,92,50,132,42,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/752.png
+753.1,753,カリキリ,Fomantis,くさ,なし,リーフガード,あまのじゃく,なし,40,55,35,50,35,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/753.png
+754.1,754,ラランテス,Lurantis,くさ,なし,リーフガード,あまのじゃく,なし,70,105,90,80,90,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/754.png
+755.1,755,ネマシュ,Morelull,くさ,フェアリー,はっこう,ほうし,あめうけざら,40,35,55,65,75,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/755.png
+756.1,756,マシェード,Shiinotic,くさ,フェアリー,はっこう,ほうし,あめうけざら,60,45,80,90,100,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/756.png
+757.1,757,ヤトウモリ,Salandit,どく,ほのお,ふしょく,どんかん,なし,48,44,40,71,40,77,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/757.png
+758.1,758,エンニュート,Salazzle,どく,ほのお,ふしょく,どんかん,なし,68,64,60,111,60,117,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/758.png
+759.1,759,ヌイコグマ,Stufful,ノーマル,かくとう,もふもふ,ぶきよう,メロメロボディ,70,75,50,45,50,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/759.png
+760.1,760,キテルグマ,Bewear,ノーマル,かくとう,もふもふ,ぶきよう,きんちょうかん,120,125,80,55,60,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/760.png
+761.1,761,アマカジ,Bounsweet,くさ,なし,リーフガード,どんかん,スイートベール,42,30,38,30,38,32,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/761.png
+762.1,762,アママイコ,Steenee,くさ,なし,リーフガード,どんかん,スイートベール,52,40,48,40,48,62,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/762.png
+763.1,763,アマージョ,Tsareena,くさ,なし,リーフガード,じょおうのいげん,スイートベール,72,120,98,50,98,72,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/763.png
+764.1,764,キュワワー,Comfey,フェアリー,なし,フラワーベール,ヒーリングシフト,しぜんかいふく,51,52,90,82,110,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/764.png
+765.1,765,ヤレユータン,Oranguru,ノーマル,エスパー,せいしんりょく,テレパシー,きょうせい,90,60,80,90,110,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/765.png
+766.1,766,ナゲツケサル,Passimian,かくとう,なし,レシーバー,まけんき,なし,100,120,90,40,60,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/766.png
+767.1,767,コソクムシ,Wimpod,むし,みず,にげごし,なし,なし,25,35,40,20,30,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/767.png
+768.1,768,グソクムシャ,Golisopod,むし,みず,ききかいひ,なし,なし,75,125,140,60,90,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/768.png
+769.1,769,スナバァ,Sandygast,ゴースト,じめん,みずがため,すながくれ,なし,55,55,80,70,45,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/769.png
+770.1,770,シロデスナ,Palossand,ゴースト,じめん,みずがため,すながくれ,なし,85,75,110,100,75,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/770.png
+771.1,771,ナマコブシ,Pyukumuku,みず,なし,とびだすなかみ,てんねん,なし,55,60,130,30,130,5,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/771.png
+772.1,772,タイプ：ヌル,Type: Null,ノーマル,なし,カブトアーマー,なし,なし,95,95,95,95,95,59,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/772.png
+773.1,773,シルヴァディ,Silvally,ノーマル,なし,ARシステム,なし,なし,95,95,95,95,95,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/773.png
+774.1,774,メテノ(流星),Minior Meteor Form,いわ,ひこう,リミットシールド,なし,なし,60,60,100,60,100,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/774.png
+774.2,774,メテノ(コア),Minior Core,いわ,ひこう,リミットシールド,なし,なし,60,60,100,60,100,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/774-k.png
+775.1,775,ネッコアラ,Komala,ノーマル,なし,ぜったいねむり,なし,なし,65,115,65,75,95,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/775.png
+776.1,776,バクガメス,Turtonator,ほのお,ドラゴン,シェルアーマー,なし,なし,60,78,135,91,85,36,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/776.png
+777.1,777,トゲデマル,Togedemaru,でんき,はがね,てつのトゲ,ひらいしん,がんじょう,65,98,63,40,73,96,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/777.png
+778.1,778,ミミッキュ,Mimikyu,ゴースト,フェアリー,ばけのかわ,なし,なし,55,90,80,50,105,96,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/778.png
+779.1,779,ハギギシリ,Bruxish,みず,エスパー,ビビッドボディ,がんじょうあご,ミラクルスキン,68,105,70,70,70,92,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/779.png
+780.1,780,ジジーロン,Drampa,ノーマル,ドラゴン,ぎゃくじょう,そうしょく,ノーてんき,78,60,85,135,91,36,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/780.png
+781.1,781,ダダリン,Dhelmise,ゴースト,くさ,はがねつかい,なし,なし,70,131,100,86,90,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/781.png
+782.1,782,ジャラコ,Jangmo-o,ドラゴン,なし,ぼうだん,ぼうおん,ぼうじん,45,55,65,45,45,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/782.png
+783.1,783,ジャランゴ,Hakamo-o,ドラゴン,かくとう,ぼうだん,ぼうおん,ぼうじん,55,75,90,65,70,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/783.png
+784.1,784,ジャラランガ,Kommo-o,ドラゴン,かくとう,ぼうだん,ぼうおん,ぼうじん,75,110,125,100,105,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/784.png
+785.1,785,カプ・コケコ,Tapu Koko,でんき,フェアリー,エレキメイカー,テレパシー,なし,70,115,85,95,75,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/785.png
+786.1,786,カプ・テテフ,Tapu Lele,エスパー,フェアリー,サイコメイカー,テレパシー,なし,70,85,75,130,115,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/786.png
+787.1,787,カプ・ブルル,Tapu Bulu,くさ,フェアリー,グラスメイカー,テレパシー,なし,70,130,115,85,95,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/787.png
+788.1,788,カプ・レヒレ,Tapu Fini,みず,フェアリー,ミストメイカー,テレパシー,なし,70,75,115,95,130,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/788.png
+789.1,789,コスモッグ,Cosmog,エスパー,なし,てんねん,なし,なし,43,29,31,29,31,37,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/789.png
+790.1,790,コスモウム,Cosmoem,エスパー,なし,がんじょう,なし,なし,43,29,131,29,131,37,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/790.png
+791.1,791,ソルガレオ,Solgaleo,エスパー,はがね,メタルプロテクト,なし,なし,137,137,107,113,89,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/791.png
+792.1,792,ルナアーラ,Lunala,エスパー,ゴースト,ファントムガード,なし,なし,137,113,89,137,107,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/792.png
+793.1,793,ウツロイド,Nihilego,いわ,どく,ビーストブースト,なし,なし,109,53,47,127,131,103,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/793.png
+794.1,794,マッシブーン,Buzzwole,むし,かくとう,ビーストブースト,なし,なし,107,139,139,53,53,79,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/794.png
+795.1,795,フェローチェ,Pheromosa,むし,かくとう,ビーストブースト,なし,なし,71,137,37,137,37,151,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/795.png
+796.1,796,デンジュモク,Xurkitree,でんき,なし,ビーストブースト,なし,なし,83,89,71,173,71,83,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/796.png
+797.1,797,テッカグヤ,Celesteela,はがね,ひこう,ビーストブースト,なし,なし,97,101,103,107,101,61,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/797.png
+798.1,798,カミツルギ,Kartana,くさ,はがね,ビーストブースト,なし,なし,59,181,131,59,31,109,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/798.png
+799.1,799,アクジキング,Guzzlord,あく,ドラゴン,ビーストブースト,なし,なし,223,101,53,97,53,43,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/799.png
+800.1,800,ネクロズマ,Necrozma,エスパー,なし,プリズムアーマー,なし,なし,97,107,101,127,89,79,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/800.png
+800.2,800,ネクロズマ(日食),Necrozma Dusk Mane,エスパー,はがね,プリズムアーマー,なし,なし,97,157,127,113,109,77,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/800-dm.png
+800.3,800,ネクロズマ(月食),Necrozma Dawn Wings,エスパー,ゴースト,プリズムアーマー,なし,なし,97,113,109,157,127,77,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/800-dw.png
+800.4,800,ウルトラネクロズマ,Ultra Necrozma,エスパー,ドラゴン,ブレインフォース,なし,なし,97,167,97,167,97,129,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/800-u.png
+801.1,801,マギアナ,Magearna,はがね,フェアリー,ソウルハート,なし,なし,80,95,115,130,115,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/801.png
+802.1,802,マーシャドー,Marshadow,かくとう,ゴースト,テクニシャン,なし,なし,90,125,80,90,90,125,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/802.png
+803.1,803,ベベノム,Poipole,どく,なし,ビーストブースト,なし,なし,67,73,67,73,67,73,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/803.png
+804.1,804,アーゴヨン,Naganadel,どく,ドラゴン,ビーストブースト,なし,なし,73,73,73,127,73,121,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/804.png
+805.1,805,ツンデツンデ,Stakataka,いわ,はがね,ビーストブースト,なし,なし,61,131,211,53,101,13,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/805.png
+806.1,806,ズガドーン,Blacephalon,ほのお,ゴースト,ビーストブースト,なし,なし,53,127,53,151,79,107,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/806.png
+807.1,807,ゼラオラ,Zeraora,でんき,なし,ちくでん,なし,なし,88,112,75,102,80,143,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/807.png
+808.1,808,メルタン,Meltan,はがね,なし,じりょく,なし,なし,46,65,65,55,35,34,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/808.png
+809.1,809,メルメタル,Melmetal,はがね,なし,てつのこぶし,なし,なし,135,143,143,80,65,34,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/809.png
+810.1,810,サルノリ,Grookey,くさ,なし,しんりょく,グラスメイカー,なし,50,65,50,40,40,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/810.png
+811.1,811,バチンキー,Thwackey,くさ,なし,しんりょく,グラスメイカー,なし,70,85,70,55,60,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/811.png
+812.1,812,ゴリランダー,Rillaboom,くさ,なし,しんりょく,グラスメイカー,なし,100,125,90,60,70,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/812.png
+813.1,813,ヒバニー,Scorbunny,ほのお,なし,もうか,リベロ,なし,50,71,40,40,40,69,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/813.png
+814.1,814,ラビフット,Raboot,ほのお,なし,もうか,リベロ,なし,65,86,60,55,60,94,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/814.png
+815.1,815,エースバーン,Cinderace,ほのお,なし,もうか,リベロ,なし,80,116,75,65,75,119,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/815.png
+816.1,816,メッソン,Sobble,みず,なし,げきりゅう,スナイパー,なし,50,40,40,70,40,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/816.png
+817.1,817,ジメレオン,Drizzile,みず,なし,げきりゅう,スナイパー,なし,65,60,55,95,55,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/817.png
+818.1,818,インテレオン,Inteleon,みず,なし,げきりゅう,スナイパー,なし,70,85,65,125,65,120,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/818.png
+819.1,819,ホシガリス,Skwovet,ノーマル,なし,ほおぶくろ,くいしんぼう,なし,70,55,55,35,35,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/819.png
+820.1,820,ヨクバリス,Greedent,ノーマル,なし,ほおぶくろ,くいしんぼう,なし,120,95,95,55,75,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/820.png
+821.1,821,ココガラ,Rookidee,ひこう,なし,するどいめ,きんちょうかん,はとむね,38,47,35,33,35,57,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/821.png
+822.1,822,アオガラス,Corvisquire,ひこう,なし,するどいめ,きんちょうかん,はとむね,68,67,55,43,55,77,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/822.png
+823.1,823,アーマーガア,Corviknight,ひこう,はがね,プレッシャー,きんちょうかん,ミラーアーマー,98,87,105,53,85,67,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/823.png
+824.1,824,サッチムシ,Blipbug,むし,なし,むしのしらせ,ふくがん,テレパシー,25,20,20,25,45,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/824.png
+825.1,825,レドームシ,Dottler,むし,エスパー,むしのしらせ,ふくがん,テレパシー,50,35,80,50,90,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/825.png
+826.1,826,イオルブ,Orbeetle,むし,エスパー,むしのしらせ,おみとおし,テレパシー,60,45,110,80,120,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/826.png
+827.1,827,クスネ,Nickit,あく,なし,にげあし,かるわざ,はりこみ,40,28,28,47,52,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/827.png
+828.1,828,フォクスライ,Thievul,あく,なし,にげあし,かるわざ,はりこみ,70,58,58,87,92,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/828.png
+829.1,829,ヒメンカ,Gossifleur,くさ,なし,わたげ,さいせいりょく,ほうし,40,40,60,40,60,10,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/829.png
+830.1,830,ワタシラガ,Eldegoss,くさ,なし,わたげ,さいせいりょく,ほうし,60,50,90,80,120,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/830.png
+831.1,831,ウールー,Wooloo,ノーマル,なし,もふもふ,にげあし,ぼうだん,42,40,55,40,45,48,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/831.png
+832.1,832,バイウールー,Dubwool,ノーマル,なし,もふもふ,ふくつのこころ,ぼうだん,72,80,100,60,90,88,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/832.png
+833.1,833,カムカメ,Chewtle,みず,なし,がんじょうあご,シェルアーマー,すいすい,50,64,50,38,38,44,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/833.png
+834.1,834,カジリガメ,Drednaw,みず,いわ,がんじょうあご,シェルアーマー,すいすい,90,115,90,48,68,74,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/834.png
+835.1,835,ワンパチ,Yamper,でんき,なし,たまひろい,びびり,なし,59,45,50,40,50,26,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/835.png
+836.1,836,パルスワン,Boltund,でんき,なし,がんじょうあご,かちき,なし,69,90,60,90,60,121,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/836.png
+837.1,837,タンドン,Rolycoly,いわ,なし,じょうききかん,たいねつ,もらいび,30,40,50,40,50,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/837.png
+838.1,838,トロッゴン,Carkol,いわ,ほのお,じょうききかん,ほのおのからだ,もらいび,80,60,90,60,70,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/838.png
+839.1,839,セキタンザン,Coalossal,いわ,ほのお,じょうききかん,ほのおのからだ,もらいび,110,80,120,80,90,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/839.png
+840.1,840,カジッチュ,Applin,くさ,ドラゴン,じゅくせい,くいしんぼう,ぼうだん,40,40,80,40,40,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/840.png
+841.1,841,アップリュー,Flapple,くさ,ドラゴン,じゅくせい,くいしんぼう,はりきり,70,110,80,95,60,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/841.png
+842.1,842,タルップル,Appletun,くさ,ドラゴン,じゅくせい,くいしんぼう,あついしぼう,110,85,80,100,80,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/842.png
+843.1,843,スナヘビ,Silicobra,じめん,なし,すなはき,だっぴ,すながくれ,52,57,75,35,50,46,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/843.png
+844.1,844,サダイジャ,Sandaconda,じめん,なし,すなはき,だっぴ,すながくれ,72,107,125,65,70,71,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/844.png
+845.1,845,ウッウ,Cramorant,ひこう,みず,うのミサイル,なし,なし,70,85,55,85,95,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/845.png
+846.1,846,サシカマス,Arrokuda,みず,なし,すいすい,スクリューおびれ,なし,41,63,40,40,30,66,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/846.png
+847.1,847,カマスジョー,Barraskewda,みず,なし,すいすい,スクリューおびれ,なし,61,123,60,60,50,136,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/847.png
+848.1,848,エレズン,Toxel,でんき,どく,びびり,せいでんき,ぶきよう,40,38,35,54,35,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/848.png
+849.1,849,ストリンダー(ハイ),Toxtricity Amped Form,でんき,どく,パンクロック,プラス,テクニシャン,75,98,70,114,70,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/849.png
+849.2,849,ストリンダー(ロー),Toxtricity Low Key Form,でんき,どく,パンクロック,マイナス,テクニシャン,75,98,70,114,70,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/849r.png
+850.1,850,ヤクデ,Sizzlipede,ほのお,むし,もらいび,しろいけむり,ほのおのからだ,50,65,45,50,50,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/850.png
+851.1,851,マルヤクデ,Centiskorch,ほのお,むし,もらいび,しろいけむり,ほのおのからだ,100,115,65,90,90,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/851.png
+852.1,852,タタッコ,Clobbopus,かくとう,なし,じゅうなん,テクニシャン,なし,50,68,60,50,50,32,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/852.png
+853.1,853,オトスパス,Grapploct,かくとう,なし,じゅうなん,テクニシャン,なし,80,118,90,70,80,42,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/853.png
+854.1,854,ヤバチャ,Sinistea,ゴースト,なし,くだけるよろい,のろわれボディ,なし,40,45,45,74,54,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/854.png
+855.1,855,ポットデス,Polteageist,ゴースト,なし,くだけるよろい,のろわれボディ,なし,60,65,65,134,114,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/855.png
+856.1,856,ミブリム,Hatenna,エスパー,なし,いやしのこころ,きけんよち,マジックミラー,42,30,45,56,53,39,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/856.png
+857.1,857,テブリム,Hattrem,エスパー,なし,いやしのこころ,きけんよち,マジックミラー,57,40,65,86,73,49,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/857.png
+858.1,858,ブリムオン,Hatterene,エスパー,フェアリー,いやしのこころ,きけんよち,マジックミラー,57,90,95,136,103,29,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/858.png
+859.1,859,ベロバー,Impidimp,あく,フェアリー,いたずらごころ,おみとおし,わるいてぐせ,45,45,30,55,40,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/859.png
+860.1,860,ギモー,Morgrem,あく,フェアリー,いたずらごころ,おみとおし,わるいてぐせ,65,60,45,75,55,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/860.png
+861.1,861,オーロンゲ,Grimmsnarl,あく,フェアリー,いたずらごころ,おみとおし,わるいてぐせ,95,120,65,95,75,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/861.png
+862.1,862,タチフサグマ,Obstagoon,あく,ノーマル,すてみ,こんじょう,まけんき,93,90,101,60,81,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/862.png
+863.1,863,ニャイキング,Perrserker,はがね,なし,カブトアーマー,かたいツメ,はがねのせいしん,70,110,100,50,60,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/863.png
+864.1,864,サニゴーン,Cursola,ゴースト,なし,くだけるよろい,ほろびのボディ,なし,60,95,50,145,130,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/864.png
+865.1,865,ネギガナイト,Sirfetch'd,かくとう,なし,ふくつのこころ,きもったま,なし,62,135,95,68,82,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/865.png
+866.1,866,バリコオル,Mr. Rime,こおり,エスパー,ちどりあし,バリアフリー,アイスボディ,80,85,75,110,100,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/866.png
+867.1,867,デスバーン,Runerigus,じめん,ゴースト,さまようたましい,なし,なし,58,95,145,50,105,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/867.png
+868.1,868,マホミル,Milcery,フェアリー,なし,スイートベール,アロマベール,なし,45,40,40,50,61,34,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/868.png
+869.1,869,マホイップ,Alcremie,フェアリー,なし,スイートベール,アロマベール,なし,65,60,75,110,121,64,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/869.png
+870.1,870,タイレーツ,Falinks,かくとう,なし,カブトアーマー,まけんき,なし,65,100,100,70,60,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/870.png
+871.1,871,バチンウニ,Pincurchin,でんき,なし,ひらいしん,エレキメイカー,なし,48,101,95,91,85,15,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/871.png
+872.1,872,ユキハミ,Snom,こおり,むし,りんぷん,こおりのりんぷん,なし,30,25,35,45,30,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/872.png
+873.1,873,モスノウ,Frosmoth,こおり,むし,りんぷん,こおりのりんぷん,なし,70,65,60,125,90,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/873.png
+874.1,874,イシヘンジン,Stonjourner,いわ,なし,パワースポット,なし,なし,100,125,135,20,20,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/874.png
+875.1,875,コオリッポ(アイス),Eiscue Ice Face,こおり,なし,アイスフェイス,なし,なし,75,80,110,65,90,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/875.png
+875.2,875,コオリッポ(ナイス),Eiscue Noice Face,こおり,なし,アイスフェイス,なし,なし,75,80,70,65,50,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/875-n.png
+876.1,876,イエッサン♂,Indeedee,エスパー,ノーマル,せいしんりょく,シンクロ,サイコメイカー,60,65,55,105,95,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/876.png
+876.2,876,イエッサン♀,Indeedee,エスパー,ノーマル,マイペース,シンクロ,サイコメイカー,70,55,65,95,105,85,https://img.yakkun.com/poke/icon32/n876f.gif
+877.1,877,モルペコ,Morpeko Full Berry Mode,でんき,あく,はらぺこスイッチ,なし,なし,58,95,58,70,58,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/877.png
+878.1,878,ゾウドウ,Cufant,はがね,なし,ちからずく,ヘヴィメタル,なし,72,80,49,40,49,40,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/878.png
+879.1,879,ダイオウドウ,Copperajah,はがね,なし,ちからずく,ヘヴィメタル,なし,122,130,69,80,69,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/879.png
+880.1,880,パッチラゴン,Dracozolt,でんき,ドラゴン,ちくでん,はりきり,すなかき,90,100,90,80,70,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/880.png
+881.1,881,パッチルドン,Arctozolt,でんき,こおり,ちくでん,せいでんき,ゆきかき,90,100,90,90,80,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/881.png
+882.1,882,ウオノラゴン,Dracovish,みず,ドラゴン,ちょすい,がんじょうあご,すなかき,90,90,100,70,80,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/882.png
+883.1,883,ウオチルドン,Arctovish,みず,こおり,ちょすい,アイスボディ,ゆきかき,90,90,100,80,90,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/883.png
+884.1,884,ジュラルドン,Duraludon,はがね,ドラゴン,ライトメタル,ヘヴィメタル,すじがねいり,70,95,115,120,50,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/884.png
+885.1,885,ドラメシヤ,Dreepy,ドラゴン,ゴースト,クリアボディ,すりぬけ,のろわれボディ,28,60,30,40,30,82,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/885.png
+886.1,886,ドロンチ,Drakloak,ドラゴン,ゴースト,クリアボディ,すりぬけ,のろわれボディ,68,80,50,60,50,102,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/886.png
+887.1,887,ドラパルト,Dragapult,ドラゴン,ゴースト,クリアボディ,すりぬけ,のろわれボディ,88,120,75,100,75,142,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/887.png
+888.1,888,ザシアン,Zacian Crowned Sword,フェアリー,なし,ふとうのけん,なし,なし,92,120,115,80,115,138,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/888-c.png
+888.2,888,ザシアン(王),Zacian Hero of Many Battles,フェアリー,はがね,ふとうのけん,なし,なし,92,150,115,80,115,148,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/888.png
+889.1,889,ザマゼンタ,Zamazenta Crowned Shield,かくとう,なし,ふくつのたて,なし,なし,92,120,115,80,115,138,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/889-c.png
+889.2,889,ザマゼンタ(王),Zamazenta Hero of Many Battles,かくとう,はがね,ふくつのたて,なし,なし,92,120,140,80,140,128,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/889.png
+890.1,890,ムゲンダイナ,Eternatus,どく,ドラゴン,プレッシャー,なし,なし,140,85,95,145,95,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/890.png
+891.1,891,ダクマ,Kubfu,かくとう,なし,せいしんりょく,なし,なし,60,90,60,53,50,72,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/891.png
+892.1,892,ウーラオス(いちげき),Urshifu Single Strike,かくとう,あく,ふかしのこぶし,なし,なし,100,130,100,63,60,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/892.png
+892.2,892,ウーラオス(れんげき),Urshifu Rapid Strike,かくとう,みず,ふかしのこぶし,なし,なし,100,130,100,63,60,97,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/892r.png
+893.1,893,ザルード,Zarude,あく,くさ,リーフガード,なし,なし,105,120,105,70,95,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/893.png
+894.1,894,レジエレキ,Regieleki,でんき,なし,トランジスタ,なし,なし,80,100,50,100,50,200,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/894.png
+895.1,895,レジドラゴ,Regidrago,ドラゴン,なし,りゅうのあぎと,なし,なし,200,100,50,100,50,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/895.png
+896.1,896,ブリザポス,Glastrier,こおり,なし,しろのいななき,なし,なし,100,145,130,65,110,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/896.png
+897.1,897,レイスポス,Spectrier,ゴースト,なし,くろのいななき,なし,なし,100,65,60,145,80,130,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/897.png
+898.1,898,バドレックス,Calyrex,エスパー,くさ,きんちょうかん,なし,なし,100,80,80,80,80,80,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/898.png
+898.2,898,バドレックス(はくば),Calyrex Ice Rider,エスパー,こおり,じんばいったい,なし,なし,100,165,150,85,130,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/898-i.png
+898.3,898,バドレックス(こくば),Calyrex Shadow Rider,エスパー,ゴースト,じんばいったい,なし,なし,100,85,80,165,100,150,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/04/898-s.png
+899.1,899,アヤシシ,Wyrdeer,ノーマル,エスパー,いかく,おみとおし,そうしょく,103,105,72,105,75,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/899.png
+900.1,900,バサギリ,Kleavor,むし,いわ,むしのしらせ,ちからずく,きれあじ,70,135,95,45,70,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/03/900.png
+901.1,901,ガチグマ,Ursaluna,じめん,ノーマル,こんじょう,ぼうだん,きんちょうかん,130,140,105,45,80,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/901.png
+902.1,902,イダイトウ♂,Basculegion,みず,ゴースト,すいすい,てきおうりょく,かたやぶり,120,112,65,80,75,78,https://img.yakkun.com/poke/icon32/n902.gif
+902.2,902,イダイトウ♀,Basculegion,みず,ゴースト,すいすい,てきおうりょく,かたやぶり,120,92,65,100,75,78,https://img.yakkun.com/poke/icon32/n902f.gif
+903.1,903,オオニューラ,Sneasler,かくとう,どく,プレッシャー,かるわざ,どくしゅ,80,130,60,40,80,120,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/903.png
+904.1,904,ハリーマン,Overqwill,あく,どく,どくのトゲ,すいすい,いかく,85,115,95,65,65,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/904.png
+905.1,905,ラブトロス(化身),Enamorus Incarnate Form,フェアリー,ひこう,メロメロボディ,あまのじゃく,なし,74,115,70,135,80,106,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/905.png
+905.2,905,ラブトロス(霊獣),Enamorus Therian Form,フェアリー,ひこう,ぼうじん,なし,なし,74,115,110,135,100,46,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/01/905-t.png
+906.1,906,ニャオハ,Sprigatito,くさ,なし,しんりょく,へんげんじざい,なし,40,61,54,45,45,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/906ニャオハ.png
+907.1,907,ニャローテ,Floragato,くさ,なし,しんりょく,へんげんじざい,なし,61,80,63,60,63,83,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/907ニャローテ.png
+908.1,908,マスカーニャ,Meowscarada,くさ,あく,しんりょく,へんげんじざい,なし,76,110,70,81,70,123,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/908マスカーニャ.png
+909.1,909,ホゲータ,Fuecoco,ほのお,なし,もうか,てんねん,なし,67,45,59,63,40,36,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/909ホゲータ.png
+910.1,910,アチゲータ,Crocalor,ほのお,なし,もうか,てんねん,なし,81,55,78,90,58,49,https://pokemon-irasuto-taizen.com/wp-content/uploads/2021/06/910アチゲータ.png
+911.1,911,ラウドボーン,Skeledirge,ほのお,ゴースト,もうか,てんねん,なし,104,75,100,110,75,66,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/911ラウドボーン.png
+912.1,912,クワッス,Quaxly,みず,なし,げきりゅう,じしんかじょう,なし,55,65,45,50,45,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/912クワッス.png
+913.1,913,ウェルカモ,Quaxwell,みず,なし,げきりゅう,じしんかじょう,なし,70,85,65,65,60,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/913ウェルカモ.png
+914.1,914,ウェーニバル,Quaquaval,みず,かくとう,げきりゅう,じしんかじょう,なし,85,120,80,85,75,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/914ウェーニバル.png
+915.1,915,グルトン,Lechonk,ノーマル,なし,アロマベール,くいしんぼう,あついしぼう,54,45,40,35,45,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/915グルトン.png
+916.1,916,パフュートン♂,Oinkologne,ノーマル,なし,とれないにおい,くいしんぼう,あついしぼう,110,100,75,59,80,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/916パフュートン.png
+916.2,916,パフュートン♀,Oinkologne,ノーマル,なし,アロマベール,くいしんぼう,あついしぼう,115,90,70,59,90,65,https://img.yakkun.com/poke/icon32/n916f.gif
+917.1,917,タマンチュラ,Tarountula,むし,なし,ふみん,はりこみ,なし,35,41,45,29,40,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/918タマンチュラ.png
+918.1,918,ワナイダー,Spidops,むし,なし,ふみん,はりこみ,なし,60,79,92,52,86,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/919ワナイダー.png
+919.1,919,マメバッタ,Nymble,むし,なし,むしのしらせ,いろめがね,なし,33,46,40,21,25,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/920マメバッタ.png
+920.1,920,エクスレッグ,Lokix,むし,あく,むしのしらせ,いろめがね,なし,71,102,78,52,55,92,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/921エクスレッグ.png
+921.1,921,パモ,Pawmi,でんき,なし,せいでんき,しぜんかいふく,てつのこぶし,45,50,20,40,25,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/954パモ.png
+922.1,922,パモット,Pawmo,でんき,かくとう,ちくでん,しぜんかいふく,てつのこぶし,60,75,40,50,40,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/955パモット.png
+923.1,923,パーモット,Pawmot,でんき,かくとう,ちくでん,しぜんかいふく,てつのこぶし,70,115,70,70,60,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/956パーモット.png
+924.1,924,ワッカネズミ,Tandemaus,ノーマル,なし,にげあし,ものひろい,マイペース,50,50,45,40,45,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/945ワッカネズミ.png
+925.1,925,イッカネズミ,Maushold Family of Three,ノーマル,なし,フレンドガード,ほおぶくろ,テクニシャン,74,75,70,65,75,111,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/946イッカネズミ（３びきかぞく）.png
+926.1,926,パピモッチ,Fidough,フェアリー,なし,マイペース,ぶきよう,なし,37,55,70,30,55,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/970パピモッチ.png
+927.1,927,バウッツェル,Dachsbun,フェアリー,なし,こんがりボディ,アロマベール,なし,57,80,115,50,80,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/971バウッツェル.png
+928.1,928,ミニーブ,Smoliv,くさ,ノーマル,はやおき,しゅうかく,なし,41,35,45,58,51,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/935ミニーブ.png
+929.1,929,オリーニョ,Dollry,くさ,ノーマル,はやおき,しゅうかく,なし,52,53,60,78,78,33,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/936オリーニョ.png
+930.1,930,オリーヴァ,Arboliva,くさ,ノーマル,こぼれダネ,しゅうかく,なし,78,69,90,125,109,39,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/937オリーヴァ.png
+931.1,931,イキリンコ(青・緑),Squawkabilly Green Plumage,ノーマル,ひこう,いかく,はりきり,こんじょう,82,96,51,45,51,92,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/960イキリンコ.png
+931.2,931,イキリンコ(白・黄),Squawkabilly Yellow Plumage,ノーマル,ひこう,いかく,はりきり,ちからずく,82,96,51,45,51,92,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/11/960-y.png
+932.1,932,コジオ,Nacli,いわ,なし,きよめのしお,がんじょう,クリアボディ,55,55,75,35,35,25,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/963コジオ.png
+933.1,933,ジオヅム,Naclistack,いわ,なし,きよめのしお,がんじょう,クリアボディ,60,60,100,35,65,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/964ジオヅム.png
+934.1,934,キョジオーン,Garganad,いわ,なし,きよめのしお,がんじょう,クリアボディ,100,100,130,45,90,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/965キョジオーン.png
+935.1,935,カルボウ,Charcadet,ほのお,なし,もらいび,ほのおのからだ,なし,40,50,40,50,40,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1003カルボウ.png
+936.1,936,グレンアルマ,Armarouge,ほのお,エスパー,もらいび,くだけるよろい,なし,85,60,100,125,80,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1004グレンアルマ.png
+937.1,937,ソウブレイズ,Ceruledge,ほのお,ゴースト,もらいび,くだけるよろい,なし,75,125,80,60,100,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1005ソウブレイズ.png
+938.1,938,ズピカ,Tadbulb,でんき,なし,マイペース,せいでんき,しめりけ,61,31,41,59,35,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/940ズピカ.png
+939.1,939,ハラバリー,Bellibolt,でんき,なし,でんきにかえる,せいでんき,しめりけ,109,64,91,103,83,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/941ハラバリー.png
+940.1,940,カイデン,Wattrel,でんき,ひこう,ふうりょくでんき,ちくでん,かちき,40,40,35,55,40,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/957カイデン.png
+941.1,941,タイカイデン,Kilowattrel,でんき,ひこう,ふうりょくでんき,ちくでん,かちき,70,70,60,105,60,125,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/958タイカイデン.png
+942.1,942,オラチフ,Maschiff,あく,なし,いかく,にげあし,はりこみ,60,78,60,40,51,51,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/972オラチフ.png
+943.1,943,マフィティフ,Mabosstiff,あく,なし,いかく,ばんけん,はりこみ,80,120,90,60,70,85,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/973マフィティフ.png
+944.1,944,シルシュルー,Shroodle,どく,ノーマル,かるわざ,わるいてぐせ,いたずらごころ,40,65,35,40,35,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/968シルシュルー.png
+945.1,945,タギングル,Grafaiai,どく,ノーマル,かるわざ,どくしゅ,いたずらごころ,63,95,65,80,72,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/969タギングル.png
+946.1,946,アノクサ,Bramblin,くさ,ゴースト,かぜのり,すりぬけ,なし,40,65,30,45,35,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/974アノクサ.png
+947.1,947,アノホラグサ,Brambleghast,くさ,ゴースト,かぜのり,すりぬけ,なし,55,115,70,80,70,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/975アノホラグサ.png
+948.1,948,ノノクラゲ,Toedscool,じめん,くさ,きんしのちから,なし,なし,40,40,35,50,100,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1006ノノクラゲ.png
+949.1,949,リククラゲ,Toedscruel,じめん,くさ,きんしのちから,なし,なし,80,70,65,80,120,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1007リククラゲ.png
+950.1,950,ガケガニ,Klawf,いわ,なし,いかりのこうら,シェルアーマー,さいせいりょく,70,100,115,35,55,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/962ガケガニ.png
+951.1,951,カプサイジ,Capsakid,くさ,なし,ようりょくそ,ふみん,ぶきよう,50,62,40,62,40,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/938カプサイジ.png
+952.1,952,スコヴィラン,Scovillain,くさ,ほのお,ようりょくそ,ふみん,ムラっけ,65,108,65,108,65,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/939スコヴィラン.png
+953.1,953,シガロコ,Rellor,むし,なし,ふくがん,だっぴ,なし,41,50,60,31,58,30,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/922シガロコ.png
+954.1,954,ベラカス,Rabsca,むし,エスパー,シンクロ,テレパシー,なし,75,50,85,115,100,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/923ベラカス.png
+955.1,955,ヒラヒナ,Flittle,エスパー,なし,きけんよち,おみとおし,かそく,30,35,30,55,30,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/926ヒラヒナ.png
+956.1,956,クエスパトラ,Espartha,エスパー,なし,びんじょう,おみとおし,かそく,95,60,60,101,60,105,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/927クエスパトラ.png
+957.1,957,カヌチャン,Tinkatink,フェアリー,はがね,かたやぶり,マイペース,わるいてぐせ,50,45,45,35,64,58,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1000カヌチャン.png
+958.1,958,ナカヌチャン,Tinkatuff,フェアリー,はがね,かたやぶり,マイペース,わるいてぐせ,65,55,55,45,82,78,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1001ナカヌチャン.png
+959.1,959,デカヌチャン,Tinkaton,フェアリー,はがね,かたやぶり,マイペース,わるいてぐせ,85,75,77,70,105,94,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1002デカヌチャン.png
+960.1,960,ウミディグダ,Wiglett,みず,なし,ぬめぬめ,びびり,すながくれ,10,55,25,35,25,95,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/929ウミディグダ.png
+961.1,961,ウミトリオ,Wugtrio,みず,なし,ぬめぬめ,びびり,すながくれ,35,100,50,50,70,120,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/930ウミトリオ.png
+962.1,962,オトシドリ,Bombirdier,ひこう,あく,はとむね,するどいめ,いわはこび,70,103,85,60,85,82,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/959オトシドリ.png
+963.1,963,ナミイルカ,Finizen,みず,なし,みずのベール,なし,なし,70,45,40,45,40,75,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/933ナミイルカ.png
+964.1,964,イルカマン(ナイーブ),Palafin Hero Form,みず,なし,マイティチェンジ,なし,なし,100,70,72,53,62,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/934-hイルカマン（マイティフォルム）.png
+964.2,964,イルカマン(マイティ),Palafin Zero Form,みず,なし,マイティチェンジ,なし,なし,100,160,97,106,87,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/934イルカマン（ナイーブフォルム）.png
+965.1,965,ブロロン,Varoom,はがね,どく,ぼうじん,スロースタート,なし,45,70,63,30,45,47,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/942ブロロン.png
+966.1,966,ブロロローム,Revavroom,はがね,どく,ぼうじん,フィルター,なし,80,119,90,54,67,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/943ブロロローム.png
+967.1,967,モトトカゲ,Cyclizar,ドラゴン,ノーマル,だっぴ,さいせいりょく,なし,70,95,65,85,65,121,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/953モトトカゲ.png
+968.1,968,ミミズズ,Orthworm,はがね,なし,どしょく,すながくれ,なし,70,85,145,60,55,65,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/944ミミズズ.png
+969.1,969,キラーメ,Glimmet,いわ,どく,どくげしょう,ふしょく,なし,48,35,42,105,60,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/966キラーメ.png
+970.1,970,キラフロル,Glimmora,いわ,どく,どくげしょう,ふしょく,なし,83,55,90,130,81,86,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/967キラフロル.png
+971.1,971,ボチ,Greavard,ゴースト,なし,ものひろい,もふもふ,なし,50,61,60,30,55,34,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/924ボチ.png
+972.1,972,ハカドッグ,Houndstone,ゴースト,なし,すなかき,もふもふ,なし,72,101,100,50,97,68,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/925ハカドッグ.png
+973.1,973,カラミンゴ,Flamigo,ひこう,かくとう,きもったま,ちどりあし,きょうえん,82,115,74,75,64,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/961カラミンゴ.png
+974.1,974,アルクジラ,Cetoddle,こおり,なし,あついしぼう,ゆきがくれ,ちからずく,108,68,45,30,40,43,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/947アルクジラ.png
+975.1,975,ハルクジラ,Cetitan,こおり,なし,あついしぼう,ゆきかき,ちからずく,170,113,65,45,55,73,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/948ハルクジラ.png
+976.1,976,ミガルーサ,Veluza,みず,エスパー,かたやぶり,きれあじ,なし,90,102,73,78,65,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/932ミガルーサ.png
+977.1,977,ヘイラッシャ,Dondozo,みず,なし,てんねん,どんかん,みずのベール,150,100,115,65,65,35,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/931ヘイラッシャ.png
+978.1,978,シャリタツ,Tatsugiri Curly Form,ドラゴン,みず,しれいとう,よびみず,なし,68,50,60,120,95,82,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/952シャリタツ.png
+979.1,979,コノヨザル,Amihilape,かくとう,ゴースト,やるき,せいしんりょく,まけんき,110,115,80,50,90,90,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1010コノヨザル.png
+980.1,980,ドオー,Clodsire,どく,じめん,どくのトゲ,ちょすい,てんねん,130,75,60,45,100,20,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1009ドオー.png
+981.1,981,リキキリン,Farigiraf,ノーマル,エスパー,はんすう,テイルアーマー,そうしょく,120,90,70,110,70,60,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/928リキキリン.png
+982.1,982,ノココッチ,Dundunsparce Two-Segment Form,ノーマル,なし,てんのめぐみ,にげあし,びびり,125,100,80,85,75,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/917ノココッチ.png
+983.1,983,ドドゲザン,Kingambit,あく,はがね,まけんき,そうだいしょう,プレッシャー,100,135,120,60,85,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/1008ドドゲザン.png
+984.1,984,イダイナキバ,Great Tusk,じめん,かくとう,こだいかっせい,なし,なし,115,131,131,53,53,87,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/978イダイナキバ.png
+985.1,985,サケブシッポ,Scream Tail,フェアリー,エスパー,こだいかっせい,なし,なし,115,65,99,65,115,111,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/982サケブシッポ.png
+986.1,986,アラブルタケ,Brute Bonnet,くさ,あく,こだいかっせい,なし,なし,111,127,99,79,99,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/979アラブルタケ.png
+987.1,987,ハバタクカミ,Flutter Mane,ゴースト,フェアリー,こだいかっせい,なし,なし,55,55,55,135,135,135,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/983ハバタクカミ.png
+988.1,988,チヲハウハネ,Slither Wing,むし,かくとう,こだいかっせい,なし,なし,85,135,79,85,105,81,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/984チヲハウハネ.png
+989.1,989,スナノケガワ,Sandy Shocks,でんき,じめん,こだいかっせい,なし,なし,85,81,97,121,85,101,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/981スナノケガワ.png
+990.1,990,テツノワダチ,Iron Treads,じめん,はがね,クォークチャージ,なし,なし,90,112,120,72,70,106,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/986テツノワダチ.png
+991.1,991,テツノツツミ,Iron Bundle,こおり,みず,クォークチャージ,なし,なし,56,80,114,124,60,136,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/992テツノツツミ.png
+992.1,992,テツノカイナ,Iron Hands,かくとう,でんき,クォークチャージ,なし,なし,154,140,108,50,68,50,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/989テツノカイナ.png
+993.1,993,テツノコウベ,Iron Jugulis,あく,ひこう,クォークチャージ,なし,なし,94,80,86,122,80,108,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/990テツノコウベ.png
+994.1,994,テツノドクガ,Iron Moth,ほのお,どく,クォークチャージ,なし,なし,80,70,60,140,110,110,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/988テツノドクガ.png
+995.1,995,テツノイバラ,Iron Thorns,いわ,でんき,クォークチャージ,なし,なし,100,134,110,70,84,72,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/991テツノイバラ.png
+996.1,996,セビエ,Arbolovia,ドラゴン,こおり,ねつこうかん,アイスボディ,なし,65,75,45,35,45,55,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/949セビエ.png
+997.1,997,セゴール,Arctibax,ドラゴン,こおり,ねつこうかん,アイスボディ,なし,90,95,66,45,65,62,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/950セゴール.png
+998.1,998,セグレイブ,Baxcalibur,ドラゴン,こおり,ねつこうかん,アイスボディ,なし,115,145,92,75,86,87,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/951セグレイブ.png
+999.1,999,コレクレー(はこ),Gimmighoul （Chest Form）,ゴースト,なし,びびり,なし,なし,45,30,70,75,70,10,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/976コレクレー.png
+1000.1,1000,サーフゴー,Gholdengo,はがね,ゴースト,おうごんのからだ,なし,なし,87,60,95,133,91,84,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/977サーフゴー.png
+1001.1,1001,チオンジェン,Wo-Chien,あく,くさ,わざわいのおふだ,なし,なし,85,85,100,95,135,70,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/996チオンジェン.png
+1002.1,1002,パオジアン,Chien-Pao,あく,こおり,わざわいのつるぎ,なし,なし,80,120,80,90,65,135,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/995パオジアン.png
+1003.1,1003,ディンルー,Ting-Lu,あく,じめん,わざわいのうつわ,なし,なし,155,110,125,55,80,45,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/994ディンルー.png
+1004.1,1004,イーユイ,Chi-Yu,あく,ほのお,わざわいのたま,なし,なし,55,80,80,135,120,100,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/997イーユイ.png
+1005.1,1005,トドロクツキ,Roaring Moon,ドラゴン,あく,こだいかっせい,なし,なし,105,139,71,55,101,119,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/11/985トドロクツキ.png
+1006.1,1006,テツノブジン,Iron Valiant,フェアリー,かくとう,クォークチャージ,なし,なし,74,130,90,120,60,116,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/993テツノブジン.png
+1007.1,1007,コライドン,Koraidon,かくとう,ドラゴン,ひひいろのこどう,なし,なし,100,135,115,85,100,135,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/998コライドン.png
+1008.1,1008,ミライドン,Miraidon,でんき,ドラゴン,ハドロンエンジン,なし,なし,100,85,100,135,115,135,https://pokemon-irasuto-taizen.com/wp-content/uploads/2022/06/999ミライドン.png
+1009.1,1009,ウネルミナモ,Walking Wake,みず,ドラゴン,こだいかっせい,なし,なし,99,83,91,125,83,109,https://pokemon-irasuto-taizen.com/wp-content/uploads/2023/02/1100ウネルミナモ.png
+1010.1,1010,テツノイサハ,Iron Leaves ,くさ,エスパー,クォークチャージ,なし,なし,90,130,88,70,108,104,https://pokemon-irasuto-taizen.com/wp-content/uploads/2023/02/1101テツノイサハ.png

@@ -22,3 +22,13 @@ services:
     tty: true
     logging:
       driver: "none"
+  # PostgreSQLデータベース
+  db:
+    image: postgres:15
+    volumes:
+      - ./app/SQL/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./app/data:/data
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
