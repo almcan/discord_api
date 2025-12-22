@@ -2,7 +2,7 @@
 -- 1. ポケモン図鑑 (Pokedex)
 -- ==========================================
 CREATE TABLE pokedex (
-    id NUMERIC(4, 1) PRIMARY KEY,
+    id NUMERIC(5, 1) PRIMARY KEY,
     no INTEGER,
     name VARCHAR(50),
     eng VARCHAR(50),
@@ -69,3 +69,19 @@ CREATE TABLE moves (
 
 -- データをインポート
 COPY moves FROM '/data/move.csv' DELIMITER ',' CSV HEADER NULL '-';
+-- ==========================================
+-- 4. 言語データ (Language) ← これを追加！
+-- ==========================================
+CREATE TABLE lang (
+    id NUMERIC(5, 1) PRIMARY KEY,
+    jpn VARCHAR(50),
+    eng VARCHAR(50),
+    ger VARCHAR(50),
+    fra VARCHAR(50),
+    kor VARCHAR(50),
+    cs VARCHAR(50),
+    ct VARCHAR(50)
+);
+
+-- データインポート
+COPY lang FROM '/data/lang_name.csv' DELIMITER ',' CSV HEADER;

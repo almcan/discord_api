@@ -104,8 +104,8 @@ class Pokeconf(commands.Cog):
                 pname = row_poke['name']
 
                 # 2. 種族値の取得
-                # bstテーブル: id, h, a, b, c, d, s
-                query_bst = "SELECT h, a, b, c, d, s FROM bst WHERE id = $1"
+                # pokedexテーブル: id, name, h, a, b, c, d, s
+                query_bst = "SELECT h, a, b, c, d, s FROM pokedex WHERE id = $1"
                 row_bst = await conn.fetchrow(query_bst, pid)
 
                 if not row_bst:

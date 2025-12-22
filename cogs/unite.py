@@ -41,7 +41,7 @@ class Unite(commands.Cog):
     async def start_draft(self, ctx):
         """ポケモンドラフトを開始する"""
         if ctx.channel.id in self.draft_sessions:
-            await ctx.send("⚠️ すでにドラフトが進行中です！")
+            await ctx.send("すでにドラフトが進行中です！")
             return
 
         players = ["先行", "後攻"]
@@ -70,17 +70,17 @@ class Unite(commands.Cog):
     async def ban_pokemon(self, ctx, *, pokemon: str):
         """ポケモンをBANする"""
         if ctx.channel.id not in self.draft_sessions:
-            await ctx.send("⚠️ ドラフトが開始されていません！`!draft` で開始してください。")
+            await ctx.send("ドラフトが開始されていません！`!draft` で開始してください。")
             return
 
         session = self.draft_sessions[ctx.channel.id]
         if session["current_phase"] != "ban":
-            await ctx.send("⚠️ 現在はBANフェーズではありません！")
+            await ctx.send("現在はBANフェーズではありません！")
             return
 
         pokemon = self.converter.to_katakana(pokemon.strip())
         if pokemon not in session["available_pokemon"]:
-            await ctx.send("⚠️ そのポケモンは選択できません（既にBAN/ピック済み、または存在しません）。")
+            await ctx.send("そのポケモンは選択できません（既にBAN/ピック済み、または存在しません）。")
             return
 
         current_player = session["ban_order"][0]
@@ -89,7 +89,7 @@ class Unite(commands.Cog):
         session["ban_order"].append(session["ban_order"].pop(0))
         self.command_history[ctx.channel.id].append({"action": "ban", "pokemon": pokemon, "player": current_player})
 
-        await ctx.send(f"❌ **{current_player}** が **{pokemon}** をBANしました！")
+        await ctx.send(f"**{current_player}** が **{pokemon}** をBANしました！")
 
         if len(session["ban_list"]) == 4:
             session["current_phase"] = "pick"
@@ -105,17 +105,17 @@ class Unite(commands.Cog):
     async def pick_pokemon(self, ctx, *, pokemon: str):
         """ポケモンをピックする"""
         if ctx.channel.id not in self.draft_sessions:
-            await ctx.send("⚠️ ドラフトが開始されていません！`!draft` で開始してください。")
+            await ctx.send("ドラフトが開始されていません！`!draft` で開始してください。")
             return
 
         session = self.draft_sessions[ctx.channel.id]
         if session["current_phase"] != "pick":
-            await ctx.send("⚠️ 現在はピックフェーズではありません！")
+            await ctx.send("現在はピックフェーズではありません！")
             return
 
         pokemon = self.converter.to_katakana(pokemon.strip())
         if pokemon not in session["available_pokemon"]:
-            await ctx.send("⚠️ そのポケモンは選択できません（既にBAN/ピック済み、または存在しません）。")
+            await ctx.send("そのポケモンは選択できません（既にBAN/ピック済み、または存在しません）。")
             return
 
         current_player = session["pick_order"][0]
@@ -125,7 +125,7 @@ class Unite(commands.Cog):
         session["pick_order"].pop(0)
         self.command_history[ctx.channel.id].append({"action": "pick", "pokemon": pokemon, "player": current_player})
 
-        await ctx.send(f"✅ **{current_player}** が **{pokemon}** をピックしました！")
+        await ctx.send(f"**{current_player}** が **{pokemon}** をピックしました！")
 
         if session["pick_count"] == 10:
             await self.show_draft_result(ctx)
@@ -148,7 +148,7 @@ class Unite(commands.Cog):
     async def show_available(self, ctx):
         """ドラフトの全体状況を表示"""
         if ctx.channel.id not in self.draft_sessions:
-            await ctx.send("⚠️ ドラフトが開始されていません！`!draft` で開始してください。")
+            await ctx.send("ドラフトが開始されていません！`!draft` で開始してください。")
             return
 
         session = self.draft_sessions[ctx.channel.id]
@@ -171,11 +171,11 @@ class Unite(commands.Cog):
     async def undo_last_action(self, ctx):
         """前回の操作を元に戻す"""
         if ctx.channel.id not in self.command_history or not self.command_history[ctx.channel.id]:
-            await ctx.send("⚠️ 戻せる操作がありません！")
+            await ctx.send("戻せる操作がありません！")
             return
 
         if ctx.channel.id not in self.draft_sessions:
-            await ctx.send("⚠️ ドラフトが進行中ではありません！")
+            await ctx.send("ドラフトが進行中ではありません！")
             return
 
         session = self.draft_sessions[ctx.channel.id]
@@ -190,7 +190,7 @@ class Unite(commands.Cog):
             session["ban_order"].pop()
             if len(session["ban_list"]) < 4:
                 session["current_phase"] = "ban"
-            await ctx.send(f"✅ **{pokemon}** のBANを元に戻しました。\n"
+            await ctx.send(f"**{pokemon}** のBANを元に戻しました。\n"
                            f"**{player}** のBANターンに戻ります。")
 
         elif last_action["action"] == "pick":
@@ -201,8 +201,7 @@ class Unite(commands.Cog):
             session["pick_count"] -= 1
             original_pick_order = ["先行", "後攻", "後攻", "先行", "先行", "後攻", "後攻", "先行", "先行", "後攻"]
             session["pick_order"].insert(0, player)
-            session["pick_order"] = original_pick_order[:session["pick_count"] + 1]
-            await ctx.send(f"✅ **{player}** がピックした **{pokemon}** を元に戻しました。\n"
+            await ctx.send(f"**{player}** がピックした **{pokemon}** を元に戻しました。\n"
                            f"**{player}** のピックターンに戻ります。")
 
     @commands.command(name="reset_draft")
@@ -211,9 +210,9 @@ class Unite(commands.Cog):
         if ctx.channel.id in self.draft_sessions:
             del self.draft_sessions[ctx.channel.id]
             del self.command_history[ctx.channel.id]
-            await ctx.send("✅ ドラフトをリセットしました！")
+            await ctx.send("ドラフトをリセットしました！")
         else:
-            await ctx.send("⚠️ リセットするドラフトがありません！")
+            await ctx.send("リセットするドラフトがありません！")
 
 async def setup(bot):
     await bot.add_cog(Unite(bot))

@@ -1,5 +1,5 @@
-# Python 3.13 をベースにする
-FROM python:3.13-slim
+# Python 3.11 をベースにする
+FROM python:3.11-slim
 
 # 作業ディレクトリを作成
 WORKDIR /app

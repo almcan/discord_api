@@ -1,9 +1,9 @@
 import discord
 from discord.ext import commands
-import aiohttp  # requestsの代わりにこれを使用
+import aiohttp
 import os
 import asyncio
-import uuid  # ファイル名被り防止用
+import uuid
 
 VOICEVOX_URL = os.getenv("VOICEVOX_URL", "http://127.0.0.1:50021")
 SPEAKER_ID = 3  # ずんだもん（あまあま）
@@ -11,6 +11,13 @@ SPEAKER_ID = 3  # ずんだもん（あまあま）
 class TTS(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        # Bot起動時にセッションを作成する
+        self.session = aiohttp.ClientSession()
+
+    async def cog_unload(self):
+        """Cogがアンロードされる時にセッションを閉じる"""
+        if self.session:
+            await self.session.close()
 
     @commands.command()
     async def join(self, ctx):
@@ -50,41 +57,44 @@ class TTS(commands.Cog):
                 await self.speak_text(vc, message.content)
 
     async def speak_text(self, vc, text):
-        """VOICEVOXで音声を生成しVCで再生（非同期・UUID対応版）"""
+        """VOICEVOXで音声を生成しVCで再生（セッション使い回し版）"""
         
         params = {"text": text, "speaker": SPEAKER_ID}
         
-        # 非同期セッションの開始
-        async with aiohttp.ClientSession() as session:
+        try:
             # 1. 音声クエリ作成 (Audio Query)
-            async with session.post(f"{VOICEVOX_URL}/audio_query", params=params) as res1:
+            async with self.session.post(f"{VOICEVOX_URL}/audio_query", params=params) as res1:
                 if res1.status != 200:
                     print(f"音声クエリ作成失敗: {res1.status}")
                     return
                 query = await res1.json()
 
             # 2. 音声合成 (Synthesis)
-            async with session.post(f"{VOICEVOX_URL}/synthesis", params=params, json=query) as res2:
+            async with self.session.post(f"{VOICEVOX_URL}/synthesis", params=params, json=query) as res2:
                 if res2.status != 200:
                     print(f"音声合成失敗: {res2.status}")
                     return
                 audio_data = await res2.read()
 
-        # 3. 音声ファイルの保存（UUIDでファイル名重複を回避）
-        filename = f"tts_{uuid.uuid4()}.wav"
+            # 3. 音声ファイルの保存（UUIDでファイル名重複を回避）
+            filename = f"tts_{uuid.uuid4()}.wav"
 
-        with open(filename, "wb") as f:
-            f.write(audio_data)
+            with open(filename, "wb") as f:
+                f.write(audio_data)
 
-        # 既に再生中なら待機
-        while vc.is_playing():
-            await asyncio.sleep(1)
+            # 既に再生中なら待機
+            while vc.is_playing():
+                await asyncio.sleep(1)
 
-        # 4. 再生 & 再生終了後に削除
-        vc.play(
-            discord.FFmpegPCMAudio(filename, executable="ffmpeg", options="-loglevel quiet"),
-            after=lambda e: self.cleanup(filename)
-        )
+            # 4. 再生 & 再生終了後に削除
+            # ffmpegのオプションは適宜調整してください
+            vc.play(
+                discord.FFmpegPCMAudio(filename, executable="ffmpeg", options="-loglevel quiet"),
+                after=lambda e: self.cleanup(filename)
+            )
+
+        except Exception as e:
+            print(f"読み上げエラー: {e}")
 
     def cleanup(self, filename):
         """再生終了後にファイルを削除するコールバック"""

@@ -20,9 +20,9 @@ class SQL(commands.Cog):
         os.makedirs("database/png", exist_ok=True)
     
     def get_connection(self):
-        dsn = os.getenv("DATABASE_URL")
+        dsn = os.getenv("DSN")
         if not dsn:
-            raise Exception("環境変数 DATABASE_URL が設定されていません。")
+            raise Exception("環境変数 DSN が設定されていません。")
         return psycopg2.connect(dsn)
 
     async def pageview(self,ctx:commands.context,page_desc,color=0x3cc332):
@@ -250,7 +250,7 @@ class SQL(commands.Cog):
         with conn:
             with conn.cursor() as cur:
                 #SQL文を実行
-                cur.execute(f"UPDATE sqlcmd SET text = '{description}' WHERE name ='{name}'")
+                cur.execute("UPDATE sqlcmd SET text = %s WHERE name = %s", (description, name))
                 cur.execute(f"UPDATE sqlcmd set modified=now() WHERE name='{name}'")
                 conn.commit()
                 await ctx.send(f"コマンド ?{name} の説明文を追加・変更しました")
@@ -1181,6 +1181,8 @@ class SQL(commands.Cog):
             return
         
         ctx = await self.bot.get_context(message)
+        if ctx.command:
+            return
         msg=message.content
         #「?」から始まる文字列を受け取ったとき
         try:

@@ -155,6 +155,8 @@ class __WORDLE(commands.Cog, name= 'Pokemon Wordle'):
         if wordle_status.question is None:
             await self.set_Question(ctx.guild.id)
         poke_name = poke_name.replace('２', '2').replace('Ｚ', 'Z').replace(':male_sign:', '♂').replace(':female_sign:', '♀').replace(':', '：') # 表記揺れがありそうな場所の修正
+        converter = self.bot.get_cog('RomajiConverter')
+        poke_name = converter.convert(poke_name) # ローマ字→カタカナ変換
         poke_name = jaconv.hira2kata(poke_name) # 平仮名→片仮名変換
         if not wordle.is_correctpokename(wordle_status.pool, poke_name): # 正規のポケモン名であるか判定
             await ctx.send('ポケモン名に誤りがあります。')
@@ -244,7 +246,10 @@ class __WORDLE(commands.Cog, name= 'Pokemon Wordle'):
         if wordle_status.question is None:
             await self.set_Question(ctx.guild.id)
         poke_name = poke_name.replace('２', '2').replace('Ｚ', 'Z').replace(':male_sign:', '♂').replace(':female_sign:', '♀').replace(':', '：')
-        poke_name  = jaconv.hira2kata(poke_name)
+        converter = self.bot.get_cog('RomajiConverter')
+        if converter:
+            poke_name = converter.to_katakana(poke_name)
+        poke_name = jaconv.hira2kata(poke_name)
         if await wordle.is_correctpokename(wordle_status.pool, poke_name) == False:
             await ctx.send('ポケモン名に誤りがあります。')
             return
@@ -344,6 +349,9 @@ class __WORDLE(commands.Cog, name= 'Pokemon Wordle'):
         if wordle_status.question is None:
             await self.set_Question(ctx.guild.id)
         poke_name = poke_name.replace('２', '2').replace('Ｚ', 'Z').replace(':male_sign:', '♂').replace(':female_sign:', '♀').replace(':', '：')
+        converter = self.bot.get_cog('RomajiConverter')
+        if converter:
+            poke_name = converter.to_katakana(poke_name)
         poke_name = jaconv.hira2kata(poke_name)
         if not await wordle.is_correctpokename(wordle_status.pool, poke_name):
             await ctx.send('ポケモン名に誤りがあります。')
@@ -525,6 +533,9 @@ class __WORDLE(commands.Cog, name= 'Pokemon Wordle'):
             return
         wordle_status = self.get_wordle_status(ctx.guild.id)
         poke_name = poke_name.replace('２', '2').replace('Ｚ', 'Z').replace(':male_sign:', '♂').replace(':female_sign:', '♀').replace(':', '：') # 表記揺れがありそうな場所の修正
+        converter = self.bot.get_cog('RomajiConverter')
+        if converter:
+            poke_name = converter.to_katakana(poke_name)
         poke_name  = jaconv.hira2kata(poke_name) # 平仮名→片仮名変換
         if (wordle.is_correctpokename(poke_name) == False): # 正規のポケモン名であるか判定
             await ctx.send('ポケモン名に誤りがあります。')

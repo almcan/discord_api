@@ -5,6 +5,7 @@ import traceback
 import datetime
 import zoneinfo
 import logging
+import asyncio
 
 logger = logging.getLogger(__name__)
 
@@ -47,18 +48,23 @@ class MyBot(commands.Bot):
         logger.info("--- Setup Hook Started ---")
 
         # 1. データベース接続
-        try:
-            self.pool = await asyncpg.create_pool(dsn=self.dsn)
-            logger.info("[OK] Database connection pool created.")
-        except Exception:
-            logger.exception("[ERROR] Failed to connect to database")
+        for i in range(5):  # 5回まで挑戦
+            try:
+                self.pool = await asyncpg.create_pool(dsn=self.dsn)
+                logger.info("[OK] Database connection pool created.")
+                break
+            except Exception as e:
+                logger.warning(f"[RETRY] Database connection failed ({i+1}/5). Retrying in 5s... Error: {e}")
+                await asyncio.sleep(5)
+        else:
+            logger.error("[ERROR] Could not connect to database after retries.")
 
         # 2. Cog（機能拡張）のロード
         initial_extensions = [
             "cogs.romazi_to_hiragana", 
 
-            # "cogs.Pokeconf",
-            # "cogs.SQL",
+            "cogs.Pokeconf",
+            "cogs.SQL",
             # "cogs.HOME",
             "cogs.Func",
             "cogs.Role",
