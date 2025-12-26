@@ -51,6 +51,7 @@ class MyBot(commands.Bot):
         for i in range(5):  # 5回まで挑戦
             try:
                 self.pool = await asyncpg.create_pool(dsn=self.dsn)
+                self.db = self.pool
                 logger.info("[OK] Database connection pool created.")
                 break
             except Exception as e:
@@ -65,7 +66,7 @@ class MyBot(commands.Bot):
 
             "cogs.Pokeconf",
             "cogs.SQL",
-            # "cogs.HOME",
+            "cogs.HOME",
             "cogs.Func",
             "cogs.Role",
             "cogs.Wordle",
@@ -73,8 +74,7 @@ class MyBot(commands.Bot):
             "cogs.tts",
             "cogs.unite_info", 
             "cogs.unite",
-            # "cogs.reaction",
-            # "cogs.batteledata_commit",
+            # "cogs.battledata_commit",
             "cogs.manage_unite_data"
         ]
 
@@ -101,12 +101,12 @@ class MyBot(commands.Bot):
                 guild_obj = discord.Object(id=int(self.testing_guild_id))
                 self.tree.copy_global_to(guild=guild_obj)
                 await self.tree.sync(guild=guild_obj)
-                logger.info(f"✅ [SYNC] Command tree synced to SPECIFIC guild: {self.testing_guild_id} (Dev Mode)")
+                logger.info(f"[SYNC] Command tree synced to SPECIFIC guild: {self.testing_guild_id} (Dev Mode)")
             else:
                 await self.tree.sync()
-                logger.info("🌎 [SYNC] Command tree synced GLOBALLY (Production Mode)")
+                logger.info("[SYNC] Command tree synced GLOBALLY (Production Mode)")
         except Exception as e:
-            logger.error(f"❌ [ERROR] Failed to sync command tree: {e}")
+            logger.error(f"[ERROR] Failed to sync command tree: {e}")
         
         logger.info("--- Setup Hook Finished ---")
 
@@ -129,26 +129,26 @@ class MyBot(commands.Bot):
     # ユーティリティ & タスク
     # ------------------------------------------------------------------
 
-    @tasks.loop(seconds=86400)
-    async def update_pokemon_home_database(self):
-        """24時間ごとに実行される定期タスク"""
-        now = datetime.datetime.now(self.jst).strftime('%y/%m/%d %H:%M:%S')
+    # @tasks.loop(seconds=86400)
+    # async def update_pokemon_home_database(self):
+    #     """24時間ごとに実行される定期タスク"""
+    #     now = datetime.datetime.now(self.jst).strftime('%y/%m/%d %H:%M:%S')
         
-        battledata_cog = self.get_cog('BatteledataCommit')
+    #     battledata_cog = self.get_cog('BattledataCommit')
         
-        if battledata_cog:
-            try:
-                logger.info(f"{now} - Starting periodic Pokémon HOME DB update...")
-                await battledata_cog.run_update_logic()
-                logger.info(f"{now} - Update completed successfully.")
-            except Exception:
-                logger.exception("Error during periodic update")
-        else:
-            logger.warning(f"{now} - [WARNING] Cog 'BatteledataCommit' not found. Task skipped.")
+    #     if battledata_cog:
+    #         try:
+    #             logger.info(f"{now} - Starting periodic Pokémon HOME DB update...")
+    #             await battledata_cog.run_update_logic()
+    #             logger.info(f"{now} - Update completed successfully.")
+    #         except Exception:
+    #             logger.exception("Error during periodic update")
+    #     else:
+    #         logger.warning(f"{now} - [WARNING] Cog 'BattledataCommit' not found. Task skipped.")
 
-    @update_pokemon_home_database.before_loop
-    async def before_update_pokemon_home_database(self):
-        await self.wait_until_ready()
+    # @update_pokemon_home_database.before_loop
+    # async def before_update_pokemon_home_database(self):
+    #     await self.wait_until_ready()
 
     # ------------------------------------------------------------------
     # エラーハンドリング

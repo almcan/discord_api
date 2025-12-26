@@ -7,7 +7,7 @@ WORKDIR /app
 # ログをリアルタイムで出す設定
 ENV PYTHONUNBUFFERED=1
 
-# 必要なパッケージ（Chromium含む）をインストール
+# 必要なパッケージをインストール
 RUN apt-get update && apt-get install -y \
     ffmpeg \
     chromium \
@@ -20,11 +20,8 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# フォントフォルダをコピー（念のためローカルのも入れる）
+# フォントフォルダをコピー
 COPY fonts /app/fonts
-
-# 画像フォルダをコピー
-COPY images /app/images
 
 # ソースコードを全てコピー
 COPY . .

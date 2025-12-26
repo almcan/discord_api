@@ -18,3 +18,7 @@ gspread
 oauth2client
 gspread-dataframe
 jaconv
+requests
+monthdelta
+tqdm
+lxml

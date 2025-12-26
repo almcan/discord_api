@@ -12,6 +12,8 @@ services:
       - PREFIX=?
       - DISCORD_TOKEN=${DISCORD_TOKEN}
       - UNITE_RESET_PASSWORD=${UNITE_RESET_PASSWORD}
+    volumes:
+      - .:/app
 
   # VOICEVOXエンジン
   voicevox:

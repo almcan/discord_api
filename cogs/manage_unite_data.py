@@ -10,7 +10,7 @@ CORRECT_PASSWORD = os.getenv("UNITE_RESET_PASSWORD")
 if CORRECT_PASSWORD is None:
     print("【警告】環境変数 'UNITE_RESET_PASSWORD' が設定されていません。")
 
-# 実際に実行するスクリプトパス (Botのルートからの相対パス)
+# 実際に実行するスクリプトパス
 ACTUAL_SCRAPER_SCRIPT_PATH = "cogs/unite_info/unite_sq.py"
 
 # スクリプトが出力するJSONファイル名
@@ -48,7 +48,7 @@ class ManageDataCog(commands.Cog):
             return
 
         if password_message.content == self.correct_password:
-            # パスワードメッセージを削除（セキュリティのため）
+            # パスワードメッセージを削除
             try: await password_message.delete()
             except: pass
             
