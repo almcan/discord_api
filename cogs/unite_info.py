@@ -63,6 +63,8 @@ class UniteInfoCog(commands.Cog):
     async def send_pokemon_info(self, context, pokemon_name):
         """ポケモン情報を検索して複数のEmbed/ファイルで送信する共通処理"""
         pokemon_name = pokemon_name.strip()
+        pokemon_name = pokemon_name.replace('（', '(').replace('）', ')')
+        pokemon_name = pokemon_name.replace('　', ' ')     
 
         is_interaction = isinstance(context, discord.Interaction)
         send_func = context.followup.send if is_interaction else context.send
@@ -76,17 +78,28 @@ class UniteInfoCog(commands.Cog):
         # --- 検索処理 (ローマ字変換対応) ---
         pokemon_info = None
         katakana_name_attempt = None
-        if pokemon_name in self.pokemon_data:
-            pokemon_info = self.pokemon_data[pokemon_name]
-            # print(f"デバッグ: カタカナ名 '{pokemon_name}' でヒット")
+        all_keys = list(self.pokemon_data.keys())
+
+        def find_key_case_insensitive(target_name, keys):
+            target_lower = target_name.lower()
+            for key in keys:
+                if key.lower() == target_lower:
+                    return key
+            return None
+
+        matched_key = find_key_case_insensitive(pokemon_name, all_keys)
+        
+        if matched_key:
+            pokemon_info = self.pokemon_data[matched_key]
         else:
             converter_cog = self.bot.get_cog('RomajiConverter')
             if converter_cog:
                 katakana_name_attempt = converter_cog.to_katakana(pokemon_name.lower())
-                # print(f"デバッグ: ローマ字入力かも？ '{pokemon_name}' -> '{katakana_name_attempt}' で再検索")
-                if katakana_name_attempt in self.pokemon_data:
-                    pokemon_info = self.pokemon_data[katakana_name_attempt]
-                    # print(f"デバッグ: カタカナ変換名 '{katakana_name_attempt}' でヒット")
+                matched_key_romaji = find_key_case_insensitive(katakana_name_attempt, all_keys)
+                
+                if matched_key_romaji:
+                    pokemon_info = self.pokemon_data[matched_key_romaji]
+                    katakana_name_attempt = matched_key_romaji
 
         # --- 検索結果の処理 ---
         if not pokemon_info:
@@ -123,58 +136,72 @@ class UniteInfoCog(commands.Cog):
 
             # --- 通常攻撃の情報ここから ---
             basic_attack_field_title = "通常攻撃"
-            basic_attack_field_content = [] # 表示内容を一時的に格納するリスト
+            basic_attack_content_lines = [] # リストで管理して最後に結合
 
-            # 1. 通常攻撃の効果（説明文）を取得・整形
-            # BasicAttacks リスト (通常、状態別の説明がここにある想定)
-            if 'BasicAttacks' in pokemon_info and isinstance(pokemon_info['BasicAttacks'], list) and pokemon_info['BasicAttacks']:
-                for attack_info in pokemon_info['BasicAttacks']:
-                    condition = attack_info.get('ConditionRaw') or attack_info.get('Condition')
-                    description = attack_info.get('Description', '').strip()
-                    
-                    if description and description != "取得失敗":
-                        condition_text = ""
-                        # "Default" の場合はConditionを表示しないか、あるいは特定のポケモンでは表示するかを検討
-                        # 例: ウーラオスのようにCondition名が重要な場合は表示する
-                        if condition and condition.lower() != 'default': 
-                            condition_text = f"**[{condition.strip()}]**\n"
-                        basic_attack_field_content.append(f"{condition_text}{description}")
+            # 1. 通常攻撃の効果（説明文）を取得
+            # JSONの "BasicAttacks" リスト（通常攻撃、強化攻撃などのバリエーション）を優先
+            attacks_list = pokemon_info.get('BasicAttacks', [])
             
-            # BasicAttacks に説明がなかった場合のフォールバックとして BasicAttack辞書のDescriptionも見る (オプション)
-            if not basic_attack_field_content: 
-                if 'BasicAttack' in pokemon_info and isinstance(pokemon_info['BasicAttack'], dict):
-                    desc_from_dict = pokemon_info['BasicAttack'].get('Description', '').strip()
-                    if desc_from_dict and desc_from_dict != "取得失敗":
-                        basic_attack_field_content.append(desc_from_dict)
+            # リストが空でなければ、リストの内容を表示
+            if attacks_list and isinstance(attacks_list, list):
+                for attack_info in attacks_list:
+                    # 条件名 (例: "Pikachu", "Alolan Raichu", "Boosted")
+                    condition = attack_info.get('Condition') or attack_info.get('ConditionRaw')
+                    description = attack_info.get('Description', '').strip()
 
-            if not basic_attack_field_content: # それでも説明がなければ
-                basic_attack_field_content.append("通常攻撃の説明情報なし")
+                    if description and description != "取得失敗":
+                        # 条件があればヘッダーとして太字で表示
+                        if condition and condition.lower() != 'default':
+                             basic_attack_content_lines.append(f"**【{condition.strip()}】**")
+                        
+                        basic_attack_content_lines.append(description)
+                        basic_attack_content_lines.append("") # 空行で区切る
+
+            # リストがない場合は、古い形式の "BasicAttack" 辞書の "Description" を確認
+            elif 'BasicAttack' in pokemon_info and isinstance(pokemon_info['BasicAttack'], dict):
+                desc_from_dict = pokemon_info['BasicAttack'].get('Description', '').strip()
+                if desc_from_dict and desc_from_dict != "取得失敗":
+                    basic_attack_content_lines.append(desc_from_dict)
+
+            # 説明が一切見つからなかった場合
+            if not basic_attack_content_lines:
+                basic_attack_content_lines.append("通常攻撃の説明情報なし")
 
             # 2. 通常攻撃のダメージ計算式を取得・整形
-            # BasicAttack 辞書 (計算式はここにある想定)
+            # キー名を日本語に変換するためのマップ
+            formula_name_map = {
+                "DamageFormula_Normal": "通常ダメージ",
+                "DamageFormula_Boosted": "強化攻撃ダメージ",
+                "DamageFormula_Additional": "追加ダメージ"
+            }
+
             damage_formulas_list = []
             if 'BasicAttack' in pokemon_info and isinstance(pokemon_info['BasicAttack'], dict):
-                basic_attack_formulas = pokemon_info['BasicAttack']
-                for key, value in basic_attack_formulas.items():
+                basic_attack_data = pokemon_info['BasicAttack']
+                for key, value in basic_attack_data.items():
                     if key.startswith("DamageFormula"):
-                        formula_type = key.replace("DamageFormula_", "").replace('_', ' ').title()
-                        damage_formulas_list.append(f"- `{formula_type}`: `{value}`")
+                        # マップにあれば日本語に、なければ整形した英語を使用
+                        display_name = formula_name_map.get(key)
+                        if not display_name:
+                            display_name = key.replace("DamageFormula_", "").replace('_', ' ').title()
+                        
+                        damage_formulas_list.append(f"- `{display_name}`: `{value}`")
             
-            if damage_formulas_list: # 計算式が1つでもあれば
-                # 説明文と計算式の間に空行を入れるために、一度現在の内容を結合してから追加
-                if basic_attack_field_content and basic_attack_field_content[-1].strip(): # 最後の要素が空行でなければ
-                    basic_attack_field_content.append("") # 空行を追加
-                basic_attack_field_content.append("**ダメージ計算式:**") # ヘッダーを追加
-                basic_attack_field_content.extend(damage_formulas_list) # 各計算式を追加
-            # else: # 計算式がない場合は何も追加しない (または「計算式なし」と明記も可能)
-                # basic_attack_field_content.append("\nダメージ計算式情報なし") # 例
+            # 計算式がある場合、区切り線を入れて追加
+            if damage_formulas_list:
+                # 既存のコンテンツの末尾が空行でない場合、見やすくするために空行を追加
+                if basic_attack_content_lines and basic_attack_content_lines[-1].strip() != "":
+                    basic_attack_content_lines.append("")
+                
+                basic_attack_content_lines.append("**__ダメージ計算式__**") # アンダーライン付きヘッダー
+                basic_attack_content_lines.extend(damage_formulas_list)
 
-            # 最終的な表示文字列を組み立て
-            final_basic_attack_text = "\n".join(basic_attack_field_content).strip()
+            # 最終的なテキスト結合 (前後の空白除去)
+            final_basic_attack_text = "\n".join(basic_attack_content_lines).strip()
 
-            # 文字数制限とフィールド追加
-            if len(final_basic_attack_text) > 1020: # Discordのフィールド値の文字数制限ケア
-                final_basic_attack_text = final_basic_attack_text[:1020] + "..."
+            # Discordの文字数制限 (1024文字) 対策
+            if len(final_basic_attack_text) > 1020:
+                final_basic_attack_text = final_basic_attack_text[:1015] + "\n..."
             
             embed1.add_field(name=basic_attack_field_title, value=final_basic_attack_text or "情報なし", inline=False)
             # --- 通常攻撃の情報ここまで ---

@@ -621,7 +621,7 @@
       },
       {
         "Name": "アクロバット",
-        "Cooldown": "7",
+        "Cooldown": "6",
         "Description": "指定した方向へ滑空し、相手のポケモンや壁に当たると、再び指定した方向へ滑空する。 滑空のたびに、急所カウンタが1つたまる。 相手のポケモンに当たるとダメージを与えて移動速度を 2秒間30% 下げる。 このわざを使用すると (相手のポケモンや壁に当たると) アクアブレイクの待ち時間を 40% 短くする。 このわざはアクアブレイクで攻撃しているあいだも使うことができる。",
         "UpgradeDescription": "1回目の滑空距離が長くなる。",
         "DamageFormula_Base": "特攻 x 62% + 8 x (レベル - 1) + 172"
@@ -644,9 +644,9 @@
       {
         "Name": "アクアブレイク",
         "Cooldown": "6",
-        "Description": "両手で水の弾を 8回 撃ち続けて、指定した相手のポケモンにダメージを与える。 わざを使っているあいだは、自身の移動速度は60%下がる。 このわざを短い間隔で5回命中させると、少しのあいだ (3秒間) 相手のポケモンが自分からの攻撃で受けるダメージが 20% 増加する。 このわざは一定の確率で急所に当たる。 このわざはアクロバットで移動しているあいだも使うことができる。",
+        "Description": "両手で水の弾を 8回 撃ち続けて、指定した相手のポケモンにダメージを与える。 わざを使っているあいだは、自身の移動速度は40%下がる。 このわざを短い間隔で5回命中させると、少しのあいだ (3秒間) 相手のポケモンが自分からの攻撃で受けるダメージが 20% 増加する。 このわざは一定の確率で急所に当たる。 このわざはアクロバットで移動しているあいだも使うことができる。",
         "UpgradeDescription": "撃ち出す水の弾の数が増加する (10発) 。",
-        "DamageFormula_PerHit": "特攻 x 14.2% + 1 x (レベル - 1) + 44"
+        "DamageFormula_PerHit": "特攻 x 15% + 1 x (レベル - 1) + 46"
       },
       {
         "Name": "アズールスパイビジョン",
@@ -3216,7 +3216,7 @@
         "UpgradeDescription": "残りHPの低い (50%以下の) 相手のポケモンに与えるダメージが 15% 増加する。",
         "DamageFormula_ChargeMin": "攻撃 x 248% + 5 x (レベル - 1) + 200",
         "DamageFormula_ChargeMax": "攻撃 x 446.4% + 9 x (レベル - 1) + 360",
-        "DamageFormula_Shadow": "攻撃 x 49.6% + 1 x (レベル - 1) + 40"
+        "DamageFormula_Shadow": "攻撃 x 99% + 2 x (レベル - 1) + 80"
       },
       {
         "Name": "おどろかす",
@@ -3250,11 +3250,11 @@
     "LevelStats": [
       {
         "Level": 1,
-        "HP": 3000,
+        "HP": 3200,
         "Attack": 125,
         "Defense": 50,
         "SpAttack": 20,
-        "SpDefense": 30,
+        "SpDefense": 76,
         "MoveSpeed": 3600,
         "AttackSpeed": 10.0,
         "CritRate": 0.0,
@@ -3264,11 +3264,11 @@
       },
       {
         "Level": 2,
-        "HP": 3031,
+        "HP": 3240,
         "Attack": 130,
         "Defense": 53,
         "SpAttack": 22,
-        "SpDefense": 33,
+        "SpDefense": 80,
         "MoveSpeed": 3600,
         "AttackSpeed": 11.57,
         "CritRate": 0.0,
@@ -3278,11 +3278,11 @@
       },
       {
         "Level": 3,
-        "HP": 3068,
-        "Attack": 136,
+        "HP": 3288,
+        "Attack": 135,
         "Defense": 57,
         "SpAttack": 24,
-        "SpDefense": 36,
+        "SpDefense": 84,
         "MoveSpeed": 3600,
         "AttackSpeed": 13.46,
         "CritRate": 0.0,
@@ -3292,11 +3292,11 @@
       },
       {
         "Level": 4,
-        "HP": 3112,
-        "Attack": 143,
+        "HP": 3346,
+        "Attack": 142,
         "Defense": 62,
         "SpAttack": 27,
-        "SpDefense": 40,
+        "SpDefense": 89,
         "MoveSpeed": 3600,
         "AttackSpeed": 15.73,
         "CritRate": 0.0,
@@ -3306,11 +3306,11 @@
       },
       {
         "Level": 5,
-        "HP": 3273,
-        "Attack": 167,
+        "HP": 3556,
+        "Attack": 166,
         "Defense": 78,
         "SpAttack": 37,
-        "SpDefense": 55,
+        "SpDefense": 108,
         "MoveSpeed": 3750,
         "AttackSpeed": 23.96,
         "CritRate": 15.0,
@@ -3320,11 +3320,11 @@
       },
       {
         "Level": 6,
-        "HP": 3337,
-        "Attack": 177,
+        "HP": 3639,
+        "Attack": 176,
         "Defense": 85,
         "SpAttack": 41,
-        "SpDefense": 61,
+        "SpDefense": 116,
         "MoveSpeed": 3750,
         "AttackSpeed": 27.24,
         "CritRate": 15.0,
@@ -3334,11 +3334,11 @@
       },
       {
         "Level": 7,
-        "HP": 3629,
-        "Attack": 221,
+        "HP": 4019,
+        "Attack": 220,
         "Defense": 115,
         "SpAttack": 58,
-        "SpDefense": 88,
+        "SpDefense": 150,
         "MoveSpeed": 3900,
         "AttackSpeed": 42.17,
         "CritRate": 15.0,
@@ -3348,11 +3348,11 @@
       },
       {
         "Level": 8,
-        "HP": 3721,
-        "Attack": 235,
+        "HP": 4139,
+        "Attack": 234,
         "Defense": 124,
         "SpAttack": 64,
-        "SpDefense": 97,
+        "SpDefense": 161,
         "MoveSpeed": 3900,
         "AttackSpeed": 46.89,
         "CritRate": 15.0,
@@ -3362,11 +3362,11 @@
       },
       {
         "Level": 9,
-        "HP": 3832,
-        "Attack": 252,
+        "HP": 4283,
+        "Attack": 251,
         "Defense": 135,
         "SpAttack": 71,
-        "SpDefense": 107,
+        "SpDefense": 174,
         "MoveSpeed": 4050,
         "AttackSpeed": 52.55,
         "CritRate": 30.0,
@@ -3376,11 +3376,11 @@
       },
       {
         "Level": 10,
-        "HP": 3965,
-        "Attack": 272,
+        "HP": 4456,
+        "Attack": 271,
         "Defense": 149,
         "SpAttack": 79,
-        "SpDefense": 119,
+        "SpDefense": 190,
         "MoveSpeed": 4050,
         "AttackSpeed": 59.34,
         "CritRate": 30.0,
@@ -3390,11 +3390,11 @@
       },
       {
         "Level": 11,
-        "HP": 4125,
-        "Attack": 296,
+        "HP": 4664,
+        "Attack": 295,
         "Defense": 165,
         "SpAttack": 89,
-        "SpDefense": 134,
+        "SpDefense": 209,
         "MoveSpeed": 4200,
         "AttackSpeed": 67.5,
         "CritRate": 30.0,
@@ -3404,11 +3404,11 @@
       },
       {
         "Level": 12,
-        "HP": 4316,
-        "Attack": 325,
+        "HP": 4913,
+        "Attack": 324,
         "Defense": 185,
         "SpAttack": 100,
-        "SpDefense": 152,
+        "SpDefense": 231,
         "MoveSpeed": 4200,
         "AttackSpeed": 77.28,
         "CritRate": 30.0,
@@ -3418,11 +3418,11 @@
       },
       {
         "Level": 13,
-        "HP": 4546,
-        "Attack": 359,
+        "HP": 5211,
+        "Attack": 358,
         "Defense": 208,
         "SpAttack": 114,
-        "SpDefense": 173,
+        "SpDefense": 258,
         "MoveSpeed": 4200,
         "AttackSpeed": 89.02,
         "CritRate": 30.0,
@@ -3432,11 +3432,11 @@
       },
       {
         "Level": 14,
-        "HP": 4821,
+        "HP": 5570,
         "Attack": 400,
         "Defense": 236,
         "SpAttack": 130,
-        "SpDefense": 199,
+        "SpDefense": 291,
         "MoveSpeed": 4200,
         "AttackSpeed": 103.1,
         "CritRate": 30.0,
@@ -3446,11 +3446,11 @@
       },
       {
         "Level": 15,
-        "HP": 5152,
+        "HP": 6000,
         "Attack": 450,
         "Defense": 270,
         "SpAttack": 150,
-        "SpDefense": 230,
+        "SpDefense": 330,
         "MoveSpeed": 4200,
         "AttackSpeed": 120.0,
         "CritRate": 30.0,
@@ -5814,7 +5814,7 @@
         "Name": "未来照らす流星",
         "Cooldown": "112",
         "Description": "いんせきを5つ連続で落として相手のポケモンにダメージを与える。 いんせきが相手のポケモンに命中すると、次に落ちるいんせきの与えるダメージが 20% 増加する。 最後に落とすいんせきは与えるダメージが高く、範囲が大きくなり、相手を 1秒間 ふきとばす。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
-        "DamageFormula_Base": "特攻 x 70% + 5 x (レベル - 1) + 500"
+        "DamageFormula_Base": "特攻 x 70% + 5 x (レベル - 1) + 400"
       }
     ],
     "BasicAttack": {},
@@ -6027,6 +6027,288 @@
         "CritRate": 0.0,
         "Lifesteal": 0.0,
         "CDR": 20.0,
+        "Tenacity": 19.98
+      }
+    ]
+  },
+  {
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%A9%E3%83%86%E3%82%A3%E3%82%AA%E3%82%B9",
+    "Name": "ラティオス",
+    "EvolutionLevels": [],
+    "Abilities": [
+      {
+        "Name": "ふゆう",
+        "Description": "わざを使用すると少しのあいだ (2秒間) 、移動速度が 50%(0.25秒ごとに5％減衰) 上がる。 また、ラティアスが近くにいるときも、移動速度が 10% 上がる。 ラティアスが味方チームにいるとき、空を飛んでラティアスの所まで駆け付けることができる。 この特性は、戦闘から離れているあいだのみ使用することができる。 いちどこのとくせいが発動すると、次に発動するまで一定の待ち時間 (90秒) が必要。"
+      }
+    ],
+    "BasicAttacks": [
+      {
+        "Condition": "Default",
+        "ConditionRaw": "Default",
+        "Description": "相手のポケモンにダメージを与える。"
+      }
+    ],
+    "Moves": [
+      {
+        "Name": "ねんりき",
+        "Cooldown": "8",
+        "Description": "指定した方向に弱い念力をとばして、相手のポケモンにダメージと減速効果 (2秒間20%) を与える。",
+        "DamageFormula_Base": "特攻 x 75% + 12 x (レベル - 1) + 200"
+      },
+      {
+        "Name": "ラスターパージ",
+        "Cooldown": "7",
+        "Description": "まばゆい光の球を上空に放つ。一定時間 (0.85秒) が経つか、わざを再度使用すると光を一気に解放して、相手のポケモンにダメージを与えて、 3秒間 マークを付与する。 自分か味方のラティアスが、マークを付与された相手のポケモンに与えるダメージが 20% 増加する。",
+        "UpgradeDescription": "マークが消えるまでの時間が長くなる (6秒) 。",
+        "DamageFormula_Base": "特攻 x 70% + 15 x (レベル - 1) + 400"
+      },
+      {
+        "Name": "テレキネシス",
+        "Cooldown": "7.5",
+        "Description": "指定した方向に超能力を放ち、相手のポケモンにダメージと減速効果 (2秒間30%) を与える。 このわざを命中させると、 4秒以内に 再度使用することができて、指定した相手のポケモンに超能力を放つ。 1匹目と別のポケモンを指定すると、2匹のポケモンを互いに引き寄せあうように移動させて、ぶつかると 0.7秒間 行動不能にする。 1匹目と同じポケモンを指定すると、 1秒間 行動不能にする。",
+        "UpgradeDescription": "減速効果が強くなる (3秒間30%) 。",
+        "DamageFormula_Base": "特攻 x 98% + 10 x (レベル - 1) + 260"
+      },
+      {
+        "Name": "スピードスター",
+        "Cooldown": "6",
+        "Description": "指定した方向の広範囲にわたって星形の光を発射して、相手のポケモンにダメージを与える。",
+        "DamageFormula_Base": "特攻 x 100% + 22 x (レベル - 1) + 350"
+      },
+      {
+        "Name": "りゅうのはどう",
+        "Cooldown": "6",
+        "Description": "このわざを覚えると、野生ポケモンをKOしたときにむげんのちからを 2 獲得できるようになる。 (最大1099) 指定した方向にダッシュし、 5秒以内の 次の通常攻撃を強化する。 強化された通常攻撃を相手チームのポケモンに命中させると、むげんのちからを 3 獲得できる。 また、追加で念力の弾を飛ばしてダメージを与える。 念力の弾の数やダメージは、獲得したむげんのちからに応じて増加していく。 (むげんのちからが100で念力の弾の数は最大(6)になる。むげんのちからが100を超えると、1増加するごとに念力の弾のダメージが0.5%増加する。) 最初の念力の弾が命中すると、その後の念力の弾が同じ相手に与えるダメージが15％ずつ（最大75%）減少する。",
+        "UpgradeDescription": "念力の弾が相手の減少HPの一定割合 (3%) にあたるダメージを追加で与える。",
+        "DamageFormula_PsywaveBullet": "特攻 x 35.7% + 5 x (レベル - 1) + 108",
+        "DamageFormula_Additional_Upgraded": "相手の減少HPの3%（上限300）"
+      },
+      {
+        "Name": "りゅうせいぐん",
+        "Cooldown": "7.5",
+        "Description": "このわざを覚えると、野生ポケモンをKOしたときにむげんのちからを 2 獲得できるようになる。 (最大1099) 指定した範囲に天空から隕石を 2つ 落として、相手のポケモンにダメージを与える。 相手チームのポケモンに命中させるとむげんのちからを 3 獲得できる。 隕石の数やダメージは、獲得したむげんのちからに応じて増加していく。 (むげんのちからが100で隕石の数は最大(6)になる。むげんのちからが100を超えると、1増加するごとに隕石のダメージが0.5%増加する。) 最初の隕石が命中すると、その後の隕石が同じ相手に与えるダメージが70%減少する。",
+        "UpgradeDescription": "隕石が相手の減少HPの一定割合 (3%) にあたるダメージを追加で与える。",
+        "DamageFormula_Base": "特攻 x 109% + 24 x (レベル - 1) + 364",
+        "DamageFormula_Additional_Upgraded": "相手の減少HPの3%（上限300）"
+      },
+      {
+        "Name": "インフィニットストライク",
+        "Cooldown": "112",
+        "Description": "指定した相手のポケモンを狙って、 1.8秒間 力をチャージしたあとに波動を放ってダメージを与える。 わざの待ち時間がすぐ0秒になり、少しのあいだ (10秒間) 、わざの待ち時間が 60% 短くなる。 ラティアスがユナイトわざで狙っている相手のポケモンと同じポケモンを指定すると、波動が重なって爆発し、周囲にもダメージを与える。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
+        "DamageFormula_Base": "特攻 x 250% + 15 x (レベル - 1) + 460",
+        "DamageFormula_Explosion": "特攻 x 125% + 7 x (レベル - 1) + 230"
+      }
+    ],
+    "BasicAttack": {},
+    "LevelStats": [
+      {
+        "Level": 1,
+        "HP": 3300,
+        "Attack": 120,
+        "Defense": 60,
+        "SpAttack": 100,
+        "SpDefense": 60,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3403,
+        "Attack": 127,
+        "Defense": 67,
+        "SpAttack": 128,
+        "SpDefense": 68,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.36,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 3.33
+      },
+      {
+        "Level": 3,
+        "HP": 3517,
+        "Attack": 134,
+        "Defense": 75,
+        "SpAttack": 159,
+        "SpDefense": 77,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.75,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 6.66
+      },
+      {
+        "Level": 4,
+        "HP": 3642,
+        "Attack": 142,
+        "Defense": 84,
+        "SpAttack": 193,
+        "SpDefense": 87,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 11.18,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 9.99
+      },
+      {
+        "Level": 5,
+        "HP": 3779,
+        "Attack": 151,
+        "Defense": 93,
+        "SpAttack": 231,
+        "SpDefense": 98,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 11.65,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 13.32
+      },
+      {
+        "Level": 6,
+        "HP": 3930,
+        "Attack": 161,
+        "Defense": 103,
+        "SpAttack": 273,
+        "SpDefense": 110,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 12.17,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 16.65
+      },
+      {
+        "Level": 7,
+        "HP": 4096,
+        "Attack": 172,
+        "Defense": 114,
+        "SpAttack": 319,
+        "SpDefense": 123,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 12.74,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 8,
+        "HP": 4279,
+        "Attack": 184,
+        "Defense": 127,
+        "SpAttack": 370,
+        "SpDefense": 138,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 13.37,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 9,
+        "HP": 4481,
+        "Attack": 197,
+        "Defense": 141,
+        "SpAttack": 426,
+        "SpDefense": 154,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 14.07,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 15.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 10,
+        "HP": 4703,
+        "Attack": 212,
+        "Defense": 156,
+        "SpAttack": 487,
+        "SpDefense": 172,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 14.84,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 15.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 11,
+        "HP": 4948,
+        "Attack": 228,
+        "Defense": 173,
+        "SpAttack": 555,
+        "SpDefense": 191,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 15.68,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 15.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 12,
+        "HP": 5217,
+        "Attack": 246,
+        "Defense": 192,
+        "SpAttack": 629,
+        "SpDefense": 212,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 16.61,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 15.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 13,
+        "HP": 5514,
+        "Attack": 265,
+        "Defense": 212,
+        "SpAttack": 711,
+        "SpDefense": 236,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 17.63,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 25.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 14,
+        "HP": 5841,
+        "Attack": 286,
+        "Defense": 235,
+        "SpAttack": 801,
+        "SpDefense": 262,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 18.76,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 25.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 15,
+        "HP": 6200,
+        "Attack": 310,
+        "Defense": 260,
+        "SpAttack": 900,
+        "SpDefense": 291,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 20.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 25.0,
         "Tenacity": 19.98
       }
     ]
@@ -6913,7 +7195,7 @@
       },
       {
         "Name": "ハイドロポンプ",
-        "Cooldown": "6",
+        "Cooldown": "5.5",
         "Description": "水を激しく噴き出して攻撃する。わざ命中時に相手のポケモンにダメージを与え、 0.6秒間 つきとばす。",
         "UpgradeDescription": "わざの与えるダメージが増加する。",
         "DamageFormula_Base": "特攻 x 78% + 16 x (レベル - 1) + 560",
@@ -6935,11 +7217,11 @@
       },
       {
         "Name": "なみのり",
-        "Cooldown": "7.5",
+        "Cooldown": "7",
         "Description": "なみに乗って突撃し、当たった相手のポケモンをつきとばして 1.6秒間 行動できなくする。わざを使っているあいだ、自分は妨害されなくなる。 また、わざ終了時に指定した方向へジャンプできる。",
         "UpgradeDescription": "わざの命中時にシールド効果を得られるようになる。",
         "DamageFormula_Base": "特攻 x 125% + 18 x (レベル - 1) + 800",
-        "ShieldFormula_Upgraded": "特攻 x 243% + 0 x (レベル - 1) + 243"
+        "ShieldFormula_Upgraded": "特攻 x 292% + 0 x (レベル - 1) + 290"
       },
       {
         "Name": "こうそくスピン",
@@ -7162,6 +7444,299 @@
         "Defense": 650,
         "SpAttack": 412,
         "SpDefense": 455,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 30.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
+      }
+    ]
+  },
+  {
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%82%B7%E3%83%A3%E3%83%AF%E3%83%BC%E3%82%BA",
+    "Name": "シャワーズ",
+    "EvolutionLevels": [
+      1,
+      4
+    ],
+    "Abilities": [
+      {
+        "Name": "にげあし",
+        "Description": "相手チームのポケモンからのダメージを無効化して、自分のHPを回復する。 いちどこのとくせいが発動すると、次に発動するまで一定の待ち時間 (30秒) が必要。",
+        "Stage": "イーブイ"
+      },
+      {
+        "Name": "ちょすい",
+        "Description": "一定時間ごとに水のシールドを獲得する。水のシールドがある時に相手からのダメージを受けると、そのダメージを無効化して、自分のHPを回復する。 いちどこのとくせいが発動すると、次に発動するまで一定の待ち時間 (30秒) が必要。わざや強化攻撃を相手チームのポケモンに命中させると、このとくせいの待ち時間が短くなる。",
+        "Stage": "シャワーズ"
+      }
+    ],
+    "BasicAttacks": [
+      {
+        "Condition": "イーブイ",
+        "ConditionRaw": "イーブイ",
+        "Description": "3回目の通常攻撃は強化攻撃となり、与えるダメージが増加する。"
+      },
+      {
+        "Condition": "シャワーズ",
+        "ConditionRaw": "シャワーズ",
+        "Description": "3回目の通常攻撃は強化攻撃となり、与えるダメージが増加する。 強化攻撃を相手チームのポケモンに命中させると、とくせいの待ち時間が 1秒 短くなる。"
+      }
+    ],
+    "Moves": [
+      {
+        "Name": "スピードスター",
+        "Cooldown": "7",
+        "Description": "指定した方向に星を飛ばして、相手のポケモンにダメージと減速効果 (0.3秒間35%) を与える。 わざを使用しているあいだ、移動速度が30%下がる。",
+        "DamageFormula_Base": "特攻 x 42% + 3 x (レベル - 1) + 120 (x 6Hit)"
+      },
+      {
+        "Name": "ハイドロポンプ",
+        "Cooldown": "7",
+        "Description": "指定した方向に水を激しい勢いで発射し続けて、相手のポケモンにダメージ と減速効果(0.3秒間50%) を与えて、 0.1秒間 押し出す。最後に強力な水流を発射して、相手のポケモンにダメージを与えて、 1秒間 つきとばす。 わざを使用しているあいだ、移動速度が30%下がる。",
+        "UpgradeDescription": "アップグレード後は、わざの待ち時間が 1秒 短くなる。",
+        "DamageFormula_Mid": "特攻 x 24% + 2 x (レベル - 1) + 60 (x 5Hit)"
+      },
+      {
+        "Name": "だくりゅう",
+        "Cooldown": "8.5",
+        "Description": "周囲ににごった水を放ち、相手のポケモンにダメージと減速効果 (1秒間30%) を与えて、 0.6秒間 ふきとばす。",
+        "UpgradeDescription": "アップグレード後は、相手のポケモンに与える減速効果が強くなる (2秒間30%) 。",
+        "DamageFormula_Base": "特攻 x 160% + 16 x (レベル - 1) + 440"
+      },
+      {
+        "Name": "たいあたり",
+        "Cooldown": "6",
+        "Description": "指定した方向に全身でぶつかっていき、相手のポケモンにダメージを与えて、 0.25秒間 つきとばす。",
+        "DamageFormula_Base": "特攻 x 108% + 8 x (レベル - 1) + 320"
+      },
+      {
+        "Name": "アクアリング",
+        "Cooldown": "7",
+        "Description": "指定した方向へジャンプして、自分を中心に水の波紋を継続的に (4秒間) 発生させる。水の波紋にふれた味方のポケモンは、HPを継続的に (3秒間) 回復する水のベールを獲得する。",
+        "UpgradeDescription": "アップグレード後は、HP回復量が多くなる。",
+        "HPRecovery": "特攻 x 64% + 0 x (レベル - 1) + 0"
+      },
+      {
+        "Name": "クイックターン",
+        "Cooldown": "6",
+        "Description": "少しのあいだ (3秒間) 水をまとい、受けるダメージが 15% 軽減され、移動速度が 40%(0.25秒ごとに5％増加、最大60%) 上がる。その後、指定した方向に突進して、相手のポケモンにダメージを与えて、 0.6秒間 つきとばし、自分は反対方向へジャンプ してシールドを獲得 する。",
+        "UpgradeDescription": "アップグレード後は、受けるダメージがさらに軽減される (30%) 。",
+        "ShieldFormula_Base": "特攻 x 320% + 0 x (レベル - 1) + 640"
+      },
+      {
+        "Name": "アクアマリンスプラッシュ",
+        "Cooldown": "89",
+        "Description": "高く飛び上がった後、着地と同時に水に潜り、 0.3秒間 水流を発生させて相手のポケモンを引き寄せる。その後、水中から飛び上がって着地した瞬間、周囲の相手のポケモンにダメージを与えて、 1秒間 ふきとばす。 ユナイトバフ：最大HP40％分のシールド＋移動速度30％上昇",
+        "DamageFormula_Base": "特攻 x 160% + 11 x (レベル - 1) + 320 (x 2Hit)"
+      }
+    ],
+    "BasicAttack": {},
+    "LevelStats": [
+      {
+        "Level": 1,
+        "HP": 3400,
+        "Attack": 20,
+        "Defense": 90,
+        "SpAttack": 90,
+        "SpDefense": 60,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3544,
+        "Attack": 22,
+        "Defense": 100,
+        "SpAttack": 98,
+        "SpDefense": 70,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.44,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 5.83
+      },
+      {
+        "Level": 3,
+        "HP": 3710,
+        "Attack": 24,
+        "Defense": 111,
+        "SpAttack": 107,
+        "SpDefense": 81,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.95,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 11.66
+      },
+      {
+        "Level": 4,
+        "HP": 3901,
+        "Attack": 27,
+        "Defense": 124,
+        "SpAttack": 118,
+        "SpDefense": 94,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 11.54,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 17.49
+      },
+      {
+        "Level": 5,
+        "HP": 4771,
+        "Attack": 40,
+        "Defense": 184,
+        "SpAttack": 166,
+        "SpDefense": 153,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 14.22,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 23.32
+      },
+      {
+        "Level": 6,
+        "HP": 5023,
+        "Attack": 44,
+        "Defense": 201,
+        "SpAttack": 180,
+        "SpDefense": 170,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 15.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 29.15
+      },
+      {
+        "Level": 7,
+        "HP": 5313,
+        "Attack": 48,
+        "Defense": 221,
+        "SpAttack": 196,
+        "SpDefense": 190,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 15.89,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 34.98
+      },
+      {
+        "Level": 8,
+        "HP": 5647,
+        "Attack": 53,
+        "Defense": 244,
+        "SpAttack": 215,
+        "SpDefense": 213,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 16.92,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 34.98
+      },
+      {
+        "Level": 9,
+        "HP": 6031,
+        "Attack": 59,
+        "Defense": 271,
+        "SpAttack": 236,
+        "SpDefense": 239,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 18.1,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
+      },
+      {
+        "Level": 10,
+        "HP": 6473,
+        "Attack": 65,
+        "Defense": 302,
+        "SpAttack": 261,
+        "SpDefense": 269,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 19.46,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
+      },
+      {
+        "Level": 11,
+        "HP": 6981,
+        "Attack": 72,
+        "Defense": 337,
+        "SpAttack": 289,
+        "SpDefense": 303,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 21.02,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
+      },
+      {
+        "Level": 12,
+        "HP": 7566,
+        "Attack": 81,
+        "Defense": 377,
+        "SpAttack": 321,
+        "SpDefense": 343,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 22.82,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
+      },
+      {
+        "Level": 13,
+        "HP": 8239,
+        "Attack": 91,
+        "Defense": 424,
+        "SpAttack": 358,
+        "SpDefense": 388,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 24.89,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
+      },
+      {
+        "Level": 14,
+        "HP": 9012,
+        "Attack": 102,
+        "Defense": 478,
+        "SpAttack": 401,
+        "SpDefense": 440,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 27.27,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
+      },
+      {
+        "Level": 15,
+        "HP": 9900,
+        "Attack": 115,
+        "Defense": 540,
+        "SpAttack": 450,
+        "SpDefense": 500,
         "MoveSpeed": 4300,
         "AttackSpeed": 30.0,
         "CritRate": 0.0,
@@ -7773,16 +8348,16 @@
       {
         "Name": "せいなるほのお",
         "Cooldown": "12",
-        "Description": "指定した範囲に神秘の炎を吐いて、相手のポケモンにダメージを与え、 3秒間 やけど状態にして、 0.6秒間 行動不能にする。 やけど状態になったポケモンは攻撃が10%下がる。 しばらくのあいだ (6秒間) 、高く飛び上がって、壁を無視して移動することができるようになり、移動速度 (30%) と攻撃 (15%) が上がる。 このわざを使用したあとの次の3回までの通常攻撃が強化攻撃となる。 飛んでいるあいだ、このわざを再度使用することで、地面に降りる。",
+        "Description": "指定した範囲に神秘の炎を吐いて、相手のポケモンにダメージを与え、 3秒間 やけど状態にして、 0.6秒間 行動不能にする。 やけど状態になったポケモンは攻撃が10%下がる。 しばらくのあいだ (6秒間) 、高く飛び上がって、壁を無視して移動することができるようになり、移動速度 (30%) と攻撃 (25%) が上がる。 このわざを使用したあとの次の3回までの通常攻撃が強化攻撃となる。 飛んでいるあいだ、このわざを再度使用することで、地面に降りる。",
         "UpgradeDescription": "やけど状態によって攻撃を下げる量が多くなる (20%) 。",
         "DamageFormula_Base": "攻撃 x 56% + 3 x (レベル - 1) + 135"
       },
       {
         "Name": "ほのおのうず",
         "Cooldown": "9",
-        "Description": "自分を中心に燃え盛る渦を発生させて、相手のポケモンにダメージと減速効果 (4秒間80%(0.5秒ごとに10％減衰)) を与える。 わざを使っているあいだは妨害無効の状態になるが、自身の移動速度が40%下がり、攻撃できなくなる。 渦の中にいる味方のポケモンが受けたダメージの一部 (50%) を代わりに受ける。 このわざの開始時にシールド効果を獲得し、シールド効果が無くなるとわざが終わる。 シールド効果が残っている状態で、一定時間 (4秒間) が経過するかこのわざを再度使用すると、周囲に熱波を放って相手のポケモンにダメージを与え、 0.6秒間 行動不能にする。 効果が持続しているあいだに受けたダメージが大きいほどこのダメージは増加する。",
+        "Description": "自分を中心に燃え盛る渦を発生させて、相手のポケモンにダメージと減速効果 (4秒間80%(0.5秒ごとに10％減衰)) を与える。 わざを使っているあいだは妨害無効の状態になるが、自身の移動速度が40%下がり、攻撃できなくなる。 渦の中にいる味方のポケモンが受けたダメージの一部 (60%) を代わりに受ける。 このわざの開始時にシールド効果を獲得し、シールド効果が無くなるとわざが終わる。 シールド効果が残っている状態で、一定時間 (4秒間) が経過するかこのわざを再度使用すると、周囲に熱波を放って相手のポケモンにダメージを与え、 0.6秒間 行動不能にする。 効果が持続しているあいだに受けたダメージが大きいほどこのダメージは増加する。",
         "UpgradeDescription": "シールド効果が無くなったときに、自動で熱波を放つようになる。",
-        "ShieldFormula_Base": "最大HPの30%"
+        "ShieldFormula_Base": "最大HPの33%"
       },
       {
         "Name": "おいかぜ",
@@ -7805,7 +8380,7 @@
         "Description": "翼を広げて突撃し、折り返して元の位置まで戻る。 命中した相手のポケモンにダメージを与えて、通過した地面をしばらく (4.5秒間) 燃やす。 燃えている地面は相手のポケモンにダメージと減速効果 (1.5秒間30%) を与える。 このわざを再度使用するか、ほかのわざを使用するとその場で突撃は止まる。 このわざを使用しているあいだ、受けるダメージが30%軽減する。",
         "UpgradeDescription": "燃えている地面にいる間に少しずつHPを回復するようになる。",
         "DamageFormula_Base": "攻撃 x 150% + 19 x (レベル - 1) + 500",
-        "HPRecovery": "攻撃 x 70% + 0 x (レベル - 1) + 100"
+        "HPRecovery": "攻撃 x 77% + 0 x (レベル - 1) + 110"
       },
       {
         "Name": "復活の虹炎",
@@ -12278,7 +12853,7 @@
     ]
   },
   {
-    "URL": "http://wikiwiki.jp/poke-unite/%E3%82%A6%E3%83%BC%E3%83%A9%E3%82%AA%E3%82%B9",
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%82%A6%E3%83%BC%E3%83%A9%E3%82%AA%E3%82%B9",
     "Name": "ウーラオス",
     "EvolutionLevels": [
       1,
@@ -12586,6 +13161,306 @@
     ]
   },
   {
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%82%A8%E3%83%B3%E3%83%9A%E3%83%AB%E3%83%88",
+    "Name": "エンペルト",
+    "EvolutionLevels": [
+      1,
+      5,
+      7
+    ],
+    "Abilities": [
+      {
+        "Name": "げきりゅう",
+        "Description": "一定時間が経過したり、相手のポケモンにダメージを与えると、げきりゅうゲージが増加する。(最大100) わざを使用するときに、げきりゅうゲージが一定以上たまっていると、げきりゅうゲージを消費してわざを強化することができる。 HPが一定割合を下回ると、ゲージの増加量が多くなる。"
+      }
+    ],
+    "BasicAttacks": [
+      {
+        "Condition": "ポッチャマ",
+        "ConditionRaw": "ポッチャマ",
+        "Description": "3回目の通常攻撃は強化攻撃となり、与えるダメージが増加する。"
+      },
+      {
+        "Condition": "ポッタイシ エンペルト",
+        "ConditionRaw": "ポッタイシ エンペルト",
+        "Description": "3回目の通常攻撃は強化攻撃となり、与えるダメージが増加し、げきりゅうゲージが大幅に増加する。"
+      }
+    ],
+    "Moves": [
+      {
+        "Name": "みずでっぽう",
+        "Cooldown": "5",
+        "Description": "指定した方向に水を発射して相手のポケモンにダメージを与える。 とくせいでわざが強化されると、与えるダメージが増加する。 （消費げきりゅうゲージ：50）",
+        "DamageFormula_Base": "特攻 x 143% + 13 x (レベル - 1) + 358",
+        "DamageFormula_Torrent": "特攻 x 214% + 20 x (レベル - 1) + 536"
+      },
+      {
+        "Name": "ハイドロカノン",
+        "Cooldown": "5",
+        "Description": "指定した方向へ水の大砲を発射して、相手のポケモンにダメージを与えて、 0.5秒間 行動不能にする。 とくせいでわざが強化されると、 3秒間 渦が発生するようになり、継続ダメージを与える。 自分が渦に触れると 0.5秒ごと にHPが回復する。 （消費げきりゅうゲージ：50）",
+        "UpgradeDescription": "相手チームのポケモンにわざを命中させると、わざの待ち時間が 30% 短くなる。",
+        "DamageFormula_Base": "特攻 x 235% + 13 x (レベル - 1) + 350",
+        "DamageFormula_Torrent_Vortex": "特攻 x 46% + 3 x (レベル - 1) + 70 (x 6Hit)",
+        "HPRecovery": "特攻 x 47% + 0 x (レベル - 1) + 128"
+      },
+      {
+        "Name": "うずしお",
+        "Cooldown": "5.5",
+        "Description": "周囲に激しい渦を発生させて、相手のポケモンにダメージを与え、HPを回復する。 とくせいでわざが強化されると、与えるダメージ量と回復するHP量が増加し、相手のポケモンを 0.6秒間 ふきとばしたあと、最後に1回切り付けてダメージを与える。 （消費げきりゅうゲージ：50）",
+        "UpgradeDescription": "渦の与えるダメージが増加する。",
+        "DamageFormula_Base": "特攻 x 62% + 4 x (レベル - 1) + 90 (x 4Hit)",
+        "HPRecovery_Opponent": "与ダメージの50%",
+        "HPRecovery_Wild": "与ダメージの25%",
+        "DamageFormula_Torrent": "特攻 x 74% + 5 x (レベル - 1) + 108 (x 4Hit)",
+        "DamageFormula_Slash": "特攻 x 74% + 5 x (レベル - 1) + 108",
+        "DamageFormula_Upgraded": "特攻 x 74% + 5 x (レベル - 1) + 108 (x 4Hit)",
+        "DamageFormula_Torrent_Upgraded": "特攻 x 81% + 12 x (レベル - 1) + 93 (x 4Hit)",
+        "DamageFormula_Slash_Upgraded": "特攻 x 81% + 12 x (レベル - 1) + 93"
+      },
+      {
+        "Name": "つつく",
+        "Cooldown": "6",
+        "Description": "指定した方向へ突撃しながら、くちばしでつついて相手のポケモンにダメージを与える。 とくせいでわざが強化されると、減速効果を与える (2秒間40%) 。 （消費げきりゅうゲージ：50）",
+        "DamageFormula_Base": "特攻 x 130% + 12 x (レベル - 1) + 325"
+      },
+      {
+        "Name": "メタルクロー",
+        "Cooldown": "5.5",
+        "Description": "指定した方向に突撃し、固い翼で相手のポケモンにダメージを与えて、 0.25秒間 つきとばす。 とくせいでわざが強化されると、シールド効果を獲得する。 （消費げきりゅうゲージ：50）",
+        "UpgradeDescription": "このわざで得られるシールド効果が強くなる。",
+        "DamageFormula_Base": "特攻 x 207% + 11 x (レベル - 1) + 310",
+        "ShieldFormula_Torrent": "特攻 x 135% + 14 x (レベル - 1) + 352",
+        "ShieldFormula_Torrent_Upgraded": "特攻 x 162% + 17 x (レベル - 1) + 424"
+      },
+      {
+        "Name": "アクアジェット",
+        "Cooldown": "6",
+        "Description": "指定した方向に突進して、相手のポケモンにダメージを与えて、少しのあいだ (5秒間) 攻撃速度を 40% 上げる。 とくせいでわざが強化されると、相手チームのポケモンの特防を 3秒間60% 下げる。 （消費げきりゅうゲージ：50）",
+        "UpgradeDescription": "わざの待ち時間が 1秒 短くなる。",
+        "DamageFormula_Base": "特攻 x 200% + 11 x (レベル - 1) + 300"
+      },
+      {
+        "Name": "皇帝オンスロート",
+        "Cooldown": "112",
+        "Description": "指定した方向へ高速で滑り、終点で周囲に渦潮を発生させ、相手のポケモンにダメージを与えて、 1秒間 ふきとばす。 渦潮は自分を中心にしばらく (7秒間) 残り、相手のポケモンに減速効果 (50%) を与える。 渦潮が残っているあいだ、げきりゅうゲージの増加量が多くなる。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
+        "DamageFormula_Base": "特攻 x 352% + 19 x (レベル - 1) + 528"
+      }
+    ],
+    "BasicAttack": {},
+    "LevelStats": [
+      {
+        "Level": 1,
+        "HP": 3250,
+        "Attack": 20,
+        "Defense": 80,
+        "SpAttack": 80,
+        "SpDefense": 65,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3325,
+        "Attack": 21,
+        "Defense": 86,
+        "SpAttack": 88,
+        "SpDefense": 70,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.5,
+        "CritRate": 0.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 3.33
+      },
+      {
+        "Level": 3,
+        "HP": 3415,
+        "Attack": 23,
+        "Defense": 94,
+        "SpAttack": 98,
+        "SpDefense": 76,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 11.1,
+        "CritRate": 0.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 6.66
+      },
+      {
+        "Level": 4,
+        "HP": 3523,
+        "Attack": 25,
+        "Defense": 103,
+        "SpAttack": 110,
+        "SpDefense": 83,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 11.82,
+        "CritRate": 0.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 9.99
+      },
+      {
+        "Level": 5,
+        "HP": 4047,
+        "Attack": 34,
+        "Defense": 147,
+        "SpAttack": 169,
+        "SpDefense": 116,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 15.31,
+        "CritRate": 10.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 13.32
+      },
+      {
+        "Level": 6,
+        "HP": 4204,
+        "Attack": 37,
+        "Defense": 160,
+        "SpAttack": 187,
+        "SpDefense": 126,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 16.35,
+        "CritRate": 10.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 16.65
+      },
+      {
+        "Level": 7,
+        "HP": 4786,
+        "Attack": 48,
+        "Defense": 209,
+        "SpAttack": 252,
+        "SpDefense": 163,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 20.23,
+        "CritRate": 10.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 8,
+        "HP": 5011,
+        "Attack": 52,
+        "Defense": 228,
+        "SpAttack": 277,
+        "SpDefense": 177,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 21.73,
+        "CritRate": 10.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 9,
+        "HP": 5281,
+        "Attack": 57,
+        "Defense": 251,
+        "SpAttack": 307,
+        "SpDefense": 194,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 23.53,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 10,
+        "HP": 5605,
+        "Attack": 63,
+        "Defense": 278,
+        "SpAttack": 343,
+        "SpDefense": 215,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 25.69,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 11,
+        "HP": 5994,
+        "Attack": 70,
+        "Defense": 311,
+        "SpAttack": 387,
+        "SpDefense": 240,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 28.29,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 12,
+        "HP": 6461,
+        "Attack": 78,
+        "Defense": 350,
+        "SpAttack": 440,
+        "SpDefense": 270,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 31.4,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 13,
+        "HP": 7021,
+        "Attack": 88,
+        "Defense": 397,
+        "SpAttack": 503,
+        "SpDefense": 306,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 35.14,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 14,
+        "HP": 7693,
+        "Attack": 100,
+        "Defense": 453,
+        "SpAttack": 579,
+        "SpDefense": 349,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 39.62,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 15,
+        "HP": 8500,
+        "Attack": 115,
+        "Defense": 520,
+        "SpAttack": 670,
+        "SpDefense": 400,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 45.0,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      }
+    ]
+  },
+  {
     "URL": "https://wikiwiki.jp/poke-unite/%E3%82%AB%E3%82%A4%E3%83%AA%E3%82%AD%E3%83%BC",
     "Name": "カイリキー",
     "EvolutionLevels": [
@@ -12623,7 +13498,7 @@
         "Name": "クロスチョップ",
         "Cooldown": "6",
         "Description": "前方へダッシュしながら両手チョップをたたきつける。このとき急所率が 3秒間5％ 上がる。",
-        "UpgradeDescription": "通常攻撃をするたび、 試合終了まで ある程度 (40回) まで攻撃が 2 上がり続ける。",
+        "UpgradeDescription": "通常攻撃をするたび、 試合終了まで ある程度 (40回) まで攻撃が 3 上がり続ける。",
         "DamageFormula_Base": "攻撃 x 98% + 13 x (レベル - 1) + 290"
       },
       {
@@ -12640,7 +13515,7 @@
       },
       {
         "Name": "じごくぐるま",
-        "Cooldown": "9",
+        "Cooldown": "8",
         "Description": "移動速度が 70％(1秒ごとに20%減衰) 上がり、 5秒間 妨害されなくなる。 次の通常攻撃の命中時、与えるダメージが増加し、相手のポケモンを地面に叩きつけて行動できなくする。 わざが終わると少しのあいだ (3秒間) 急所率が 5％ 上がり、通常攻撃も 40％ 速くなる。",
         "UpgradeDescription": "急所率がさらに 5％ 上がり、攻撃速度が 10％ 速くなる。",
         "DamageFormula_Base": "攻撃 x 115% + 4 x (レベル - 1) +210 (x 2Hit)"
@@ -12648,7 +13523,7 @@
       {
         "Name": "ごうけつラッシュ",
         "Cooldown": "134",
-        "Description": "4本の腕で連続攻撃し、範囲内にいる相手のポケモンにダメージを与えて、つきとばす。最後の一撃は特に大きなダメージを与える。その後、少しのあいだ移動速度 (10%) 、攻撃 (25%) 、防御 (250) 、特防 (250) が上がる。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋攻撃速度35％上昇"
+        "Description": "4本の腕で連続攻撃し、範囲内にいる相手のポケモンにダメージを与えて、つきとばす。最後の一撃は特に大きなダメージを与える。その後、少しのあいだ移動速度 (10%) 、攻撃 (25%) 、防御 (300) 、特防 (300) が上がる。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋攻撃速度35％上昇"
       }
     ],
     "BasicAttack": {},
@@ -12860,303 +13735,6 @@
         "AttackSpeed": 30.0,
         "CritRate": 20.0,
         "Lifesteal": 20.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      }
-    ]
-  },
-  {
-    "URL": "https://wikiwiki.jp/poke-unite/%E3%82%AB%E3%82%A4%E3%83%AA%E3%83%A5%E3%83%BC",
-    "Name": "カイリュー",
-    "EvolutionLevels": [
-      1,
-      5,
-      8
-    ],
-    "Abilities": [
-      {
-        "Name": "ふしぎなうろこ",
-        "Description": "状態異常になったとき、 1.5秒間 防御が 100 上がる。",
-        "Stage": "ミニリュウ、ハクリュー"
-      },
-      {
-        "Name": "マルチスケイル",
-        "Description": "受けるダメージが少しのあいだ (2.5秒間)30% 軽減する。いちどこのとくせいが発動すると、次に発動するまで一定の待ち時間 (15秒) が必要。",
-        "Stage": "カイリュー"
-      }
-    ],
-    "BasicAttacks": [
-      {
-        "Condition": "ミニリュウ",
-        "ConditionRaw": "ミニリュウ",
-        "Description": "3回目の通常攻撃は強化攻撃となり、前方に水を噴き出す。命中した相手のポケモンにダメージを与え、同時に自分のすべてのわざの待ち時間を 1秒 短くする。 また、水の強化攻撃の付加効果として、命中時に自分のHPを 自分の最大HPの5％ 回復する。"
-      },
-      {
-        "Condition": "ハクリュー",
-        "ConditionRaw": "ハクリュー",
-        "Description": "3回目の通常攻撃は強化攻撃となる。強化攻撃は水と電気の2種類があり、強化攻撃が出るたびに交互に切り替わる。命中した相手のポケモンにダメージを与え、同時に自分のすべてのわざの待ち時間を 1秒 短くする。 また、水の強化攻撃が命中した際は、ミニリュウと同様の付加効果が発動する。電気の強化攻撃の場合は、相手のポケモンを少しの間 (0.5秒間) 行動できなくする。 要約: ミニリュウ時の効果に、電気の強化攻撃がパターンに増え、強化攻撃が出るたび交互に切り替わる。"
-      },
-      {
-        "Condition": "カイリュー",
-        "ConditionRaw": "カイリュー",
-        "Description": "3回目の通常攻撃は強化攻撃となる。強化攻撃は水・電気・ほのおの3種類があり、強化攻撃が出るたび順番に切り替わる。命中した相手のポケモンにダメージを与え、同時に自分のすべてのわざの待ち時間を 1秒 短くする。 また、水か電気の強化攻撃が命中した際は、ハクリューと同様に付加効果が発動する。ほのおの強化攻撃の場合は、相手のポケモンに 残りHPの10％の 追加ダメージを与える。 要約: ハクリュー時の効果に、ほのおの強化攻撃がパターンに増え、強化攻撃が出るたび水・電気・ほのおの順番で切り替わる。"
-      }
-    ],
-    "Moves": [
-      {
-        "Name": "たつまき",
-        "Cooldown": "7.5",
-        "Description": "たつまきを起こし指定した方向に放つ。 当たった相手のポケモンにダメージを与え、少しのあいだ (1秒間) 移動速度を 50% 下げる。",
-        "DamageFormula_Base": "攻撃 x 93% + 7 x (レベル - 1) + 210"
-      },
-      {
-        "Name": "りゅうのまい",
-        "Cooldown": "5.5",
-        "Description": "指定した場所まで、踊るような動きで移動する。 少しのあいだ (4.5秒間) 与えるダメージ 攻撃 が 8% 増加し、移動速度 1秒間30% と その後3回の 通常攻撃の速度 (4.5秒間80%) が上がる。このとき通常攻撃を相手のポケモンに命中させると、わざの待ち時間が 1秒 短くなる。 このわざは使用するたび、与えるダメージが増加していく(3回まで) 攻撃が上がる効果は3回まで重ねがけ可能 。",
-        "UpgradeDescription": "移動が終わったとき周りに相手のポケモンがいると、さらに移動速度が上がるようになる (4.5秒間10%) 。"
-      },
-      {
-        "Name": "しんそく",
-        "Cooldown": "7",
-        "Description": "指定した相手のポケモンに飛びかかってふきとばし、範囲内にいる相手のポケモンへダメージを与えてつきとばす。わざが命中した相手のポケモンの移動速度を少しのあいだ (2秒間)50% 下げる。 わざを使用すると「マルチスケイル」の待ち時間がすぐ0秒になる。",
-        "UpgradeDescription": "わざ使用時に移動速度を下げられていた場合、その効果を打ち消してからわざを使えるようになる。",
-        "DamageFormula_Base": "攻撃 x 82% + 4 x (レベル - 1) + 150"
-      },
-      {
-        "Name": "りゅうのいぶき",
-        "Cooldown": "7.5",
-        "Description": "指定した方向に強く息を吐き出し攻撃する。 わざが相手のポケモンに命中すると、次の通常攻撃が強化攻撃になる。",
-        "DamageFormula_Base": "攻撃 x 154% + 11 x (レベル - 1) + 350"
-      },
-      {
-        "Name": "はかいこうせん",
-        "Cooldown": "10.5",
-        "Description": "相手のポケモンを指定し、光線を発射する準備に入る。力を溜め、指定した相手のポケモンに向かって手前から地面を一掃していく。 光線が命中した相手のポケモンへ与えるダメージには、相手のポケモンの最大HPのうち一定割合 (0%/5%/10%/15%) に相当する量が上乗せされる。 「りゅうのまい」の効果を重ねがけするほど、ダメージに上乗せされる相手のポケモンの最大HPの割合が上がる。 わざ使用後、少しのあいだ行動できなくなる。",
-        "UpgradeDescription": "力を溜めているあいだを含め、わざ使用中に受けるダメージが 50% 軽減する。",
-        "DamageFormula_Additional": "相手の最大HPの15%(対野生ポケモン：上限2400)"
-      },
-      {
-        "Name": "げきりん",
-        "Cooldown": "8",
-        "Description": "暴れまくって攻撃する。地面を踏みつけ、範囲内にいる相手のポケモンにダメージを与える。また、いちばん最近繰り出した強化攻撃の付加効果がもういちど発動する。 暴れているあいだ (5.5秒間) は、通常攻撃がすべて特殊な強化攻撃となる。この強化攻撃は近接で、速度も 35% 速くなる。 暴れ終わると、少しのあいだ (0.7秒間) 行動できなくなってしまう。",
-        "UpgradeDescription": "暴れているときに妨害を受けると、妨害の効果の持続時間を 40% 短くする。"
-      },
-      {
-        "Name": "りゅうせいラッシュ",
-        "Cooldown": "112",
-        "Description": "着地の場所を指定すると、空高く舞い上がってからいくつもの隕石とともにその場所へ突撃する。範囲内にいる相手のポケモンにダメージを与え、 0.5秒間 ふきとばす。 着地の場所までの距離が長いほど、消費するユナイトわざゲージが多くなる (50%～100%) 。 わざを使っているあいだは妨害されなくなる。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋攻撃速度35％上昇",
-        "DamageFormula_Base": "攻撃 x 203% + 17 x (レベル - 1) + 860"
-      }
-    ],
-    "BasicAttack": {},
-    "LevelStats": [
-      {
-        "Level": 1,
-        "HP": 3050,
-        "Attack": 165,
-        "Defense": 78,
-        "SpAttack": 20,
-        "SpDefense": 60,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 0.0
-      },
-      {
-        "Level": 2,
-        "HP": 3117,
-        "Attack": 170,
-        "Defense": 84,
-        "SpAttack": 21,
-        "SpDefense": 64,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.57,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 3.33
-      },
-      {
-        "Level": 3,
-        "HP": 3198,
-        "Attack": 177,
-        "Defense": 91,
-        "SpAttack": 23,
-        "SpDefense": 69,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 11.26,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 6.66
-      },
-      {
-        "Level": 4,
-        "HP": 3295,
-        "Attack": 185,
-        "Defense": 99,
-        "SpAttack": 25,
-        "SpDefense": 75,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 12.08,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 9.99
-      },
-      {
-        "Level": 5,
-        "HP": 3647,
-        "Attack": 214,
-        "Defense": 128,
-        "SpAttack": 32,
-        "SpDefense": 97,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 15.07,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 13.32
-      },
-      {
-        "Level": 6,
-        "HP": 3787,
-        "Attack": 225,
-        "Defense": 140,
-        "SpAttack": 35,
-        "SpDefense": 106,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 16.26,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 16.65
-      },
-      {
-        "Level": 7,
-        "HP": 3955,
-        "Attack": 239,
-        "Defense": 154,
-        "SpAttack": 38,
-        "SpDefense": 117,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 17.69,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 8,
-        "HP": 4627,
-        "Attack": 294,
-        "Defense": 209,
-        "SpAttack": 52,
-        "SpDefense": 160,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 23.41,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 9,
-        "HP": 4869,
-        "Attack": 314,
-        "Defense": 229,
-        "SpAttack": 57,
-        "SpDefense": 175,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 25.47,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 10,
-        "HP": 5159,
-        "Attack": 338,
-        "Defense": 253,
-        "SpAttack": 63,
-        "SpDefense": 194,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 27.94,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 11,
-        "HP": 5507,
-        "Attack": 367,
-        "Defense": 282,
-        "SpAttack": 70,
-        "SpDefense": 216,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 30.91,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 12,
-        "HP": 5925,
-        "Attack": 401,
-        "Defense": 316,
-        "SpAttack": 78,
-        "SpDefense": 243,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 34.47,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 13,
-        "HP": 6426,
-        "Attack": 442,
-        "Defense": 357,
-        "SpAttack": 88,
-        "SpDefense": 275,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 38.74,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 14,
-        "HP": 7028,
-        "Attack": 491,
-        "Defense": 406,
-        "SpAttack": 100,
-        "SpDefense": 314,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 43.86,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 15,
-        "HP": 7750,
-        "Attack": 550,
-        "Defense": 465,
-        "SpAttack": 115,
-        "SpDefense": 360,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 50.0,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
         "CDR": 0.0,
         "Tenacity": 19.98
       }
@@ -13730,6 +14308,294 @@
       {
         "Level": 15,
         "HP": 7150,
+        "Attack": 400,
+        "Defense": 450,
+        "SpAttack": 115,
+        "SpDefense": 345,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 10.0,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      }
+    ]
+  },
+  {
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%A1%E3%82%AC%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%89%E3%82%B9",
+    "Name": "メガギャラドス",
+    "EvolutionLevels": [],
+    "Abilities": [
+      {
+        "Name": "すいすい",
+        "Description": "わざを使用すると、移動速度が少しのあいだ (3秒間)30% 上がる。 相手のポケモンをKOしたり、ゴールを決めてバトルで活躍したりすると、がんばりゲージが増加する。 がんばりゲージが満タン かレベル7 になると、ギャラドスに進化する。"
+      },
+      {
+        "Name": "いかく",
+        "Description": "ダメージを与えた相手のポケモンの攻撃が 3秒間30% 下がる。"
+      },
+      {
+        "Name": "かたやぶり",
+        "Description": "攻撃が25%、防御と特防が30%上がる。 相手のポケモンの防御の一部 (30%) を無視してダメージを与える。"
+      }
+    ],
+    "BasicAttacks": [
+      {
+        "Condition": "コイキング",
+        "ConditionRaw": "コイキング",
+        "Description": "近くの相手のポケモンを攻撃してダメージを与える。"
+      },
+      {
+        "Condition": "ギャラドス",
+        "ConditionRaw": "ギャラドス",
+        "Description": "3回目の通常攻撃は強化攻撃となり、与えるダメージが増加する。"
+      },
+      {
+        "Condition": "メガギャラドス",
+        "ConditionRaw": "メガギャラドス",
+        "Description": "相手のポケモンにとびかかるように攻撃してダメージを与える。"
+      }
+    ],
+    "Moves": [
+      {
+        "Name": "じたばた",
+        "Cooldown": "7.5",
+        "Description": "じたばた暴れて、周囲の相手のポケモンにダメージを与える。自分の残りHPが少ないほど、与えるダメージが増加する。"
+      },
+      {
+        "Name": "りゅうのいぶき",
+        "Cooldown": "5",
+        "Description": "ものすごい息を吹きつけて、相手のポケモンにダメージを与えて、 3秒間 まひ状態にする。 まひ状態になったポケモンは移動速度と攻撃速度が30%下がる。 相手のポケモンをこのわざでまひ状態にすると、少しのあいだ (5秒間) 通常攻撃が強化され、 通常攻撃の距離と攻撃速度が上がり、 与えるダメージが増加する。 このわざを命中させた相手のポケモンが多いほど、攻撃速度が大きく上がる。(最大3匹) メガシンカすると、遠くの相手のポケモンも追いかけて 5回 通常攻撃するようになるが、少しのあいだ他の行動が出来なくなる。",
+        "UpgradeDescription": "この わざや通常攻撃の与えるダメージが増加する。",
+        "DamageFormula_Breath": "攻撃 x 193% + 22 x (レベル - 1) + 325",
+        "AttackSpeedIncreaseFormula": "40 + 15 x (命中した相手の数)",
+        "DamageFormula_Breath_Upgraded": "攻撃 x 232% + 26 x (レベル - 1) + 390"
+      },
+      {
+        "Name": "はねる",
+        "Cooldown": "2",
+        "Description": "指定した場所へはねる。わざの最大保有回数は3回。 保有回数の回復は5秒。",
+        "DamageFormula_Base": "0"
+      },
+      {
+        "Name": "たきのぼり",
+        "Cooldown": "6",
+        "Description": "すごい勢いで3回続けて突撃して、相手のポケモンにダメージを与える。突撃する方向は1回ごとに変えられる。 突撃が2回命中したときに 2秒間 シールド効果を得て、3回命中したときに相手のポケモンを 0.45秒間 ふきとばす。 メガシンカすると、相手のポケモンに命中しなくても命中したときの効果が発生するようになる。 また、このわざが命中するたびに、待ち時間が 30% 短くなる。",
+        "UpgradeDescription": "このわざの待ち時間が 1秒 短くなる。",
+        "DamageFormula_Base": "攻撃 x 141% + 7 x (レベル - 1) + 246 (x 3Hit)",
+        "ShieldFormula_Base": "自身の最大HPの13% + 260"
+      },
+      {
+        "Name": "ヒリュウジョウウン",
+        "Cooldown": "112",
+        "Description": "ユナイトわざボタンを押し続けているあいだ、みずに深く潜って、相手のポケモンから狙われないが、自分も攻撃できない状態になる。 潜っている間は溜め段階に応じて移動速度が上がる(45～65%)。 ユナイトわざボタンを離すと、勢いよく飛びあがって攻撃する。 一定時間 (1秒) 潜っていると、飛びあがった場所にうずしおを発生させて、継続的に減速効果を与える。 さらに長い時間 (2秒) 潜っていると、飛びあがった場所に竜巻を発生させて、命中した相手のポケモンを 0.96秒 ふきとばす。 ユナイトわざを使用したあと、 20秒間 メガシンカする。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
+        "DamageFormula_ByLevel1": "攻撃 x 162% + 12 x (レベル - 1) + 325",
+        "DamageFormula_ByLevel2": "攻撃 x 243% + 17 x (レベル - 1) + 488",
+        "DamageFormula_ByLevel2_DoT": "攻撃 x 16.2% + 1 x (レベル - 1) + 33 (x 5Hit)",
+        "DamageFormula_ByLevel3": "攻撃 x 324% + 23 x (レベル - 1) + 650"
+      }
+    ],
+    "BasicAttack": {},
+    "LevelStats": [
+      {
+        "Level": 1,
+        "HP": 3000,
+        "Attack": 140,
+        "Defense": 80,
+        "SpAttack": 20,
+        "SpDefense": 60,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3239,
+        "Attack": 149,
+        "Defense": 93,
+        "SpAttack": 23,
+        "SpDefense": 70,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 3.33
+      },
+      {
+        "Level": 3,
+        "HP": 3392,
+        "Attack": 159,
+        "Defense": 108,
+        "SpAttack": 27,
+        "SpDefense": 81,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 6.66
+      },
+      {
+        "Level": 4,
+        "HP": 3560,
+        "Attack": 170,
+        "Defense": 124,
+        "SpAttack": 31,
+        "SpDefense": 93,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 9.99
+      },
+      {
+        "Level": 5,
+        "HP": 3744,
+        "Attack": 182,
+        "Defense": 142,
+        "SpAttack": 35,
+        "SpDefense": 107,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 10.0,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 13.32
+      },
+      {
+        "Level": 6,
+        "HP": 3947,
+        "Attack": 196,
+        "Defense": 161,
+        "SpAttack": 40,
+        "SpDefense": 122,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 10.0,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 16.65
+      },
+      {
+        "Level": 7,
+        "HP": 4170,
+        "Attack": 211,
+        "Defense": 182,
+        "SpAttack": 45,
+        "SpDefense": 138,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 10.0,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 8,
+        "HP": 4416,
+        "Attack": 228,
+        "Defense": 205,
+        "SpAttack": 51,
+        "SpDefense": 156,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 10.0,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 9,
+        "HP": 4687,
+        "Attack": 246,
+        "Defense": 231,
+        "SpAttack": 58,
+        "SpDefense": 176,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 10.0,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 10,
+        "HP": 4986,
+        "Attack": 266,
+        "Defense": 259,
+        "SpAttack": 65,
+        "SpDefense": 198,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 10.0,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 11,
+        "HP": 5316,
+        "Attack": 288,
+        "Defense": 290,
+        "SpAttack": 73,
+        "SpDefense": 222,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 10.0,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 12,
+        "HP": 5678,
+        "Attack": 312,
+        "Defense": 324,
+        "SpAttack": 82,
+        "SpDefense": 249,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 10.0,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 13,
+        "HP": 6077,
+        "Attack": 339,
+        "Defense": 362,
+        "SpAttack": 92,
+        "SpDefense": 278,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 10.0,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 14,
+        "HP": 6516,
+        "Attack": 368,
+        "Defense": 404,
+        "SpAttack": 103,
+        "SpDefense": 310,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 10.0,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 15,
+        "HP": 7000,
         "Attack": 400,
         "Defense": 450,
         "SpAttack": 115,
@@ -14318,283 +15184,6 @@
     ]
   },
   {
-    "URL": "https://wikiwiki.jp/poke-unite/%E3%82%B9%E3%82%A4%E3%82%AF%E3%83%B3",
-    "Name": "スイクン",
-    "EvolutionLevels": [],
-    "Abilities": [
-      {
-        "Name": "プレッシャー",
-        "Description": "こおり状態の相手のチームのポケモンにダメージを与えたとき、相手のチームのポケモンのHPが一定の割合 (10%) を下回った場合、即座にKOする。 わざを使用すると 5秒間 シールド効果を獲得し、クリスタルゲージがたまる。 シールド効果は重ねがけが可能。(最大2回) 「うずしお」と「なみのり」を使用するとわざが通過した範囲を 5秒間 水で満たされたエリアにする。 水で満たされたエリアを凍らせたとき、エリアの中にいる相手のポケモンを 1秒間 こおり状態にする。"
-      }
-    ],
-    "BasicAttacks": [
-      {
-        "Condition": "Default",
-        "ConditionRaw": "Default",
-        "Description": "クリスタルゲージが満タンになると次の通常攻撃が強化攻撃となる。 強化攻撃は水を発射し続けてダメージを与え、こおり状態の相手のポケモンには追加ダメージを与える。"
-      }
-    ],
-    "Moves": [
-      {
-        "Name": "みずのはどう",
-        "Cooldown": "6",
-        "Description": "指定した方向に水の波動を発射して、相手のポケモンにダメージを与えて 0.5秒間 つきとばす。 また、相手のポケモンを水で濡らして 3秒間 マークを付与する。",
-        "DamageFormula_Base": "特攻 x 40% + 4 x (レベル - 1) + 320"
-      },
-      {
-        "Name": "うずしお",
-        "Cooldown": "7.5",
-        "Description": "指定した場所に渦を巻く水を発生させて、相手のポケモンにダメージを与えて、渦の中心に引き寄せ、減速効果 (0.5秒間20%) を与える。また、相手のポケモンを水で濡らして 3秒間 マークを付与する。 4秒以内に このわざを再度使用すると、渦を指定した方向へ移動させて、渦が通過した範囲を水で満たされたエリアにする。",
-        "UpgradeDescription": "このわざの待ち時間が 1秒 短くなる。"
-      },
-      {
-        "Name": "なみのり",
-        "Cooldown": "5",
-        "Description": "指定した方向に大きな波を発生させて、相手のポケモンにダメージを与えて、つきとばし、水で濡らして 3秒間 マークを付与する。 波が通過した範囲を水で満たされたエリアにする。 「こごえるかぜ」による氷柱へ波が命中すると、氷柱が砕けて、相手のポケモンにダメージを与える。",
-        "UpgradeDescription": "このわざで与えるダメージが増加する。",
-        "DamageFormula_Base": "特攻 x 55% + 4 x (レベル - 1) + 270",
-        "DamageFormula_Upgraded": "特攻 x 66% + 5 x (レベル - 1) + 324"
-      },
-      {
-        "Name": "ゆきなだれ",
-        "Cooldown": "6",
-        "Description": "指定した場所に 1.5秒間 雪を落とし続けて、ダメージと減速効果 (2秒間30%) を与える。 最後に、多くの雪を落として水で満たされたエリアを凍らせる。 また、相手のポケモンに水で濡らしたマークが付与されていると、こおり状態にする。"
-      },
-      {
-        "Name": "れいとうビーム",
-        "Cooldown": "0.5",
-        "Description": "指定した方向へ冷たいビームを発射して、相手のポケモンにダメージと減速効果 (2秒間20%) を与える。 相手のポケモンに水で濡らしたマークが付与されていると、こおり状態にする。 水で満たされたエリアにこのわざが命中すると、水で満たされたエリアを凍らせる。 わざの最大保有回数は2回。 保有回数の回復は7.5秒。",
-        "UpgradeDescription": "このわざが命中したときの減速効果が強くなる (2秒間30%) 。",
-        "DamageFormula_Base": "特攻 x 75% + 5 x (レベル - 1) + 380"
-      },
-      {
-        "Name": "こごえるかぜ",
-        "Cooldown": "0.5",
-        "Description": "指定した場所に、凍てつく冷気を吹き付けて、相手のポケモンに減速効果 (2秒間20%) を与える。 冷気がたまると氷柱を作り出し、相手のポケモンにダメージと減速効果 (2秒間20%) を与える。 しばらく (4秒) すると氷柱は砕けて、周囲の相手のポケモンにダメージを与える。 相手のポケモンに水で濡らしたマークが付与されていると、こおり状態にする。 氷柱が水で満たされたエリアに現れると、水で満たされたエリアを凍らせる。 わざの最大保有回数は2回。 保有回数の回復は5秒。",
-        "UpgradeDescription": "このわざの待ち時間が 1秒 短くなる。",
-        "DamageFormula_Base": "特攻 x 75% + 3 x (レベル - 1) + 360"
-      },
-      {
-        "Name": "無尽氷棘",
-        "Cooldown": "112",
-        "Description": "このわざは自分が行動不能のときにも使用できて、使用するときに、自分が受けている状態異常を回復する。 指定した方向に無数の氷の棘を発生させて、相手のポケモンにダメージを与えて、こおり状態にする。 しばらく (2秒) すると、氷の棘が砕けて、相手のポケモンにダメージを与える。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少"
-      }
-    ],
-    "BasicAttack": {},
-    "LevelStats": [
-      {
-        "Level": 1,
-        "HP": 3250,
-        "Attack": 134,
-        "Defense": 70,
-        "SpAttack": 80,
-        "SpDefense": 60,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 0.0
-      },
-      {
-        "Level": 2,
-        "HP": 3381,
-        "Attack": 140,
-        "Defense": 78,
-        "SpAttack": 105,
-        "SpDefense": 66,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.71,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 5.83
-      },
-      {
-        "Level": 3,
-        "HP": 3524,
-        "Attack": 146,
-        "Defense": 87,
-        "SpAttack": 132,
-        "SpDefense": 73,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 11.49,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 11.66
-      },
-      {
-        "Level": 4,
-        "HP": 3682,
-        "Attack": 153,
-        "Defense": 96,
-        "SpAttack": 162,
-        "SpDefense": 80,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 12.35,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 17.49
-      },
-      {
-        "Level": 5,
-        "HP": 3855,
-        "Attack": 160,
-        "Defense": 106,
-        "SpAttack": 195,
-        "SpDefense": 88,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 13.3,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 23.32
-      },
-      {
-        "Level": 6,
-        "HP": 4046,
-        "Attack": 168,
-        "Defense": 118,
-        "SpAttack": 231,
-        "SpDefense": 97,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 14.34,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 29.15
-      },
-      {
-        "Level": 7,
-        "HP": 4256,
-        "Attack": 177,
-        "Defense": 131,
-        "SpAttack": 271,
-        "SpDefense": 107,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 15.49,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 8,
-        "HP": 4488,
-        "Attack": 187,
-        "Defense": 145,
-        "SpAttack": 315,
-        "SpDefense": 118,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 16.75,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 9,
-        "HP": 4742,
-        "Attack": 198,
-        "Defense": 160,
-        "SpAttack": 364,
-        "SpDefense": 129,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 18.14,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 10,
-        "HP": 5022,
-        "Attack": 210,
-        "Defense": 177,
-        "SpAttack": 418,
-        "SpDefense": 143,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 19.67,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 11,
-        "HP": 5329,
-        "Attack": 223,
-        "Defense": 195,
-        "SpAttack": 477,
-        "SpDefense": 157,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 21.36,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 12,
-        "HP": 5667,
-        "Attack": 237,
-        "Defense": 216,
-        "SpAttack": 542,
-        "SpDefense": 173,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 23.22,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 13,
-        "HP": 6040,
-        "Attack": 253,
-        "Defense": 238,
-        "SpAttack": 614,
-        "SpDefense": 190,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 25.27,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 14,
-        "HP": 6449,
-        "Attack": 271,
-        "Defense": 263,
-        "SpAttack": 693,
-        "SpDefense": 209,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 27.52,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 15,
-        "HP": 6900,
-        "Attack": 290,
-        "Defense": 290,
-        "SpAttack": 780,
-        "SpDefense": 230,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 30.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      }
-    ]
-  },
-  {
     "URL": "https://wikiwiki.jp/poke-unite/%E3%82%BD%E3%82%A6%E3%83%96%E3%83%AC%E3%82%A4%E3%82%BA",
     "Name": "ソウブレイズ",
     "EvolutionLevels": [
@@ -14885,6 +15474,287 @@
         "AttackSpeed": 50.0,
         "CritRate": 20.0,
         "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      }
+    ]
+  },
+  {
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%80%E3%83%80%E3%83%AA%E3%83%B3",
+    "Name": "ダダリン",
+    "EvolutionLevels": [],
+    "Abilities": [
+      {
+        "Name": "はがねつかい",
+        "Description": "一定時間 (5秒) ごとにわざが相手チームのポケモンに命中すると、シールドを獲得する。 新たにとくせいや他の効果でシールドを獲得するたび、次の通常攻撃が追加ダメージを与えるようになる。 この効果は3回まで重ねがけが可能。 シールドが時間経過 (3秒) で消滅する際、残ったシールドの一定割合 (20%) をHPとして回復する。"
+      }
+    ],
+    "BasicAttacks": [
+      {
+        "Condition": "Default",
+        "ConditionRaw": "Default",
+        "Description": "体をぶつけて攻撃する。"
+      }
+    ],
+    "Moves": [
+      {
+        "Name": "しっぺがえし",
+        "Cooldown": "7",
+        "Description": "錨を振り回して攻撃し、相手のポケモンにダメージと減速効果 (2秒間30%) を与える。 このわざを使用しているあいだ、先に相手から攻撃を受けると与えるダメージが増加する。",
+        "DamageFormula_Base": "攻撃 x 160% + 8 x (レベル - 1) + 240",
+        "DamageFormula_Additional": "攻撃 x 80% + 4 x (レベル - 1) + 120"
+      },
+      {
+        "Name": "パワーウィップ",
+        "Cooldown": "6",
+        "Description": "前方を錨で薙ぎ払う。 命中時にダメージと減速効果 (2秒間40%) を与え、 3秒間 シールドを獲得する。錨の先端は追加ダメージを与えて、 0.5秒間 行動不能にする。",
+        "UpgradeDescription": "相手のポケモンを行動不能にする時間が長くなる (1秒間) 。",
+        "DamageFormula_Base": "攻撃 x 154% + 8 x (レベル - 1) + 230",
+        "DamageFormula_Additional": "攻撃 x 154% + 8 x (レベル - 1) + 230",
+        "ShieldFormula_Base": "攻撃 x 276% + 0 x (レベル - 1) + 414"
+      },
+      {
+        "Name": "うずしお",
+        "Cooldown": "5",
+        "Description": "錨を振り下ろして、相手のポケモンにダメージと減速効果 (2秒間40%) を与える。 このわざを3回使用すると、自分を中心に渦を巻く水流が (2秒間) 発生し、周囲の相手のポケモンを引き寄せる。 通常攻撃が命中するたびにこのわざの待ち時間が 0.8秒 短くなる。",
+        "UpgradeDescription": "通常攻撃が命中するたび、このわざの待ち時間がさらに短くなる (1.5秒) 。",
+        "DamageFormula_Base": "攻撃 x 273% + 14 x (レベル - 1) + 414"
+      },
+      {
+        "Name": "じならし",
+        "Cooldown": "5",
+        "Description": "錨で地面を揺らして攻撃し、相手のポケモンにダメージを与えて、 0.5秒間 ふきとばす。",
+        "DamageFormula_Base": "攻撃 x 134% + 6 x (レベル - 1) + 200"
+      },
+      {
+        "Name": "アンカーショット",
+        "Cooldown": "8.5",
+        "Description": "指定した方向へ錨を投げて絡みつかせ、相手のポケモンにダメージを与えて、 0.6~0.8秒間 行動不能にする。 その後、錨が絡んだ相手のポケモンを自分のもとへ引き寄せる。",
+        "UpgradeDescription": "相手のポケモンを引き寄せている間、そのポケモンが受けるダメージが 50% 増加する。",
+        "DamageFormula_Base": "攻撃 x 260% + 14 x (レベル - 1) + 390"
+      },
+      {
+        "Name": "ヘビーボンバー",
+        "Cooldown": "7",
+        "Description": "指定した方向へ錨を投げて、錨の落下地点にいる相手のポケモンにダメージを与えて、 0.5秒間 行動不能にする。 落下地点の周囲にいる相手のポケモンには、ダメージと減速効果 (2秒間40%) を与える。 その後、錨の落下地点に体をぶつけて、相手のポケモンにダメージと減速効果 (2秒間40%) を与える。",
+        "UpgradeDescription": "体がぶつかったとき、落下地点の中心にいる相手のポケモンを 0.5秒間 行動不能にする。"
+      },
+      {
+        "Name": "無限鎖藻",
+        "Cooldown": "112",
+        "Description": "指定した相手チームのポケモンに錨を飛ばし、長い鎖を絡ませ、ダメージを与えて 0.45秒間 行動不能にする。 その後、鎖を絡ませた相手チームのポケモンのところに突撃し、ダメージを与えて、 0.45秒間 行動不能にする。 錨や突撃が命中した相手のチームのポケモンにダメージを与えて、 0.7秒間 つきとばす。 ユナイトわざの使用中に与えたダメージの一部を吸収してHPを回復する。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
+        "HPRecovery": "DoTダメージの150%"
+      }
+    ],
+    "BasicAttack": {},
+    "LevelStats": [
+      {
+        "Level": 1,
+        "HP": 3250,
+        "Attack": 165,
+        "Defense": 90,
+        "SpAttack": 20,
+        "SpDefense": 70,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3405,
+        "Attack": 176,
+        "Defense": 104,
+        "SpAttack": 23,
+        "SpDefense": 80,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.71,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 3.33
+      },
+      {
+        "Level": 3,
+        "HP": 3575,
+        "Attack": 188,
+        "Defense": 119,
+        "SpAttack": 27,
+        "SpDefense": 91,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 11.49,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 6.66
+      },
+      {
+        "Level": 4,
+        "HP": 3762,
+        "Attack": 202,
+        "Defense": 136,
+        "SpAttack": 31,
+        "SpDefense": 103,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 12.35,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 9.99
+      },
+      {
+        "Level": 5,
+        "HP": 3968,
+        "Attack": 217,
+        "Defense": 154,
+        "SpAttack": 35,
+        "SpDefense": 116,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 13.3,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 13.32
+      },
+      {
+        "Level": 6,
+        "HP": 4195,
+        "Attack": 233,
+        "Defense": 174,
+        "SpAttack": 40,
+        "SpDefense": 131,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 14.34,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 16.65
+      },
+      {
+        "Level": 7,
+        "HP": 4444,
+        "Attack": 251,
+        "Defense": 196,
+        "SpAttack": 45,
+        "SpDefense": 147,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 15.49,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 8,
+        "HP": 4718,
+        "Attack": 271,
+        "Defense": 221,
+        "SpAttack": 51,
+        "SpDefense": 165,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 16.75,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 9,
+        "HP": 5021,
+        "Attack": 293,
+        "Defense": 248,
+        "SpAttack": 58,
+        "SpDefense": 184,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 18.14,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 10,
+        "HP": 5355,
+        "Attack": 317,
+        "Defense": 278,
+        "SpAttack": 65,
+        "SpDefense": 205,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 19.67,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 11,
+        "HP": 5722,
+        "Attack": 344,
+        "Defense": 311,
+        "SpAttack": 73,
+        "SpDefense": 229,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 21.36,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 12,
+        "HP": 6126,
+        "Attack": 373,
+        "Defense": 347,
+        "SpAttack": 82,
+        "SpDefense": 255,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 23.22,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 13,
+        "HP": 6571,
+        "Attack": 405,
+        "Defense": 387,
+        "SpAttack": 92,
+        "SpDefense": 284,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 25.27,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 14,
+        "HP": 7061,
+        "Attack": 441,
+        "Defense": 431,
+        "SpAttack": 103,
+        "SpDefense": 315,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 27.52,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 15,
+        "HP": 7600,
+        "Attack": 480,
+        "Defense": 480,
+        "SpAttack": 115,
+        "SpDefense": 350,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 30.0,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
         "CDR": 0.0,
         "Tenacity": 19.98
       }
@@ -15453,6 +16323,299 @@
         "Lifesteal": 15.0,
         "CDR": 0.0,
         "Tenacity": 34.98
+      }
+    ]
+  },
+  {
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%91%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88",
+    "Name": "パーモット",
+    "EvolutionLevels": [
+      1,
+      5,
+      7
+    ],
+    "Abilities": [
+      {
+        "Name": "てつのこぶし",
+        "Description": "わざを命中させると、次の通常攻撃のダメージが増加して、自分のHPを回復する。 かくとうモード：次の通常攻撃のダメージが増加して、少しの間 (8秒間) 攻撃速度が 30% 上がる。この効果は最大2回まで重ねがけが可能。"
+      }
+    ],
+    "BasicAttacks": [
+      {
+        "Condition": "Default",
+        "ConditionRaw": "Default",
+        "Description": "3回目の通常攻撃は強化攻撃となり、与えるダメージが増加して、相手のポケモンに飛びかかって攻撃する。"
+      }
+    ],
+    "Moves": [
+      {
+        "Name": "ほっぺすりすり",
+        "Cooldown": "5",
+        "Description": "指定した相手のポケモンに電気を帯びたほっぺをすりつけて、ダメージを与え、 2秒間 まひ状態にする。 まひ状態になったポケモンは移動速度が30%、攻撃速度が10%下がる。",
+        "DamageFormula_Base": "攻撃 x 120% + 12 x (レベル - 1) + 160"
+      },
+      {
+        "Name": "かみなりパンチ",
+        "Cooldown": "5.5",
+        "Description": "指定した方向へ電撃をまとったパンチを繰り出して、相手のポケモンにダメージ と減速効果を与える。 を与え、2秒間まひ状態にする。まひ状態になったポケモンは移動速度が40%、攻撃速度が10%下がる。 かくとうモード：わざの届く距離が短くなり、減速効果を与えなくなるが、ダメージが増加する。",
+        "UpgradeDescription": "与えるダメージが増加する。",
+        "DamageFormula_Base": "攻撃 x 232% + 29 x (レベル - 1) + 404",
+        "DamageFormula_Fighting": "攻撃 x 324% + 40 x (レベル - 1) + 566",
+        "DamageFormula_Upgraded": "攻撃 x 269% + 32 x (レベル - 1) + 465",
+        "DamageFormula_Fighting_Upgraded": "攻撃 x 374% + 47 x (レベル - 1) + 652"
+      },
+      {
+        "Name": "サンダーダイブ",
+        "Cooldown": "7",
+        "Description": "指定した範囲に体を帯電させて飛びかかり、相手のポケモンにダメージと減速効果 (2秒間30%) を与える。 力を溜めているあいだ、受けるダメージが30%軽減し、妨害無効の状態になる。 わざを外すと自分がダメージを受ける。 このわざを命中させると再度使用することができて、前方にパンチを繰り出してダメージとつきとばしを与える。 かくとうモード：1段目の攻撃が狭くなり、減速効果を与えなくなるが、与えるダメージが増加する。",
+        "UpgradeDescription": "相手のポケモンに与える減速効果が強くなる (40%) 。 かくとうモード：与えるダメージがさらに増加する。",
+        "DamageFormula_Stage1_Fighting": "攻撃 x 179% + 18 x (レベル - 1) + 240",
+        "DamageFormula_Stage2_Fighting": "攻撃 x 234% + 22 x (レベル - 1) + 311",
+        "ShieldFormula_Base": "攻撃 x 280% + 0 x (レベル - 1) + 240",
+        "DamageFormula_Stage1_Fighting_Upgraded": "攻撃 x 207% + 20 x (レベル - 1) + 274",
+        "DamageFormula_Stage2_Fighting_Upgraded": "攻撃 x 270% + 26 x (レベル - 1) + 358"
+      },
+      {
+        "Name": "ひっかく",
+        "Cooldown": "7",
+        "Description": "指定した相手のポケモンにするどいツメで攻撃して、ダメージを与える。",
+        "DamageFormula_Base": "攻撃 x 180% + 18 x (レベル - 1) + 250"
+      },
+      {
+        "Name": "ボルトチェンジ",
+        "Cooldown": "7",
+        "Description": "電気をまとって突進し、ダメージを与えて、背後に移動する。 このわざを使用したあと、短い間に1回だけ、このわざを再度使用できるようになる。 かくとうモード：再度使用できなくなるが、このわざを使用した後の移動速度が 3秒間40% 上がる。",
+        "UpgradeDescription": "このわざの待ち時間が 1秒 短くなる。",
+        "DamageFormula_Base": "攻撃 x 158% + 17 x (レベル - 1) + 242",
+        "DamageFormula_Fighting": "攻撃 x 316% + 34 x (レベル - 1) + 484"
+      },
+      {
+        "Name": "マッハパンチ",
+        "Cooldown": "7",
+        "Description": "素早くパンチを繰り出して攻撃し、相手のポケモンにダメージを与えてつきとばし、 0.6秒間 行動不能にする。 通常攻撃が命中するたびにこのわざの待ち時間が短くなる。 かくとうモード：つきとばしと行動不能にしなくなるが、攻撃回数が増える。",
+        "UpgradeDescription": "相手のポケモンを行動不能にする時間が長くなる (1秒間) 。 かくとうモード：与えるダメージが増加する。",
+        "DamageFormula_Base": "攻撃 x 180% + 20 x (レベル - 1) + 270",
+        "DamageFormula_Fighting": "攻撃 x 85% + 9 x (レベル - 1) + 126 (x 3)",
+        "DamageFormula_Fighting_Upgraded": "攻撃 x 96% + 11 x (レベル - 1) + 145 (x 3)"
+      },
+      {
+        "Name": "ビリビリぜんかい！スパーキン！！",
+        "Cooldown": "-秒",
+        "Description": "指定した相手チームのポケモンに突進し、体毛に蓄えた電気をすべて放出して、相手のポケモンとその周囲にダメージを当たえる。 ユナイトわざ使用後、全身の電気を失って、一定時間 (8秒間) かくとうモードになる。 このユナイトわざのゲージは通常攻撃やわざを相手 チーム のポケモンに命中させた時にのみたまる。 かくとうモード：通常攻撃やわざの効果が変化し、ユナイトわざのゲージがたまらなくなる。 ユナイトバフ：最大HP20％分のシールド＋移動速度50％上昇＋攻撃速度35％上昇",
+        "DamageFormula_Base": "攻撃 x 302% + 36 x (レベル - 1) + 504"
+      }
+    ],
+    "BasicAttack": {},
+    "LevelStats": [
+      {
+        "Level": 1,
+        "HP": 3250,
+        "Attack": 145,
+        "Defense": 90,
+        "SpAttack": 20,
+        "SpDefense": 65,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3332,
+        "Attack": 150,
+        "Defense": 97,
+        "SpAttack": 21,
+        "SpDefense": 70,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.43,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 3.33
+      },
+      {
+        "Level": 3,
+        "HP": 3431,
+        "Attack": 156,
+        "Defense": 105,
+        "SpAttack": 23,
+        "SpDefense": 76,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.95,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 6.66
+      },
+      {
+        "Level": 4,
+        "HP": 3550,
+        "Attack": 163,
+        "Defense": 115,
+        "SpAttack": 25,
+        "SpDefense": 83,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 11.57,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 9.99
+      },
+      {
+        "Level": 5,
+        "HP": 4124,
+        "Attack": 196,
+        "Defense": 162,
+        "SpAttack": 34,
+        "SpDefense": 116,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 14.56,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 13.32
+      },
+      {
+        "Level": 6,
+        "HP": 4295,
+        "Attack": 206,
+        "Defense": 176,
+        "SpAttack": 37,
+        "SpDefense": 126,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 15.45,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 16.65
+      },
+      {
+        "Level": 7,
+        "HP": 4932,
+        "Attack": 243,
+        "Defense": 228,
+        "SpAttack": 48,
+        "SpDefense": 163,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 18.77,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 8,
+        "HP": 5179,
+        "Attack": 257,
+        "Defense": 248,
+        "SpAttack": 52,
+        "SpDefense": 177,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 20.06,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 9,
+        "HP": 5475,
+        "Attack": 274,
+        "Defense": 272,
+        "SpAttack": 57,
+        "SpDefense": 194,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 21.61,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 10,
+        "HP": 5830,
+        "Attack": 294,
+        "Defense": 301,
+        "SpAttack": 63,
+        "SpDefense": 215,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 23.46,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 11,
+        "HP": 6256,
+        "Attack": 318,
+        "Defense": 336,
+        "SpAttack": 70,
+        "SpDefense": 240,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 25.68,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 12,
+        "HP": 6767,
+        "Attack": 347,
+        "Defense": 378,
+        "SpAttack": 78,
+        "SpDefense": 270,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 28.35,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 13,
+        "HP": 7380,
+        "Attack": 382,
+        "Defense": 428,
+        "SpAttack": 88,
+        "SpDefense": 306,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 31.55,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 14,
+        "HP": 8116,
+        "Attack": 424,
+        "Defense": 488,
+        "SpAttack": 100,
+        "SpDefense": 349,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 35.39,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 15,
+        "HP": 9000,
+        "Attack": 475,
+        "Defense": 560,
+        "SpAttack": 115,
+        "SpDefense": 400,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 40.0,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
       }
     ]
   },
@@ -16655,7 +17818,7 @@
       {
         "Name": "たいあたり",
         "Cooldown": "5",
-        "Description": "前方へぶつかっていき、当たった相手のポケモンにダメージを与え、少しのあいだ 0.5秒間 行動できなくする。",
+        "Description": "前方へぶつかっていき、当たった相手のポケモンにダメージを与え、少しのあいだ (0.5秒間) 行動できなくする。",
         "DamageFormula_Base": "攻撃 x 86% + 8 x (レベル - 1) + 100"
       },
       {
@@ -16971,7 +18134,7 @@
       {
         "Name": "トリックルーム",
         "Cooldown": "7",
-        "Description": "自分の周囲に不思議な空間を 5秒間 生み出す。自分が空間の範囲内にいるあいだ、減速効果を受けると、移動速度が上がる効果に変換され、空間の範囲外にいるポケモンから受けるダメージを 70% 軽減する。 また、空間の範囲内にいるあいだ、わざの2段目を何度も使用できるようになり、前方へ一定の距離を移動する。",
+        "Description": "自分の周囲に不思議な空間を 5秒間 生み出す。自分が空間の範囲内にいるあいだ、減速効果を受けると、移動速度が上がる効果に変換され、空間の範囲外にいるポケモンから受けるダメージを 50% 軽減する。 また、空間の範囲内にいるあいだ、わざの2段目を何度も使用できるようになり、前方へ一定の距離を移動する。",
         "UpgradeDescription": "このわざの待ち時間が 1秒 短くなる。",
         "DamageFormula_Base": "0"
       },
@@ -18072,6 +19235,560 @@
     ]
   },
   {
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%A1%E3%82%AC%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%89%E3%83%B3X",
+    "Name": "メガリザードンX",
+    "EvolutionLevels": [
+      1,
+      5,
+      7,
+      9
+    ],
+    "Abilities": [
+      {
+        "Name": "サンパワー",
+        "Description": "わざ使用時、自分のHPの一部と引き換えに相手のポケモンに与えるダメージが増加する。 このとくせいは草むらの中にいると発動しない。 自分のわざによってやけど状態になった相手のポケモンに、通常攻撃でダメージを与えたとき、HPを回復する。"
+      },
+      {
+        "Name": "かたいツメ",
+        "Description": "防御と特防が30%、移動速度が50%上がり、わざで相手のポケモンに与えるダメージが増加する。 わざを相手のポケモンに命中させると、強化カウンタがたまる。（最大3つ） 強化カウンタを1つ消費すると、次の通常攻撃は強化攻撃となり、必ず急所に当たる。 自分のわざによってやけど状態になった相手のポケモンに、通常攻撃でダメージを与えたとき、HPを回復する。"
+      }
+    ],
+    "BasicAttacks": [
+      {
+        "Condition": "Default",
+        "ConditionRaw": "Default",
+        "Description": "通常攻撃で連続ダメージを与えられる。 進化すると通常攻撃の距離が長くなる。 自分のわざによってやけど状態になった相手のポケモンに、通常攻撃で追加ダメージを与えられる。"
+      }
+    ],
+    "Moves": [
+      {
+        "Name": "はじけるほのお",
+        "Cooldown": "6",
+        "Description": "ほのおを吐いて攻撃する。 わざ命中時に相手のポケモンが 4秒間 やけど状態になり、自分の移動速度が少しのあいだ (3秒間)20% 上がる。 やけど状態になったポケモンは攻撃が5%下がる。",
+        "DamageFormula_Base": "攻撃 x 105% + 4 x (レベル - 1) + 70",
+        "DamageFormula_Burn": "攻撃 x 20% + 0 x (レベル - 1) + 0 (x 5Hit)"
+      },
+      {
+        "Name": "ほのおのパンチ",
+        "Cooldown": "5",
+        "Description": "ほのおを込めたパンチで攻撃する。わざ命中時に相手のポケモンにダメージを与え、 0.5秒間 つきとばす。 また、つきとばした相手のポケモンを 4秒間 やけど状態にする。 やけど状態になったポケモンは攻撃が5%下がる。 メガシンカすると、わざが命中したすべてのポケモンをやけど状態にする。",
+        "UpgradeDescription": "通常攻撃が命中するたびにわざの待ち時間が 0.4秒 短くなる。",
+        "DamageFormula_Base": "攻撃 x 246% + 11 x (レベル - 1) + 264",
+        "DamageFormula_Burn": "攻撃 x 20% + 0 x (レベル - 1) + 0 (x 5Hit)"
+      },
+      {
+        "Name": "ほのおのうず",
+        "Cooldown": "10",
+        "Description": "範囲内にいる相手のポケモンをほのおのうずに閉じ込める。 わざ命中後から 0.5秒毎に 継続ダメージを与え、相手のポケモンの移動速度も少しのあいだ (1秒間)25% 下げる。",
+        "DamageFormula_Base": "攻撃 x 100% + 5 x (レベル - 1) + 150"
+      },
+      {
+        "Name": "フレアドライブ",
+        "Cooldown": "10",
+        "Description": "ほのおをまとって突進し、相手のポケモンをふきとばす。このとき自分は 5秒間 シールド効果を得る。 メガシンカすると、周囲の相手のポケモンもふきとばすようになる。 また、相手チームのポケモンに命中させると、わざの待ち時間が短くなる。",
+        "UpgradeDescription": "ふきとばした相手のポケモンの移動速度も少しのあいだ (3秒間)40% 下げるようになる。",
+        "DamageFormula_Base": "攻撃 x 160% + 5 x (レベル - 1) + 193",
+        "ShieldFormula_Base": "攻撃 x 240% + 0 x (レベル - 1) + 720"
+      },
+      {
+        "Name": "アースクラッシャー",
+        "Cooldown": "112",
+        "Description": "相手チームのポケモンをつかみあげ、空中から地面へ叩きつける。ユナイトわざ使用後、 20秒間 メガシンカした姿になる。 ユナイトバフ：最大HP20％分のシールド",
+        "DamageFormula_Slam": "攻撃 x 307% + 8 x (レベル - 1) + 380",
+        "DamageFormula_Additional": "相手の最大HPの8%"
+      }
+    ],
+    "BasicAttack": {},
+    "LevelStats": [
+      {
+        "Level": 1,
+        "HP": 3200,
+        "Attack": 161,
+        "Defense": 70,
+        "SpAttack": 20,
+        "SpDefense": 54,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 0.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3264,
+        "Attack": 165,
+        "Defense": 75,
+        "SpAttack": 21,
+        "SpDefense": 58,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 0.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 3.33
+      },
+      {
+        "Level": 3,
+        "HP": 3341,
+        "Attack": 170,
+        "Defense": 81,
+        "SpAttack": 23,
+        "SpDefense": 63,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 0.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 6.66
+      },
+      {
+        "Level": 4,
+        "HP": 3434,
+        "Attack": 176,
+        "Defense": 88,
+        "SpAttack": 25,
+        "SpDefense": 68,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 0.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 9.99
+      },
+      {
+        "Level": 5,
+        "HP": 3771,
+        "Attack": 199,
+        "Defense": 121,
+        "SpAttack": 32,
+        "SpDefense": 95,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 0.0,
+        "CritRate": 15.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 13.32
+      },
+      {
+        "Level": 6,
+        "HP": 3905,
+        "Attack": 208,
+        "Defense": 131,
+        "SpAttack": 35,
+        "SpDefense": 103,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 0.0,
+        "CritRate": 15.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 16.65
+      },
+      {
+        "Level": 7,
+        "HP": 4516,
+        "Attack": 249,
+        "Defense": 168,
+        "SpAttack": 48,
+        "SpDefense": 132,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 0.0,
+        "CritRate": 15.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 8,
+        "HP": 4709,
+        "Attack": 262,
+        "Defense": 182,
+        "SpAttack": 52,
+        "SpDefense": 143,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 0.0,
+        "CritRate": 15.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 9,
+        "HP": 4941,
+        "Attack": 277,
+        "Defense": 199,
+        "SpAttack": 57,
+        "SpDefense": 157,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 10,
+        "HP": 5219,
+        "Attack": 296,
+        "Defense": 219,
+        "SpAttack": 63,
+        "SpDefense": 173,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 11,
+        "HP": 5553,
+        "Attack": 318,
+        "Defense": 243,
+        "SpAttack": 70,
+        "SpDefense": 193,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 12,
+        "HP": 5953,
+        "Attack": 345,
+        "Defense": 272,
+        "SpAttack": 78,
+        "SpDefense": 217,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 13,
+        "HP": 6433,
+        "Attack": 377,
+        "Defense": 307,
+        "SpAttack": 88,
+        "SpDefense": 245,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 14,
+        "HP": 7009,
+        "Attack": 416,
+        "Defense": 349,
+        "SpAttack": 100,
+        "SpDefense": 279,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 15,
+        "HP": 7700,
+        "Attack": 462,
+        "Defense": 400,
+        "SpAttack": 115,
+        "SpDefense": 320,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      }
+    ]
+  },
+  {
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%A1%E3%82%AC%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%89%E3%83%B3Y",
+    "Name": "メガリザードンY",
+    "EvolutionLevels": [],
+    "Abilities": [
+      {
+        "Name": "もうか",
+        "Description": "ダメージを受けると、少しのあいだ (5秒間) 与えるダメージが 20% 増加する。"
+      },
+      {
+        "Name": "ひでり",
+        "Description": "周囲の日差しが強くなる。日差しが強い範囲内にいると、与えるダメージが 10% 増加する。"
+      }
+    ],
+    "BasicAttacks": [
+      {
+        "Condition": "Default",
+        "ConditionRaw": "Default",
+        "Description": "通常攻撃で連続ダメージを与えられる。 進化すると通常攻撃の距離が長くなる。 自分のわざによってやけど状態になった相手のポケモンに、通常攻撃で追加ダメージを与えられる。"
+      }
+    ],
+    "Moves": [
+      {
+        "Name": "はじけるほのお",
+        "Cooldown": "6",
+        "Description": "ほのおを吐いて攻撃する。 わざ命中時に相手のポケモンが 4秒間 やけど状態になり、自分の移動速度が少しのあいだ (3秒間)20% 上がる。 やけど状態になったポケモンは攻撃が5%下がる。",
+        "DamageFormula_Base": "攻撃 x 105% + 4 x (レベル - 1) + 70",
+        "DamageFormula_Burn": "攻撃 x 20% + 0 x (レベル - 1) + 0 (x 5Hit)"
+      },
+      {
+        "Name": "かえんほうしゃ",
+        "Cooldown": "6",
+        "Description": "ほのおを激しく噴き出して攻撃する。 わざ命中時に相手のポケモンが 4秒間 やけど状態になり、自分の移動速度が少しのあいだ (3秒間)40% 上がる。 やけど状態になったポケモンは攻撃が5%下がる。 メガシンカすると、移動速度がさらに上がるようになる (3秒間15%) 。",
+        "UpgradeDescription": "わざ・やけど両方のダメージが増加する。",
+        "DamageFormula_Base": "攻撃 x 131% + 6 x (レベル - 1) + 144",
+        "DamageFormula_Burn": "攻撃 x 20% + 0 x (レベル - 1) + 0 (x 5Hit)",
+        "DamageFormula_Upgraded": "攻撃 x 154% + 7 x (レベル - 1) + 170",
+        "DamageFormula_Burn_Upgraded": "攻撃 x 30% + 0 x (レベル - 1) + 0 (x 5Hit)"
+      },
+      {
+        "Name": "ほのおのうず",
+        "Cooldown": "10",
+        "Description": "範囲内にいる相手のポケモンをほのおのうずに閉じ込める。 わざ命中後から 0.5秒毎に 継続ダメージを与え、相手のポケモンの移動速度も少しのあいだ (1秒間)25% 下げる。",
+        "DamageFormula_Base": "攻撃 x 100% + 5 x (レベル - 1) + 150"
+      },
+      {
+        "Name": "だいもんじ",
+        "Cooldown": "6.5",
+        "Description": "大の字のほのおで攻撃する。ほのおは地面で 5秒間 燃え続けているあいだ、相手のポケモンに 0.5秒毎に 継続ダメージを与える。 また、相手のポケモンの移動速度も少しのあいだ (1秒間)30% 下げる。 メガシンカすると、わざの範囲が広くなる。",
+        "UpgradeDescription": "わざの与えるダメージが増加する。",
+        "DamageFormula_Base": "攻撃 x 131% + 4 x (レベル - 1) + 158",
+        "DamageFormula_Upgraded": "攻撃 x 140% + 5 x (レベル - 1) + 184"
+      },
+      {
+        "Name": "アースクラッシャー",
+        "Cooldown": "112",
+        "Description": "相手チームのポケモンをつかみあげ、空中から地面へ叩きつける。 その後、メガシンカして一定時間 (20秒間) のあいだ障害物を無視して移動できるようになる。 メガシンカしている間はわざと通常攻撃が強化される。 メガシンカしている間の通常攻撃は、相手のポケモンを 1秒間 やけど状態にすることができ、相手に命中させるとHPを回復するようになる。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇",
+        "DamageFormula_Slam": "攻撃 x 307% + 8 x (レベル - 1) + 380",
+        "DamageFormula_Additional": "相手の最大HPの8%",
+        "HPRecovery": "与えたダメージの80%"
+      }
+    ],
+    "BasicAttack": {},
+    "LevelStats": [
+      {
+        "Level": 1,
+        "HP": 3200,
+        "Attack": 161,
+        "Defense": 70,
+        "SpAttack": 20,
+        "SpDefense": 54,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 0.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3264,
+        "Attack": 165,
+        "Defense": 75,
+        "SpAttack": 21,
+        "SpDefense": 58,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 0.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 3.33
+      },
+      {
+        "Level": 3,
+        "HP": 3341,
+        "Attack": 170,
+        "Defense": 81,
+        "SpAttack": 23,
+        "SpDefense": 63,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 0.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 6.66
+      },
+      {
+        "Level": 4,
+        "HP": 3434,
+        "Attack": 176,
+        "Defense": 88,
+        "SpAttack": 25,
+        "SpDefense": 68,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 0.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 9.99
+      },
+      {
+        "Level": 5,
+        "HP": 3771,
+        "Attack": 199,
+        "Defense": 121,
+        "SpAttack": 32,
+        "SpDefense": 95,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 0.0,
+        "CritRate": 15.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 13.32
+      },
+      {
+        "Level": 6,
+        "HP": 3905,
+        "Attack": 208,
+        "Defense": 131,
+        "SpAttack": 35,
+        "SpDefense": 103,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 0.0,
+        "CritRate": 15.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 16.65
+      },
+      {
+        "Level": 7,
+        "HP": 4516,
+        "Attack": 249,
+        "Defense": 168,
+        "SpAttack": 48,
+        "SpDefense": 132,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 0.0,
+        "CritRate": 15.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 8,
+        "HP": 4709,
+        "Attack": 262,
+        "Defense": 182,
+        "SpAttack": 52,
+        "SpDefense": 143,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 0.0,
+        "CritRate": 15.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 9,
+        "HP": 4941,
+        "Attack": 277,
+        "Defense": 199,
+        "SpAttack": 57,
+        "SpDefense": 157,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 10,
+        "HP": 5219,
+        "Attack": 296,
+        "Defense": 219,
+        "SpAttack": 63,
+        "SpDefense": 173,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 11,
+        "HP": 5553,
+        "Attack": 318,
+        "Defense": 243,
+        "SpAttack": 70,
+        "SpDefense": 193,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 12,
+        "HP": 5953,
+        "Attack": 345,
+        "Defense": 272,
+        "SpAttack": 78,
+        "SpDefense": 217,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 13,
+        "HP": 6433,
+        "Attack": 377,
+        "Defense": 307,
+        "SpAttack": 88,
+        "SpDefense": 245,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 14,
+        "HP": 7009,
+        "Attack": 416,
+        "Defense": 349,
+        "SpAttack": 100,
+        "SpDefense": 279,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 15,
+        "HP": 7700,
+        "Attack": 462,
+        "Defense": 400,
+        "SpAttack": 115,
+        "SpDefense": 320,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 0.0,
+        "CritRate": 30.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      }
+    ]
+  },
+  {
     "URL": "https://wikiwiki.jp/poke-unite/%E3%83%AB%E3%82%AB%E3%83%AA%E3%82%AA",
     "Name": "ルカリオ",
     "EvolutionLevels": [],
@@ -18138,6 +19855,282 @@
         "Name": "フルフォースブラスト",
         "Cooldown": "100",
         "Description": "範囲内にいる相手のポケモンにダメージを与える。 ダメージを与えた相手のポケモンはしんそくターゲットに設定される。 ユナイトわざ使用後に「グロウパンチ」を使うと、与えるダメージが 約20％ 増加する。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
+        "DamageFormula_PerHit": "攻撃 x 174% + 4 x (レベル - 1) + 210"
+      }
+    ],
+    "BasicAttack": {},
+    "LevelStats": [
+      {
+        "Level": 1,
+        "HP": 3250,
+        "Attack": 160,
+        "Defense": 78,
+        "SpAttack": 20,
+        "SpDefense": 60,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3392,
+        "Attack": 170,
+        "Defense": 89,
+        "SpAttack": 23,
+        "SpDefense": 69,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 11.07,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 3.33
+      },
+      {
+        "Level": 3,
+        "HP": 3549,
+        "Attack": 180,
+        "Defense": 101,
+        "SpAttack": 27,
+        "SpDefense": 78,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 12.24,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 6.66
+      },
+      {
+        "Level": 4,
+        "HP": 3721,
+        "Attack": 192,
+        "Defense": 114,
+        "SpAttack": 31,
+        "SpDefense": 88,
+        "MoveSpeed": 3700,
+        "AttackSpeed": 13.53,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 9.99
+      },
+      {
+        "Level": 5,
+        "HP": 3910,
+        "Attack": 205,
+        "Defense": 129,
+        "SpAttack": 36,
+        "SpDefense": 99,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 14.95,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 13.32
+      },
+      {
+        "Level": 6,
+        "HP": 4118,
+        "Attack": 219,
+        "Defense": 145,
+        "SpAttack": 41,
+        "SpDefense": 112,
+        "MoveSpeed": 3850,
+        "AttackSpeed": 16.51,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 16.65
+      },
+      {
+        "Level": 7,
+        "HP": 4347,
+        "Attack": 234,
+        "Defense": 163,
+        "SpAttack": 46,
+        "SpDefense": 126,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 18.23,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 8,
+        "HP": 4599,
+        "Attack": 251,
+        "Defense": 183,
+        "SpAttack": 52,
+        "SpDefense": 141,
+        "MoveSpeed": 4000,
+        "AttackSpeed": 20.12,
+        "CritRate": 10.0,
+        "Lifesteal": 5.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 9,
+        "HP": 4877,
+        "Attack": 270,
+        "Defense": 205,
+        "SpAttack": 59,
+        "SpDefense": 158,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 22.21,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 10,
+        "HP": 5184,
+        "Attack": 291,
+        "Defense": 229,
+        "SpAttack": 66,
+        "SpDefense": 176,
+        "MoveSpeed": 4150,
+        "AttackSpeed": 24.51,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 11,
+        "HP": 5522,
+        "Attack": 314,
+        "Defense": 255,
+        "SpAttack": 74,
+        "SpDefense": 196,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 27.04,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 12,
+        "HP": 5894,
+        "Attack": 339,
+        "Defense": 284,
+        "SpAttack": 83,
+        "SpDefense": 218,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 29.83,
+        "CritRate": 20.0,
+        "Lifesteal": 10.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 13,
+        "HP": 6303,
+        "Attack": 366,
+        "Defense": 316,
+        "SpAttack": 93,
+        "SpDefense": 243,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 32.9,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 14,
+        "HP": 6753,
+        "Attack": 396,
+        "Defense": 351,
+        "SpAttack": 104,
+        "SpDefense": 270,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 36.28,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      },
+      {
+        "Level": 15,
+        "HP": 7249,
+        "Attack": 429,
+        "Defense": 390,
+        "SpAttack": 116,
+        "SpDefense": 300,
+        "MoveSpeed": 4300,
+        "AttackSpeed": 40.0,
+        "CritRate": 20.0,
+        "Lifesteal": 15.0,
+        "CDR": 0.0,
+        "Tenacity": 19.98
+      }
+    ]
+  },
+  {
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%A1%E3%82%AC%E3%83%AB%E3%82%AB%E3%83%AA%E3%82%AA",
+    "Name": "メガルカリオ",
+    "EvolutionLevels": [
+      1,
+      9
+    ],
+    "Abilities": [
+      {
+        "Name": "せいぎのこころ",
+        "Description": "相手のポケモンからダメージを受けると、攻撃が 4秒間8% 上がる。この効果は最大4回まで重ねがけが可能。"
+      },
+      {
+        "Name": "てきおうりょく",
+        "Description": "わざを相手のポケモンに命中させると、攻撃が 4秒間5% 上がる。この効果は10回まで重ねがけが可能。"
+      }
+    ],
+    "BasicAttacks": [
+      {
+        "Condition": "Default",
+        "ConditionRaw": "Default",
+        "Description": "3回目の通常攻撃は強化攻撃となり、ホネを使った連続攻撃をする。 範囲内にいる相手のポケモンにダメージを与え、 0.5秒間 ふきとばす。"
+      }
+    ],
+    "Moves": [
+      {
+        "Name": "でんこうせっか",
+        "Cooldown": "6",
+        "Description": "目にも留まらぬ速さで突進する。相手のポケモンに触れるとダメージを与える。",
+        "DamageFormula_Base": "攻撃 x 221% + 11 x (レベル - 1) + 240"
+      },
+      {
+        "Name": "グロウパンチ",
+        "Cooldown": "7",
+        "Description": "ちからを溜めてから強力な攻撃をする。ちからを溜めているあいだ移動速度は 15% 下がるが、攻撃が徐々に上がり、自分の受けるダメージは 30％ 軽減する。そのあと指定した方向へ突っ込み、わざを発動する。わざのダメージは相手のポケモンの残りHPが少ないほど増加し、上手く命中すると 相手ポケモンを0.5秒間行動できなくし、 次の通常攻撃が強化攻撃となる。このわざの待ち時間は、ルカリオのわざが命中するたび 1秒 短くなる。 4秒以上溜めるか、溜めを中断すると、1.4秒の待ち時間が発生する。 メガシンカすると、より長くちからを溜めることが出来て、相手のポケモンに与えるダメージが増加して、 1秒間 ふきとばすようになる。",
+        "UpgradeDescription": "ちからを溜めているあいだ妨害されなくなる。",
+        "DamageFormula_ChargeNone": "攻撃 x 209.15% + 3 x (レベル - 1) + 88",
+        "DamageFormula_ChargeMax": "攻撃 x 381.8% + 5 x (レベル - 1) + 161",
+        "DamageFormula_Additional": "相手の減少HPの12%(対野生ポケモン：上限1000)"
+      },
+      {
+        "Name": "コメットパンチ",
+        "Cooldown": "7",
+        "Description": "彗星のごとくパンチを繰り出して攻撃する。相手のポケモンにダメージを与え、 0.4秒間 つきとばす。",
+        "DamageFormula_Base": "攻撃 x 167% + 8 x (レベル - 1) + 180"
+      },
+      {
+        "Name": "インファイト",
+        "Cooldown": "6.5",
+        "Description": "連続攻撃 (11回) で立て続けに相手のポケモンにダメージを与える。わざが命中すると、自分のHPが一定量回復する。わざを使っているあいだは妨害されない。 また、次の通常攻撃(5秒以内)で相手のポケモンにキックで突撃する。 メガシンカすると、連続で攻撃する回数が増え (16回) 、攻撃中に向きを変えることが出来るようになる。わざを再度使用するか、「グロウパンチ」を使用すると中断できる。このわざの待ち時間は、ルカリオのわざが命中するたびに短くなる。",
+        "UpgradeDescription": "わざの与えるダメージが増加する。",
+        "DamageFormula_Base": "攻撃 x 50% + 2 x (レベル - 1) + 60（x 11Hit）",
+        "HPRecovery": "攻撃 x 11.5% + 0 x (レベル - 1) + 23（x 11Hit）",
+        "DamageFormula_Upgraded": "攻撃 x 56% + 2 x (レベル - 1) + 69（x 11hit）"
+      },
+      {
+        "Name": "フルフォースブラスト",
+        "Cooldown": "112",
+        "Description": "範囲内にいる相手のポケモンにダメージを与える。 ユナイトわざ使用後に 25秒間 メガシンカする。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
         "DamageFormula_PerHit": "攻撃 x 174% + 4 x (レベル - 1) + 210"
       }
     ],
@@ -20913,574 +22906,6 @@
     ]
   },
   {
-    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%AF%E3%82%BF%E3%82%B7%E3%83%A9%E3%82%AC",
-    "Name": "ワタシラガ",
-    "EvolutionLevels": [
-      1,
-      4
-    ],
-    "Abilities": [
-      {
-        "Name": "わたげ",
-        "Description": "一定以上 (最大HPの5%分) のダメージを受けると、相手にもダメージを与え、相手の移動速度を少しのあいだ (1.5秒間)15% 下げる。それと同時に自分のHPは回復し、移動速度が少しのあいだ (2秒間)15% 上がる。 いちどこのとくせいが発動すると、次に発動するまで10秒の待ち時間が必要。"
-      }
-    ],
-    "BasicAttacks": [
-      {
-        "Condition": "Default",
-        "ConditionRaw": "Default",
-        "Description": "3回目の通常攻撃は強化攻撃となり、わたげを相手のポケモンにくっつける。 わたげが付いている相手のポケモンに通常攻撃をすると、与えるダメージが増加し、移動速度も少しのあいだ (1秒間)20% 下げる。"
-      }
-    ],
-    "Moves": [
-      {
-        "Name": "このは",
-        "Cooldown": "4.5",
-        "Description": "はっぱを投げて攻撃する。わざ命中時に相手のポケモンの移動速度を少しのあいだ (2秒間)40% 下げる。",
-        "DamageFormula_Base": "特攻 x 129% + 11 x (レベル - 1) + 210"
-      },
-      {
-        "Name": "かふんだんご",
-        "Cooldown": "5",
-        "Description": "かふんだんごを投げつける。 かふんだんごは対象に付けるとと2秒後に爆発し、命中しなかったときは1秒後に爆発する。 かふんだんごは相手のポケモンに付くとダメージを与え、味方のポケモンに付くとHPを回復する。",
-        "UpgradeDescription": "かふんだんごを相手のポケモンに付けると継続ダメージを与えるようになり、味方のポケモンに付けると、HP回復にくわえて受けるダメージの軽減も (2秒間)15% 行うようになる。",
-        "DamageFormula_Base": "特攻 x 80% + 5 x (レベル - 1) + 155",
-        "HPRecovery": "特攻 x 150% + 13 x (レベル - 1) + 300",
-        "DamageFormula_DoT_Upgraded": "特攻 x 9% + 1 x (レベル - 1) + 18 (x 4 Hit)"
-      },
-      {
-        "Name": "グラスミキサー",
-        "Cooldown": "8",
-        "Description": "鋭いはっぱで攻撃する。はっぱの通った跡を味方のポケモンが進むと、移動速度が少しのあいだ (1.5秒間)55% 上がる。",
-        "UpgradeDescription": "わざ命中時に相手のポケモンの命中率を少しのあいだ (2.5秒間) 下げるようになる。",
-        "DamageFormula_Base": "特攻 x 106% + 6 x (レベル - 1) + 240"
-      },
-      {
-        "Name": "こうごうせい",
-        "Cooldown": "8",
-        "Description": "自分と周りにいる味方のポケモンのHPが回復する。",
-        "HPRecovery": "特攻 x 100% + 5 x (レベル - 1) + 350"
-      },
-      {
-        "Name": "コットンガード",
-        "Cooldown": "10.5",
-        "Description": "自分と周りにいる味方のポケモンを 3秒間 わたげ (シールド) で守る。わたげはダメージを吸収し、わざが終わると一部のHP (残りシールドの15％分) が回復する。",
-        "UpgradeDescription": "わざを使っているあいだの移動速度が (2秒間)30% 上がる。",
-        "ShieldFormula_Base": "特攻 x 172.5% + 23 x (レベル - 1) + 290",
-        "HPRecovery": "残りシールドの15%"
-      },
-      {
-        "Name": "わたほうし",
-        "Cooldown": "6",
-        "Description": "ほうしを周りに集める。ほうしはしばらくすると弾け、範囲内にいる相手のポケモンにダメージを与えて 0.5秒間 ふきとばす。同時に移動速度を少しのあいだ (2秒間)30% 下げるが、わざを使っているあいだ、自分の移動速度は (2秒間)40% 上がる。",
-        "UpgradeDescription": "わざを使っているあいだ、防御および特防が 2秒間50% 上がるようになる。",
-        "DamageFormula_Base": "特攻 x 148% + 14 x (レベル - 1) + 350"
-      },
-      {
-        "Name": "わたげのまい",
-        "Cooldown": "100",
-        "Description": "3秒間 宙に浮かび、まもり状態となる。もういちど使うと空中から体当たりで攻撃する。範囲内にいる相手のポケモンを 0.7秒間 つきとばし、味方のポケモンのHPを回復する。 ユナイトバフ：最大HP30％分のシールド＋移動速度30％上昇",
-        "DamageFormula_Base": "特攻 x 200% + 8 x (レベル - 1) + 530",
-        "HPRecovery": "特攻 x 306% + 13 x (レベル - 1) + 636"
-      }
-    ],
-    "BasicAttack": {},
-    "LevelStats": [
-      {
-        "Level": 1,
-        "HP": 3278,
-        "Attack": 130,
-        "Defense": 40,
-        "SpAttack": 40,
-        "SpDefense": 30,
-        "MoveSpeed": 3800,
-        "AttackSpeed": 10.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 0.0
-      },
-      {
-        "Level": 2,
-        "HP": 3383,
-        "Attack": 134,
-        "Defense": 44,
-        "SpAttack": 54,
-        "SpDefense": 33,
-        "MoveSpeed": 3800,
-        "AttackSpeed": 10.22,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 5.83
-      },
-      {
-        "Level": 3,
-        "HP": 3503,
-        "Attack": 139,
-        "Defense": 48,
-        "SpAttack": 70,
-        "SpDefense": 36,
-        "MoveSpeed": 3800,
-        "AttackSpeed": 10.47,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 11.66
-      },
-      {
-        "Level": 4,
-        "HP": 4114,
-        "Attack": 162,
-        "Defense": 69,
-        "SpAttack": 152,
-        "SpDefense": 52,
-        "MoveSpeed": 3800,
-        "AttackSpeed": 11.76,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 17.49
-      },
-      {
-        "Level": 5,
-        "HP": 4274,
-        "Attack": 168,
-        "Defense": 74,
-        "SpAttack": 173,
-        "SpDefense": 56,
-        "MoveSpeed": 3950,
-        "AttackSpeed": 12.1,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 23.32
-      },
-      {
-        "Level": 6,
-        "HP": 4457,
-        "Attack": 175,
-        "Defense": 80,
-        "SpAttack": 198,
-        "SpDefense": 61,
-        "MoveSpeed": 3950,
-        "AttackSpeed": 12.49,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 29.15
-      },
-      {
-        "Level": 7,
-        "HP": 4668,
-        "Attack": 183,
-        "Defense": 87,
-        "SpAttack": 226,
-        "SpDefense": 66,
-        "MoveSpeed": 4100,
-        "AttackSpeed": 12.94,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 8,
-        "HP": 4911,
-        "Attack": 192,
-        "Defense": 95,
-        "SpAttack": 258,
-        "SpDefense": 72,
-        "MoveSpeed": 4100,
-        "AttackSpeed": 13.45,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 9,
-        "HP": 5190,
-        "Attack": 203,
-        "Defense": 104,
-        "SpAttack": 295,
-        "SpDefense": 79,
-        "MoveSpeed": 4250,
-        "AttackSpeed": 14.04,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 10,
-        "HP": 5511,
-        "Attack": 215,
-        "Defense": 115,
-        "SpAttack": 338,
-        "SpDefense": 87,
-        "MoveSpeed": 4250,
-        "AttackSpeed": 14.72,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 11,
-        "HP": 5880,
-        "Attack": 229,
-        "Defense": 128,
-        "SpAttack": 387,
-        "SpDefense": 96,
-        "MoveSpeed": 4400,
-        "AttackSpeed": 15.5,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 12,
-        "HP": 6305,
-        "Attack": 245,
-        "Defense": 142,
-        "SpAttack": 444,
-        "SpDefense": 107,
-        "MoveSpeed": 4400,
-        "AttackSpeed": 16.4,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 13,
-        "HP": 6794,
-        "Attack": 264,
-        "Defense": 159,
-        "SpAttack": 509,
-        "SpDefense": 119,
-        "MoveSpeed": 4400,
-        "AttackSpeed": 17.43,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 14,
-        "HP": 7356,
-        "Attack": 285,
-        "Defense": 178,
-        "SpAttack": 584,
-        "SpDefense": 133,
-        "MoveSpeed": 4400,
-        "AttackSpeed": 18.62,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      },
-      {
-        "Level": 15,
-        "HP": 8002,
-        "Attack": 310,
-        "Defense": 200,
-        "SpAttack": 670,
-        "SpDefense": 149,
-        "MoveSpeed": 4400,
-        "AttackSpeed": 19.99,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 10.0,
-        "Tenacity": 34.98
-      }
-    ]
-  },
-  {
-    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%A9%E3%83%86%E3%82%A3%E3%82%AA%E3%82%B9",
-    "Name": "ラティオス",
-    "EvolutionLevels": [],
-    "Abilities": [
-      {
-        "Name": "ふゆう",
-        "Description": "わざを使用すると少しのあいだ (2秒間) 、移動速度が 50%(0.25秒ごとに5％減衰) 上がる。 また、ラティアスが近くにいるときも、移動速度が 10% 上がる。 ラティアスが味方チームにいるとき、空を飛んでラティアスの所まで駆け付けることができる。 この特性は、戦闘から離れているあいだのみ使用することができる。 いちどこのとくせいが発動すると、次に発動するまで一定の待ち時間 (90秒) が必要。"
-      }
-    ],
-    "BasicAttacks": [
-      {
-        "Condition": "Default",
-        "ConditionRaw": "Default",
-        "Description": "相手のポケモンにダメージを与える。"
-      }
-    ],
-    "Moves": [
-      {
-        "Name": "ねんりき",
-        "Cooldown": "8",
-        "Description": "指定した方向に弱い念力をとばして、相手のポケモンにダメージと減速効果 (2秒間20%) を与える。",
-        "DamageFormula_Base": "特攻 x 75% + 12 x (レベル - 1) + 200"
-      },
-      {
-        "Name": "ラスターパージ",
-        "Cooldown": "7",
-        "Description": "まばゆい光の球を上空に放つ。一定時間 (0.85秒) が経つか、わざを再度使用すると光を一気に解放して、相手のポケモンにダメージを与えて、 3秒間 マークを付与する。 自分か味方のラティアスが、マークを付与された相手のポケモンに与えるダメージが 20% 増加する。",
-        "UpgradeDescription": "マークが消えるまでの時間が長くなる (6秒) 。",
-        "DamageFormula_Base": "特攻 x 70% + 15 x (レベル - 1) + 400"
-      },
-      {
-        "Name": "テレキネシス",
-        "Cooldown": "7.5",
-        "Description": "指定した方向に超能力を放ち、相手のポケモンにダメージと減速効果 (2秒間30%) を与える。 このわざを命中させると、 4秒以内に 再度使用することができて、指定した相手のポケモンに超能力を放つ。 1匹目と別のポケモンを指定すると、2匹のポケモンを互いに引き寄せあうように移動させて、ぶつかると 0.7秒間 行動不能にする。 1匹目と同じポケモンを指定すると、 1秒間 行動不能にする。",
-        "UpgradeDescription": "減速効果が強くなる (3秒間30%) 。",
-        "DamageFormula_Base": "特攻 x 98% + 10 x (レベル - 1) + 260"
-      },
-      {
-        "Name": "スピードスター",
-        "Cooldown": "6",
-        "Description": "指定した方向の広範囲にわたって星形の光を発射して、相手のポケモンにダメージを与える。",
-        "DamageFormula_Base": "特攻 x 100% + 22 x (レベル - 1) + 350"
-      },
-      {
-        "Name": "りゅうのはどう",
-        "Cooldown": "6",
-        "Description": "このわざを覚えると、野生ポケモンをKOしたときにむげんのちからを 2 獲得できるようになる。 (最大1099) 指定した方向にダッシュし、 5秒以内の 次の通常攻撃を強化する。 強化された通常攻撃を相手チームのポケモンに命中させると、むげんのちからを 3 獲得できる。 また、追加で念力の弾を飛ばしてダメージを与える。 念力の弾の数やダメージは、獲得したむげんのちからに応じて増加していく。 (むげんのちからが100で念力の弾の数は最大(6)になる。むげんのちからが100を超えると、1増加するごとに念力の弾のダメージが0.5%増加する。) 最初の念力の弾が命中すると、その後の念力の弾が同じ相手に与えるダメージが15％ずつ（最大75%）減少する。",
-        "UpgradeDescription": "念力の弾が相手の減少HPの一定割合 (3%) にあたるダメージを追加で与える。",
-        "DamageFormula_PsywaveBullet": "特攻 x 35.7% + 5 x (レベル - 1) + 108",
-        "DamageFormula_Additional_Upgraded": "相手の減少HPの3%（上限300）"
-      },
-      {
-        "Name": "りゅうせいぐん",
-        "Cooldown": "7.5",
-        "Description": "このわざを覚えると、野生ポケモンをKOしたときにむげんのちからを 2 獲得できるようになる。 (最大1099) 指定した範囲に天空から隕石を 2つ 落として、相手のポケモンにダメージを与える。 相手チームのポケモンに命中させるとむげんのちからを 3 獲得できる。 隕石の数やダメージは、獲得したむげんのちからに応じて増加していく。 (むげんのちからが100で隕石の数は最大(6)になる。むげんのちからが100を超えると、1増加するごとに隕石のダメージが0.5%増加する。) 最初の隕石が命中すると、その後の隕石が同じ相手に与えるダメージが70%減少する。",
-        "UpgradeDescription": "隕石が相手の減少HPの一定割合 (3%) にあたるダメージを追加で与える。",
-        "DamageFormula_Base": "特攻 x 109% + 24 x (レベル - 1) + 364",
-        "DamageFormula_Additional_Upgraded": "相手の減少HPの3%（上限300）"
-      },
-      {
-        "Name": "インフィニットストライク",
-        "Cooldown": "112",
-        "Description": "指定した相手のポケモンを狙って、 1.8秒間 力をチャージしたあとに波動を放ってダメージを与える。 わざの待ち時間がすぐ0秒になり、少しのあいだ (10秒間) 、わざの待ち時間が 60% 短くなる。 ラティアスがユナイトわざで狙っている相手のポケモンと同じポケモンを指定すると、波動が重なって爆発し、周囲にもダメージを与える。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
-        "DamageFormula_Base": "特攻 x 250% + 15 x (レベル - 1) + 460",
-        "DamageFormula_Explosion": "特攻 x 125% + 7 x (レベル - 1) + 230"
-      }
-    ],
-    "BasicAttack": {},
-    "LevelStats": [
-      {
-        "Level": 1,
-        "HP": 3300,
-        "Attack": 120,
-        "Defense": 60,
-        "SpAttack": 100,
-        "SpDefense": 60,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 0.0
-      },
-      {
-        "Level": 2,
-        "HP": 3403,
-        "Attack": 127,
-        "Defense": 67,
-        "SpAttack": 128,
-        "SpDefense": 68,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.36,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 3.33
-      },
-      {
-        "Level": 3,
-        "HP": 3517,
-        "Attack": 134,
-        "Defense": 75,
-        "SpAttack": 159,
-        "SpDefense": 77,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.75,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 6.66
-      },
-      {
-        "Level": 4,
-        "HP": 3642,
-        "Attack": 142,
-        "Defense": 84,
-        "SpAttack": 193,
-        "SpDefense": 87,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 11.18,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 9.99
-      },
-      {
-        "Level": 5,
-        "HP": 3779,
-        "Attack": 151,
-        "Defense": 93,
-        "SpAttack": 231,
-        "SpDefense": 98,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 11.65,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 13.32
-      },
-      {
-        "Level": 6,
-        "HP": 3930,
-        "Attack": 161,
-        "Defense": 103,
-        "SpAttack": 273,
-        "SpDefense": 110,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 12.17,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 16.65
-      },
-      {
-        "Level": 7,
-        "HP": 4096,
-        "Attack": 172,
-        "Defense": 114,
-        "SpAttack": 319,
-        "SpDefense": 123,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 12.74,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 8,
-        "HP": 4279,
-        "Attack": 184,
-        "Defense": 127,
-        "SpAttack": 370,
-        "SpDefense": 138,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 13.37,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 5.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 9,
-        "HP": 4481,
-        "Attack": 197,
-        "Defense": 141,
-        "SpAttack": 426,
-        "SpDefense": 154,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 14.07,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 15.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 10,
-        "HP": 4703,
-        "Attack": 212,
-        "Defense": 156,
-        "SpAttack": 487,
-        "SpDefense": 172,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 14.84,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 15.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 11,
-        "HP": 4948,
-        "Attack": 228,
-        "Defense": 173,
-        "SpAttack": 555,
-        "SpDefense": 191,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 15.68,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 15.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 12,
-        "HP": 5217,
-        "Attack": 246,
-        "Defense": 192,
-        "SpAttack": 629,
-        "SpDefense": 212,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 16.61,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 15.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 13,
-        "HP": 5514,
-        "Attack": 265,
-        "Defense": 212,
-        "SpAttack": 711,
-        "SpDefense": 236,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 17.63,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 25.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 14,
-        "HP": 5841,
-        "Attack": 286,
-        "Defense": 235,
-        "SpAttack": 801,
-        "SpDefense": 262,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 18.76,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 25.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 15,
-        "HP": 6200,
-        "Attack": 310,
-        "Defense": 260,
-        "SpAttack": 900,
-        "SpDefense": 291,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 20.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 25.0,
-        "Tenacity": 19.98
-      }
-    ]
-  },
-  {
     "URL": "https://wikiwiki.jp/poke-unite/%E3%83%A9%E3%83%86%E3%82%A3%E3%82%A2%E3%82%B9",
     "Name": "ラティアス",
     "EvolutionLevels": [],
@@ -21763,1149 +23188,288 @@
     ]
   },
   {
-    "URL": "https://wikiwiki.jp/poke-unite/%E3%82%A8%E3%83%B3%E3%83%9A%E3%83%AB%E3%83%88",
-    "Name": "エンペルト",
+    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%AF%E3%82%BF%E3%82%B7%E3%83%A9%E3%82%AC",
+    "Name": "ワタシラガ",
     "EvolutionLevels": [
       1,
-      5,
-      7
+      4
     ],
     "Abilities": [
       {
-        "Name": "げきりゅう",
-        "Description": "一定時間が経過したり、相手のポケモンにダメージを与えると、げきりゅうゲージが増加する。(最大100) わざを使用するときに、げきりゅうゲージが一定以上たまっていると、げきりゅうゲージを消費してわざを強化することができる。 HPが一定割合を下回ると、ゲージの増加量が多くなる。"
+        "Name": "わたげ",
+        "Description": "一定以上 (最大HPの5%分) のダメージを受けると、相手にもダメージを与え、相手の移動速度を少しのあいだ (1.5秒間)15% 下げる。それと同時に自分のHPは回復し、移動速度が少しのあいだ (2秒間)15% 上がる。 いちどこのとくせいが発動すると、次に発動するまで10秒の待ち時間が必要。"
       }
     ],
     "BasicAttacks": [
       {
-        "Condition": "ポッチャマ",
-        "ConditionRaw": "ポッチャマ",
-        "Description": "3回目の通常攻撃は強化攻撃となり、与えるダメージが増加する。"
-      },
-      {
-        "Condition": "ポッタイシ エンペルト",
-        "ConditionRaw": "ポッタイシ エンペルト",
-        "Description": "3回目の通常攻撃は強化攻撃となり、与えるダメージが増加し、げきりゅうゲージが大幅に増加する。"
+        "Condition": "Default",
+        "ConditionRaw": "Default",
+        "Description": "3回目の通常攻撃は強化攻撃となり、わたげを相手のポケモンにくっつける。 わたげが付いている相手のポケモンに通常攻撃をすると、与えるダメージが増加し、移動速度も少しのあいだ (1秒間)20% 下げる。"
       }
     ],
     "Moves": [
       {
-        "Name": "みずでっぽう",
+        "Name": "このは",
+        "Cooldown": "4.5",
+        "Description": "はっぱを投げて攻撃する。わざ命中時に相手のポケモンの移動速度を少しのあいだ (2秒間)40% 下げる。",
+        "DamageFormula_Base": "特攻 x 129% + 11 x (レベル - 1) + 210"
+      },
+      {
+        "Name": "かふんだんご",
         "Cooldown": "5",
-        "Description": "指定した方向に水を発射して相手のポケモンにダメージを与える。 とくせいでわざが強化されると、与えるダメージが増加する。 （消費げきりゅうゲージ：50）",
-        "DamageFormula_Base": "特攻 x 143% + 13 x (レベル - 1) + 358",
-        "DamageFormula_Torrent": "特攻 x 214% + 20 x (レベル - 1) + 536"
+        "Description": "かふんだんごを投げつける。 かふんだんごは対象に付けるとと2秒後に爆発し、命中しなかったときは1秒後に爆発する。 かふんだんごは相手のポケモンに付くとダメージを与え、味方のポケモンに付くとHPを回復する。",
+        "UpgradeDescription": "かふんだんごを相手のポケモンに付けると継続ダメージを与えるようになり、味方のポケモンに付けると、HP回復にくわえて受けるダメージの軽減も (2秒間)15% 行うようになる。",
+        "DamageFormula_Base": "特攻 x 80% + 5 x (レベル - 1) + 155",
+        "HPRecovery": "特攻 x 150% + 13 x (レベル - 1) + 300",
+        "DamageFormula_DoT_Upgraded": "特攻 x 9% + 1 x (レベル - 1) + 18 (x 4 Hit)"
       },
       {
-        "Name": "ハイドロカノン",
-        "Cooldown": "5",
-        "Description": "指定した方向へ水の大砲を発射して、相手のポケモンにダメージを与えて、 0.5秒間 行動不能にする。 とくせいでわざが強化されると、 3秒間 渦が発生するようになり、継続ダメージを与える。 自分が渦に触れると 0.5秒ごと にHPが回復する。 （消費げきりゅうゲージ：50）",
-        "UpgradeDescription": "相手チームのポケモンにわざを命中させると、わざの待ち時間が 30% 短くなる。",
-        "DamageFormula_Base": "特攻 x 235% + 13 x (レベル - 1) + 350",
-        "DamageFormula_Torrent_Vortex": "特攻 x 46% + 3 x (レベル - 1) + 70 (x 6Hit)",
-        "HPRecovery": "特攻 x 47% + 0 x (レベル - 1) + 128"
+        "Name": "グラスミキサー",
+        "Cooldown": "8",
+        "Description": "鋭いはっぱで攻撃する。はっぱの通った跡を味方のポケモンが進むと、移動速度が少しのあいだ (1.5秒間)55% 上がる。",
+        "UpgradeDescription": "わざ命中時に相手のポケモンの命中率を少しのあいだ (2.5秒間) 下げるようになる。",
+        "DamageFormula_Base": "特攻 x 106% + 6 x (レベル - 1) + 240"
       },
       {
-        "Name": "うずしお",
-        "Cooldown": "5.5",
-        "Description": "周囲に激しい渦を発生させて、相手のポケモンにダメージを与え、HPを回復する。 とくせいでわざが強化されると、与えるダメージ量と回復するHP量が増加し、相手のポケモンを 0.6秒間 ふきとばしたあと、最後に1回切り付けてダメージを与える。 （消費げきりゅうゲージ：50）",
-        "UpgradeDescription": "渦の与えるダメージが増加する。",
-        "DamageFormula_Base": "特攻 x 62% + 4 x (レベル - 1) + 90 (x 4Hit)",
-        "HPRecovery_Opponent": "与ダメージの50%",
-        "HPRecovery_Wild": "与ダメージの25%",
-        "DamageFormula_Torrent": "特攻 x 74% + 5 x (レベル - 1) + 108 (x 4Hit)",
-        "DamageFormula_Slash": "特攻 x 74% + 5 x (レベル - 1) + 108",
-        "DamageFormula_Upgraded": "特攻 x 74% + 5 x (レベル - 1) + 108 (x 4Hit)",
-        "DamageFormula_Torrent_Upgraded": "特攻 x 81% + 12 x (レベル - 1) + 93 (x 4Hit)",
-        "DamageFormula_Slash_Upgraded": "特攻 x 81% + 12 x (レベル - 1) + 93"
+        "Name": "こうごうせい",
+        "Cooldown": "8",
+        "Description": "自分と周りにいる味方のポケモンのHPが回復する。",
+        "HPRecovery": "特攻 x 100% + 5 x (レベル - 1) + 350"
       },
       {
-        "Name": "つつく",
+        "Name": "コットンガード",
+        "Cooldown": "10.5",
+        "Description": "自分と周りにいる味方のポケモンを 3秒間 わたげ (シールド) で守る。わたげはダメージを吸収し、わざが終わると一部のHP (残りシールドの15％分) が回復する。",
+        "UpgradeDescription": "わざを使っているあいだの移動速度が (2秒間)30% 上がる。",
+        "ShieldFormula_Base": "特攻 x 172.5% + 23 x (レベル - 1) + 290",
+        "HPRecovery": "残りシールドの15%"
+      },
+      {
+        "Name": "わたほうし",
         "Cooldown": "6",
-        "Description": "指定した方向へ突撃しながら、くちばしでつついて相手のポケモンにダメージを与える。 とくせいでわざが強化されると、減速効果を与える (2秒間40%) 。 （消費げきりゅうゲージ：50）",
-        "DamageFormula_Base": "特攻 x 130% + 12 x (レベル - 1) + 325"
+        "Description": "ほうしを周りに集める。ほうしはしばらくすると弾け、範囲内にいる相手のポケモンにダメージを与えて 0.5秒間 ふきとばす。同時に移動速度を少しのあいだ (2秒間)30% 下げるが、わざを使っているあいだ、自分の移動速度は (2秒間)40% 上がる。",
+        "UpgradeDescription": "わざを使っているあいだ、防御および特防が 2秒間50% 上がるようになる。",
+        "DamageFormula_Base": "特攻 x 148% + 14 x (レベル - 1) + 350"
       },
       {
-        "Name": "メタルクロー",
-        "Cooldown": "5.5",
-        "Description": "指定した方向に突撃し、固い翼で相手のポケモンにダメージを与えて、 0.25秒間 つきとばす。 とくせいでわざが強化されると、シールド効果を獲得する。 （消費げきりゅうゲージ：50）",
-        "UpgradeDescription": "このわざで得られるシールド効果が強くなる。",
-        "DamageFormula_Base": "特攻 x 207% + 11 x (レベル - 1) + 310",
-        "ShieldFormula_Torrent": "特攻 x 135% + 14 x (レベル - 1) + 352",
-        "ShieldFormula_Torrent_Upgraded": "特攻 x 162% + 17 x (レベル - 1) + 424"
-      },
-      {
-        "Name": "アクアジェット",
-        "Cooldown": "6",
-        "Description": "指定した方向に突進して、相手のポケモンにダメージを与えて、少しのあいだ (5秒間) 攻撃速度を 40% 上げる。 とくせいでわざが強化されると、相手チームのポケモンの特防を 3秒間60% 下げる。 （消費げきりゅうゲージ：50）",
-        "UpgradeDescription": "わざの待ち時間が 1秒 短くなる。",
-        "DamageFormula_Base": "特攻 x 200% + 11 x (レベル - 1) + 300"
-      },
-      {
-        "Name": "皇帝オンスロート",
-        "Cooldown": "112",
-        "Description": "指定した方向へ高速で滑り、終点で周囲に渦潮を発生させ、相手のポケモンにダメージを与えて、 1秒間 ふきとばす。 渦潮は自分を中心にしばらく (7秒間) 残り、相手のポケモンに減速効果 (50%) を与える。 渦潮が残っているあいだ、げきりゅうゲージの増加量が多くなる。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
-        "DamageFormula_Base": "特攻 x 352% + 19 x (レベル - 1) + 528"
+        "Name": "わたげのまい",
+        "Cooldown": "100",
+        "Description": "3秒間 宙に浮かび、まもり状態となる。もういちど使うと空中から体当たりで攻撃する。範囲内にいる相手のポケモンを 0.7秒間 つきとばし、味方のポケモンのHPを回復する。 ユナイトバフ：最大HP30％分のシールド＋移動速度30％上昇",
+        "DamageFormula_Base": "特攻 x 200% + 8 x (レベル - 1) + 530",
+        "HPRecovery": "特攻 x 306% + 13 x (レベル - 1) + 636"
       }
     ],
     "BasicAttack": {},
     "LevelStats": [
       {
         "Level": 1,
-        "HP": 3250,
-        "Attack": 20,
+        "HP": 3278,
+        "Attack": 130,
+        "Defense": 40,
+        "SpAttack": 40,
+        "SpDefense": 30,
+        "MoveSpeed": 3800,
+        "AttackSpeed": 10.0,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 0.0
+      },
+      {
+        "Level": 2,
+        "HP": 3383,
+        "Attack": 134,
+        "Defense": 44,
+        "SpAttack": 54,
+        "SpDefense": 33,
+        "MoveSpeed": 3800,
+        "AttackSpeed": 10.22,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 5.83
+      },
+      {
+        "Level": 3,
+        "HP": 3503,
+        "Attack": 139,
+        "Defense": 48,
+        "SpAttack": 70,
+        "SpDefense": 36,
+        "MoveSpeed": 3800,
+        "AttackSpeed": 10.47,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 11.66
+      },
+      {
+        "Level": 4,
+        "HP": 4114,
+        "Attack": 162,
+        "Defense": 69,
+        "SpAttack": 152,
+        "SpDefense": 52,
+        "MoveSpeed": 3800,
+        "AttackSpeed": 11.76,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 0.0,
+        "Tenacity": 17.49
+      },
+      {
+        "Level": 5,
+        "HP": 4274,
+        "Attack": 168,
+        "Defense": 74,
+        "SpAttack": 173,
+        "SpDefense": 56,
+        "MoveSpeed": 3950,
+        "AttackSpeed": 12.1,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 23.32
+      },
+      {
+        "Level": 6,
+        "HP": 4457,
+        "Attack": 175,
         "Defense": 80,
-        "SpAttack": 80,
-        "SpDefense": 65,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.0,
+        "SpAttack": 198,
+        "SpDefense": 61,
+        "MoveSpeed": 3950,
+        "AttackSpeed": 12.49,
         "CritRate": 0.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 0.0
-      },
-      {
-        "Level": 2,
-        "HP": 3325,
-        "Attack": 21,
-        "Defense": 86,
-        "SpAttack": 88,
-        "SpDefense": 70,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.5,
-        "CritRate": 0.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 3.33
-      },
-      {
-        "Level": 3,
-        "HP": 3415,
-        "Attack": 23,
-        "Defense": 94,
-        "SpAttack": 98,
-        "SpDefense": 76,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 11.1,
-        "CritRate": 0.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 6.66
-      },
-      {
-        "Level": 4,
-        "HP": 3523,
-        "Attack": 25,
-        "Defense": 103,
-        "SpAttack": 110,
-        "SpDefense": 83,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 11.82,
-        "CritRate": 0.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 9.99
-      },
-      {
-        "Level": 5,
-        "HP": 4047,
-        "Attack": 34,
-        "Defense": 147,
-        "SpAttack": 169,
-        "SpDefense": 116,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 15.31,
-        "CritRate": 10.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 13.32
-      },
-      {
-        "Level": 6,
-        "HP": 4204,
-        "Attack": 37,
-        "Defense": 160,
-        "SpAttack": 187,
-        "SpDefense": 126,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 16.35,
-        "CritRate": 10.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 16.65
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 29.15
       },
       {
         "Level": 7,
-        "HP": 4786,
-        "Attack": 48,
-        "Defense": 209,
-        "SpAttack": 252,
-        "SpDefense": 163,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 20.23,
-        "CritRate": 10.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
+        "HP": 4668,
+        "Attack": 183,
+        "Defense": 87,
+        "SpAttack": 226,
+        "SpDefense": 66,
+        "MoveSpeed": 4100,
+        "AttackSpeed": 12.94,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 5.0,
+        "Tenacity": 34.98
       },
       {
         "Level": 8,
-        "HP": 5011,
-        "Attack": 52,
-        "Defense": 228,
-        "SpAttack": 277,
-        "SpDefense": 177,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 21.73,
-        "CritRate": 10.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 9,
-        "HP": 5281,
-        "Attack": 57,
-        "Defense": 251,
-        "SpAttack": 307,
-        "SpDefense": 194,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 23.53,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 10,
-        "HP": 5605,
-        "Attack": 63,
-        "Defense": 278,
-        "SpAttack": 343,
-        "SpDefense": 215,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 25.69,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 11,
-        "HP": 5994,
-        "Attack": 70,
-        "Defense": 311,
-        "SpAttack": 387,
-        "SpDefense": 240,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 28.29,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 12,
-        "HP": 6461,
-        "Attack": 78,
-        "Defense": 350,
-        "SpAttack": 440,
-        "SpDefense": 270,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 31.4,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 13,
-        "HP": 7021,
-        "Attack": 88,
-        "Defense": 397,
-        "SpAttack": 503,
-        "SpDefense": 306,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 35.14,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 14,
-        "HP": 7693,
-        "Attack": 100,
-        "Defense": 453,
-        "SpAttack": 579,
-        "SpDefense": 349,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 39.62,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 15,
-        "HP": 8500,
-        "Attack": 115,
-        "Defense": 520,
-        "SpAttack": 670,
-        "SpDefense": 400,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 45.0,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      }
-    ]
-  },
-  {
-    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%91%E3%83%BC%E3%83%A2%E3%83%83%E3%83%88",
-    "Name": "パーモット",
-    "EvolutionLevels": [
-      1,
-      5,
-      7
-    ],
-    "Abilities": [
-      {
-        "Name": "てつのこぶし",
-        "Description": "わざを命中させると、次の通常攻撃のダメージが増加して、自分のHPを回復する。 かくとうモード：次の通常攻撃のダメージが増加して、少しの間 (8秒間) 攻撃速度が 30% 上がる。この効果は最大2回まで重ねがけが可能。"
-      }
-    ],
-    "BasicAttacks": [
-      {
-        "Condition": "Default",
-        "ConditionRaw": "Default",
-        "Description": "3回目の通常攻撃は強化攻撃となり、与えるダメージが増加して、相手のポケモンに飛びかかって攻撃する。"
-      }
-    ],
-    "Moves": [
-      {
-        "Name": "ほっぺすりすり",
-        "Cooldown": "5",
-        "Description": "指定した相手のポケモンに電気を帯びたほっぺをすりつけて、ダメージを与え、 2秒間 まひ状態にする。 まひ状態になったポケモンは移動速度が30%、攻撃速度が10%下がる。",
-        "DamageFormula_Base": "攻撃 x 120% + 12 x (レベル - 1) + 160"
-      },
-      {
-        "Name": "かみなりパンチ",
-        "Cooldown": "5.5",
-        "Description": "指定した方向へ電撃をまとったパンチを繰り出して、相手のポケモンにダメージ と減速効果を与える。 を与え、2秒間まひ状態にする。まひ状態になったポケモンは移動速度が40%、攻撃速度が10%下がる。 かくとうモード：わざの届く距離が短くなり、減速効果を与えなくなるが、ダメージが増加する。",
-        "UpgradeDescription": "与えるダメージが増加する。",
-        "DamageFormula_Base": "攻撃 x 232% + 29 x (レベル - 1) + 404",
-        "DamageFormula_Fighting": "攻撃 x 324% + 40 x (レベル - 1) + 566",
-        "DamageFormula_Upgraded": "攻撃 x 269% + 32 x (レベル - 1) + 465",
-        "DamageFormula_Fighting_Upgraded": "攻撃 x 374% + 47 x (レベル - 1) + 652"
-      },
-      {
-        "Name": "サンダーダイブ",
-        "Cooldown": "7",
-        "Description": "指定した範囲に体を帯電させて飛びかかり、相手のポケモンにダメージと減速効果 (2秒間30%) を与える。 力を溜めているあいだ、受けるダメージが30%軽減し、妨害無効の状態になる。 わざを外すと自分がダメージを受ける。 このわざを命中させると再度使用することができて、前方にパンチを繰り出してダメージとつきとばしを与える。 かくとうモード：1段目の攻撃が狭くなり、減速効果を与えなくなるが、与えるダメージが増加する。",
-        "UpgradeDescription": "相手のポケモンに与える減速効果が強くなる (40%) 。 かくとうモード：与えるダメージがさらに増加する。",
-        "DamageFormula_Stage1_Fighting": "攻撃 x 179% + 18 x (レベル - 1) + 240",
-        "DamageFormula_Stage2_Fighting": "攻撃 x 234% + 22 x (レベル - 1) + 311",
-        "ShieldFormula_Base": "攻撃 x 280% + 0 x (レベル - 1) + 240",
-        "DamageFormula_Stage1_Fighting_Upgraded": "攻撃 x 207% + 20 x (レベル - 1) + 274",
-        "DamageFormula_Stage2_Fighting_Upgraded": "攻撃 x 270% + 26 x (レベル - 1) + 358"
-      },
-      {
-        "Name": "ひっかく",
-        "Cooldown": "7",
-        "Description": "指定した相手のポケモンにするどいツメで攻撃して、ダメージを与える。",
-        "DamageFormula_Base": "攻撃 x 180% + 18 x (レベル - 1) + 250"
-      },
-      {
-        "Name": "ボルトチェンジ",
-        "Cooldown": "7",
-        "Description": "電気をまとって突進し、ダメージを与えて、背後に移動する。 このわざを使用したあと、短い間に1回だけ、このわざを再度使用できるようになる。 かくとうモード：再度使用できなくなるが、このわざを使用した後の移動速度が 3秒間40% 上がる。",
-        "UpgradeDescription": "このわざの待ち時間が 1秒 短くなる。",
-        "DamageFormula_Base": "攻撃 x 158% + 17 x (レベル - 1) + 242",
-        "DamageFormula_Fighting": "攻撃 x 316% + 34 x (レベル - 1) + 484"
-      },
-      {
-        "Name": "マッハパンチ",
-        "Cooldown": "7",
-        "Description": "素早くパンチを繰り出して攻撃し、相手のポケモンにダメージを与えてつきとばし、 0.6秒間 行動不能にする。 通常攻撃が命中するたびにこのわざの待ち時間が短くなる。 かくとうモード：つきとばしと行動不能にしなくなるが、攻撃回数が増える。",
-        "UpgradeDescription": "相手のポケモンを行動不能にする時間が長くなる (1秒間) 。 かくとうモード：与えるダメージが増加する。",
-        "DamageFormula_Base": "攻撃 x 180% + 20 x (レベル - 1) + 270",
-        "DamageFormula_Fighting": "攻撃 x 85% + 9 x (レベル - 1) + 126 (x 3)",
-        "DamageFormula_Fighting_Upgraded": "攻撃 x 96% + 11 x (レベル - 1) + 145 (x 3)"
-      },
-      {
-        "Name": "ビリビリぜんかい！スパーキン！！",
-        "Cooldown": "-秒",
-        "Description": "指定した相手チームのポケモンに突進し、体毛に蓄えた電気をすべて放出して、相手のポケモンとその周囲にダメージを当たえる。 ユナイトわざ使用後、全身の電気を失って、一定時間 (8秒間) かくとうモードになる。 このユナイトわざのゲージは通常攻撃やわざを相手 チーム のポケモンに命中させた時にのみたまる。 かくとうモード：通常攻撃やわざの効果が変化し、ユナイトわざのゲージがたまらなくなる。 ユナイトバフ：最大HP20％分のシールド＋移動速度50％上昇＋攻撃速度35％上昇",
-        "DamageFormula_Base": "攻撃 x 302% + 36 x (レベル - 1) + 504"
-      }
-    ],
-    "BasicAttack": {},
-    "LevelStats": [
-      {
-        "Level": 1,
-        "HP": 3250,
-        "Attack": 145,
-        "Defense": 90,
-        "SpAttack": 20,
-        "SpDefense": 65,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 0.0
-      },
-      {
-        "Level": 2,
-        "HP": 3332,
-        "Attack": 150,
-        "Defense": 97,
-        "SpAttack": 21,
-        "SpDefense": 70,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.43,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 3.33
-      },
-      {
-        "Level": 3,
-        "HP": 3431,
-        "Attack": 156,
-        "Defense": 105,
-        "SpAttack": 23,
-        "SpDefense": 76,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.95,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 6.66
-      },
-      {
-        "Level": 4,
-        "HP": 3550,
-        "Attack": 163,
-        "Defense": 115,
-        "SpAttack": 25,
-        "SpDefense": 83,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 11.57,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 9.99
-      },
-      {
-        "Level": 5,
-        "HP": 4124,
-        "Attack": 196,
-        "Defense": 162,
-        "SpAttack": 34,
-        "SpDefense": 116,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 14.56,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 13.32
-      },
-      {
-        "Level": 6,
-        "HP": 4295,
-        "Attack": 206,
-        "Defense": 176,
-        "SpAttack": 37,
-        "SpDefense": 126,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 15.45,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 16.65
-      },
-      {
-        "Level": 7,
-        "HP": 4932,
-        "Attack": 243,
-        "Defense": 228,
-        "SpAttack": 48,
-        "SpDefense": 163,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 18.77,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 8,
-        "HP": 5179,
-        "Attack": 257,
-        "Defense": 248,
-        "SpAttack": 52,
-        "SpDefense": 177,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 20.06,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 9,
-        "HP": 5475,
-        "Attack": 274,
-        "Defense": 272,
-        "SpAttack": 57,
-        "SpDefense": 194,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 21.61,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 10,
-        "HP": 5830,
-        "Attack": 294,
-        "Defense": 301,
-        "SpAttack": 63,
-        "SpDefense": 215,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 23.46,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 11,
-        "HP": 6256,
-        "Attack": 318,
-        "Defense": 336,
-        "SpAttack": 70,
-        "SpDefense": 240,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 25.68,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 12,
-        "HP": 6767,
-        "Attack": 347,
-        "Defense": 378,
-        "SpAttack": 78,
-        "SpDefense": 270,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 28.35,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 13,
-        "HP": 7380,
-        "Attack": 382,
-        "Defense": 428,
-        "SpAttack": 88,
-        "SpDefense": 306,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 31.55,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 14,
-        "HP": 8116,
-        "Attack": 424,
-        "Defense": 488,
-        "SpAttack": 100,
-        "SpDefense": 349,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 35.39,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 15,
-        "HP": 9000,
-        "Attack": 475,
-        "Defense": 560,
-        "SpAttack": 115,
-        "SpDefense": 400,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 40.0,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      }
-    ]
-  },
-  {
-    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%A1%E3%82%AC%E3%83%AB%E3%82%AB%E3%83%AA%E3%82%AA",
-    "Name": "メガルカリオ",
-    "EvolutionLevels": [
-      1,
-      9
-    ],
-    "Abilities": [
-      {
-        "Name": "せいぎのこころ",
-        "Description": "相手のポケモンからダメージを受けると、攻撃が 4秒間8% 上がる。この効果は最大4回まで重ねがけが可能。"
-      },
-      {
-        "Name": "てきおうりょく",
-        "Description": "わざを相手のポケモンに命中させると、攻撃が 4秒間5% 上がる。この効果は10回まで重ねがけが可能。"
-      }
-    ],
-    "BasicAttacks": [
-      {
-        "Condition": "Default",
-        "ConditionRaw": "Default",
-        "Description": "3回目の通常攻撃は強化攻撃となり、ホネを使った連続攻撃をする。 範囲内にいる相手のポケモンにダメージを与え、 0.5秒間 ふきとばす。"
-      }
-    ],
-    "Moves": [
-      {
-        "Name": "でんこうせっか",
-        "Cooldown": "6",
-        "Description": "目にも留まらぬ速さで突進する。相手のポケモンに触れるとダメージを与える。",
-        "DamageFormula_Base": "攻撃 x 221% + 11 x (レベル - 1) + 240"
-      },
-      {
-        "Name": "グロウパンチ",
-        "Cooldown": "7",
-        "Description": "ちからを溜めてから強力な攻撃をする。ちからを溜めているあいだ移動速度は 15% 下がるが、攻撃が徐々に上がり、自分の受けるダメージは 30％ 軽減する。そのあと指定した方向へ突っ込み、わざを発動する。わざのダメージは相手のポケモンの残りHPが少ないほど増加し、上手く命中すると 相手ポケモンを0.5秒間行動できなくし、 次の通常攻撃が強化攻撃となる。このわざの待ち時間は、ルカリオのわざが命中するたび 1秒 短くなる。 4秒以上溜めるか、溜めを中断すると、1.4秒の待ち時間が発生する。 メガシンカすると、より長くちからを溜めることが出来て、相手のポケモンに与えるダメージが増加して、 1秒間 ふきとばすようになる。",
-        "UpgradeDescription": "ちからを溜めているあいだ妨害されなくなる。",
-        "DamageFormula_ChargeNone": "攻撃 x 209.15% + 3 x (レベル - 1) + 88",
-        "DamageFormula_ChargeMax": "攻撃 x 381.8% + 5 x (レベル - 1) + 161",
-        "DamageFormula_Additional": "相手の減少HPの12%(対野生ポケモン：上限1000)"
-      },
-      {
-        "Name": "コメットパンチ",
-        "Cooldown": "7",
-        "Description": "彗星のごとくパンチを繰り出して攻撃する。相手のポケモンにダメージを与え、 0.4秒間 つきとばす。",
-        "DamageFormula_Base": "攻撃 x 167% + 8 x (レベル - 1) + 180"
-      },
-      {
-        "Name": "インファイト",
-        "Cooldown": "6.5",
-        "Description": "連続攻撃 (11回) で立て続けに相手のポケモンにダメージを与える。わざが命中すると、自分のHPが一定量回復する。わざを使っているあいだは妨害されない。 また、次の通常攻撃(5秒以内)で相手のポケモンにキックで突撃する。 メガシンカすると、連続で攻撃する回数が増え (16回) 、攻撃中に向きを変えることが出来るようになる。わざを再度使用するか、「グロウパンチ」を使用すると中断できる。このわざの待ち時間は、ルカリオのわざが命中するたびに短くなる。",
-        "UpgradeDescription": "わざの与えるダメージが増加する。",
-        "DamageFormula_Base": "攻撃 x 50% + 2 x (レベル - 1) + 60（x 11Hit）",
-        "HPRecovery": "攻撃 x 11.5% + 0 x (レベル - 1) + 23（x 11Hit）",
-        "DamageFormula_Upgraded": "攻撃 x 56% + 2 x (レベル - 1) + 69（x 11hit）"
-      },
-      {
-        "Name": "フルフォースブラスト",
-        "Cooldown": "112",
-        "Description": "範囲内にいる相手のポケモンにダメージを与える。 ユナイトわざ使用後に 25秒間 メガシンカする。 ユナイトバフ：最大HP20％分のシールド＋移動速度30％上昇＋わざの待ち時間30％減少",
-        "DamageFormula_PerHit": "攻撃 x 174% + 4 x (レベル - 1) + 210"
-      }
-    ],
-    "BasicAttack": {},
-    "LevelStats": [
-      {
-        "Level": 1,
-        "HP": 3250,
-        "Attack": 160,
-        "Defense": 78,
-        "SpAttack": 20,
-        "SpDefense": 60,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 10.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 0.0
-      },
-      {
-        "Level": 2,
-        "HP": 3392,
-        "Attack": 170,
-        "Defense": 89,
-        "SpAttack": 23,
-        "SpDefense": 69,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 11.07,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 3.33
-      },
-      {
-        "Level": 3,
-        "HP": 3549,
-        "Attack": 180,
-        "Defense": 101,
-        "SpAttack": 27,
-        "SpDefense": 78,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 12.24,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 6.66
-      },
-      {
-        "Level": 4,
-        "HP": 3721,
+        "HP": 4911,
         "Attack": 192,
-        "Defense": 114,
-        "SpAttack": 31,
-        "SpDefense": 88,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 13.53,
+        "Defense": 95,
+        "SpAttack": 258,
+        "SpDefense": 72,
+        "MoveSpeed": 4100,
+        "AttackSpeed": 13.45,
         "CritRate": 0.0,
         "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 9.99
-      },
-      {
-        "Level": 5,
-        "HP": 3910,
-        "Attack": 205,
-        "Defense": 129,
-        "SpAttack": 36,
-        "SpDefense": 99,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 14.95,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 13.32
-      },
-      {
-        "Level": 6,
-        "HP": 4118,
-        "Attack": 219,
-        "Defense": 145,
-        "SpAttack": 41,
-        "SpDefense": 112,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 16.51,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 16.65
-      },
-      {
-        "Level": 7,
-        "HP": 4347,
-        "Attack": 234,
-        "Defense": 163,
-        "SpAttack": 46,
-        "SpDefense": 126,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 18.23,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 8,
-        "HP": 4599,
-        "Attack": 251,
-        "Defense": 183,
-        "SpAttack": 52,
-        "SpDefense": 141,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 20.12,
-        "CritRate": 10.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
+        "CDR": 5.0,
+        "Tenacity": 34.98
       },
       {
         "Level": 9,
-        "HP": 4877,
-        "Attack": 270,
-        "Defense": 205,
-        "SpAttack": 59,
-        "SpDefense": 158,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 22.21,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
+        "HP": 5190,
+        "Attack": 203,
+        "Defense": 104,
+        "SpAttack": 295,
+        "SpDefense": 79,
+        "MoveSpeed": 4250,
+        "AttackSpeed": 14.04,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
       },
       {
         "Level": 10,
-        "HP": 5184,
-        "Attack": 291,
-        "Defense": 229,
-        "SpAttack": 66,
-        "SpDefense": 176,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 24.51,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
+        "HP": 5511,
+        "Attack": 215,
+        "Defense": 115,
+        "SpAttack": 338,
+        "SpDefense": 87,
+        "MoveSpeed": 4250,
+        "AttackSpeed": 14.72,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
       },
       {
         "Level": 11,
-        "HP": 5522,
-        "Attack": 314,
-        "Defense": 255,
-        "SpAttack": 74,
-        "SpDefense": 196,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 27.04,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
+        "HP": 5880,
+        "Attack": 229,
+        "Defense": 128,
+        "SpAttack": 387,
+        "SpDefense": 96,
+        "MoveSpeed": 4400,
+        "AttackSpeed": 15.5,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
       },
       {
         "Level": 12,
-        "HP": 5894,
-        "Attack": 339,
-        "Defense": 284,
-        "SpAttack": 83,
-        "SpDefense": 218,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 29.83,
-        "CritRate": 20.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
+        "HP": 6305,
+        "Attack": 245,
+        "Defense": 142,
+        "SpAttack": 444,
+        "SpDefense": 107,
+        "MoveSpeed": 4400,
+        "AttackSpeed": 16.4,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
       },
       {
         "Level": 13,
-        "HP": 6303,
-        "Attack": 366,
-        "Defense": 316,
-        "SpAttack": 93,
-        "SpDefense": 243,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 32.9,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
+        "HP": 6794,
+        "Attack": 264,
+        "Defense": 159,
+        "SpAttack": 509,
+        "SpDefense": 119,
+        "MoveSpeed": 4400,
+        "AttackSpeed": 17.43,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
       },
       {
         "Level": 14,
-        "HP": 6753,
-        "Attack": 396,
-        "Defense": 351,
-        "SpAttack": 104,
-        "SpDefense": 270,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 36.28,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
+        "HP": 7356,
+        "Attack": 285,
+        "Defense": 178,
+        "SpAttack": 584,
+        "SpDefense": 133,
+        "MoveSpeed": 4400,
+        "AttackSpeed": 18.62,
+        "CritRate": 0.0,
+        "Lifesteal": 0.0,
+        "CDR": 10.0,
+        "Tenacity": 34.98
       },
       {
         "Level": 15,
-        "HP": 7249,
-        "Attack": 429,
-        "Defense": 390,
-        "SpAttack": 116,
-        "SpDefense": 300,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 40.0,
-        "CritRate": 20.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      }
-    ]
-  },
-  {
-    "URL": "https://wikiwiki.jp/poke-unite/%E3%83%A1%E3%82%AC%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%89%E3%83%B3X",
-    "Name": "メガリザードンX",
-    "EvolutionLevels": [
-      1,
-      5,
-      7,
-      9
-    ],
-    "Abilities": [
-      {
-        "Name": "サンパワー",
-        "Description": "わざ使用時、自分のHPの一部と引き換えに相手のポケモンに与えるダメージが増加する。 このとくせいは草むらの中にいると発動しない。 自分のわざによってやけど状態になった相手のポケモンに、通常攻撃でダメージを与えたとき、HPを回復する。"
-      },
-      {
-        "Name": "かたいツメ",
-        "Description": "防御と特防が30%、移動速度が50%上がり、わざで相手のポケモンに与えるダメージが増加する。 わざを相手のポケモンに命中させると、強化カウンタがたまる。（最大3つ） 強化カウンタを1つ消費すると、次の通常攻撃は強化攻撃となり、必ず急所に当たる。 自分のわざによってやけど状態になった相手のポケモンに、通常攻撃でダメージを与えたとき、HPを回復する。"
-      }
-    ],
-    "BasicAttacks": [
-      {
-        "Condition": "Default",
-        "ConditionRaw": "Default",
-        "Description": "通常攻撃で連続ダメージを与えられる。 進化すると通常攻撃の距離が長くなる。 自分のわざによってやけど状態になった相手のポケモンに、通常攻撃で追加ダメージを与えられる。"
-      }
-    ],
-    "Moves": [
-      {
-        "Name": "はじけるほのお",
-        "Cooldown": "6",
-        "Description": "ほのおを吐いて攻撃する。 わざ命中時に相手のポケモンが 4秒間 やけど状態になり、自分の移動速度が少しのあいだ (3秒間)20% 上がる。 やけど状態になったポケモンは攻撃が5%下がる。",
-        "DamageFormula_Base": "攻撃 x 105% + 4 x (レベル - 1) + 70",
-        "DamageFormula_Burn": "攻撃 x 20% + 0 x (レベル - 1) + 0 (x 5Hit)"
-      },
-      {
-        "Name": "ほのおのパンチ",
-        "Cooldown": "5",
-        "Description": "ほのおを込めたパンチで攻撃する。わざ命中時に相手のポケモンにダメージを与え、 0.5秒間 つきとばす。 また、つきとばした相手のポケモンを 4秒間 やけど状態にする。 やけど状態になったポケモンは攻撃が5%下がる。 メガシンカすると、わざが命中したすべてのポケモンをやけど状態にする。",
-        "UpgradeDescription": "通常攻撃が命中するたびにわざの待ち時間が 0.4秒 短くなる。",
-        "DamageFormula_Base": "攻撃 x 246% + 11 x (レベル - 1) + 264",
-        "DamageFormula_Burn": "攻撃 x 20% + 0 x (レベル - 1) + 0 (x 5Hit)"
-      },
-      {
-        "Name": "ほのおのうず",
-        "Cooldown": "10",
-        "Description": "範囲内にいる相手のポケモンをほのおのうずに閉じ込める。 わざ命中後から 0.5秒毎に 継続ダメージを与え、相手のポケモンの移動速度も少しのあいだ (1秒間)25% 下げる。",
-        "DamageFormula_Base": "攻撃 x 100% + 5 x (レベル - 1) + 150"
-      },
-      {
-        "Name": "フレアドライブ",
-        "Cooldown": "10",
-        "Description": "ほのおをまとって突進し、相手のポケモンをふきとばす。このとき自分は 5秒間 シールド効果を得る。 メガシンカすると、周囲の相手のポケモンもふきとばすようになる。 また、相手チームのポケモンに命中させると、わざの待ち時間が短くなる。",
-        "UpgradeDescription": "ふきとばした相手のポケモンの移動速度も少しのあいだ (3秒間)40% 下げるようになる。",
-        "DamageFormula_Base": "攻撃 x 160% + 5 x (レベル - 1) + 193",
-        "ShieldFormula_Base": "攻撃 x 240% + 0 x (レベル - 1) + 720"
-      },
-      {
-        "Name": "アースクラッシャー",
-        "Cooldown": "112",
-        "Description": "相手チームのポケモンをつかみあげ、空中から地面へ叩きつける。ユナイトわざ使用後、 20秒間 メガシンカした姿になる。 ユナイトバフ：最大HP20％分のシールド",
-        "DamageFormula_Slam": "攻撃 x 307% + 8 x (レベル - 1) + 380",
-        "DamageFormula_Additional": "相手の最大HPの8%"
-      }
-    ],
-    "BasicAttack": {},
-    "LevelStats": [
-      {
-        "Level": 1,
-        "HP": 3200,
-        "Attack": 161,
-        "Defense": 70,
-        "SpAttack": 20,
-        "SpDefense": 54,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 0.0,
+        "HP": 8002,
+        "Attack": 310,
+        "Defense": 200,
+        "SpAttack": 670,
+        "SpDefense": 149,
+        "MoveSpeed": 4400,
+        "AttackSpeed": 19.99,
         "CritRate": 0.0,
         "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 0.0
-      },
-      {
-        "Level": 2,
-        "HP": 3264,
-        "Attack": 165,
-        "Defense": 75,
-        "SpAttack": 21,
-        "SpDefense": 58,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 0.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 3.33
-      },
-      {
-        "Level": 3,
-        "HP": 3341,
-        "Attack": 170,
-        "Defense": 81,
-        "SpAttack": 23,
-        "SpDefense": 63,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 0.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 6.66
-      },
-      {
-        "Level": 4,
-        "HP": 3434,
-        "Attack": 176,
-        "Defense": 88,
-        "SpAttack": 25,
-        "SpDefense": 68,
-        "MoveSpeed": 3700,
-        "AttackSpeed": 0.0,
-        "CritRate": 0.0,
-        "Lifesteal": 0.0,
-        "CDR": 0.0,
-        "Tenacity": 9.99
-      },
-      {
-        "Level": 5,
-        "HP": 3771,
-        "Attack": 199,
-        "Defense": 121,
-        "SpAttack": 32,
-        "SpDefense": 95,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 0.0,
-        "CritRate": 15.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 13.32
-      },
-      {
-        "Level": 6,
-        "HP": 3905,
-        "Attack": 208,
-        "Defense": 131,
-        "SpAttack": 35,
-        "SpDefense": 103,
-        "MoveSpeed": 3850,
-        "AttackSpeed": 0.0,
-        "CritRate": 15.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 16.65
-      },
-      {
-        "Level": 7,
-        "HP": 4516,
-        "Attack": 249,
-        "Defense": 168,
-        "SpAttack": 48,
-        "SpDefense": 132,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 0.0,
-        "CritRate": 15.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 8,
-        "HP": 4709,
-        "Attack": 262,
-        "Defense": 182,
-        "SpAttack": 52,
-        "SpDefense": 143,
-        "MoveSpeed": 4000,
-        "AttackSpeed": 0.0,
-        "CritRate": 15.0,
-        "Lifesteal": 5.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 9,
-        "HP": 4941,
-        "Attack": 277,
-        "Defense": 199,
-        "SpAttack": 57,
-        "SpDefense": 157,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 0.0,
-        "CritRate": 30.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 10,
-        "HP": 5219,
-        "Attack": 296,
-        "Defense": 219,
-        "SpAttack": 63,
-        "SpDefense": 173,
-        "MoveSpeed": 4150,
-        "AttackSpeed": 0.0,
-        "CritRate": 30.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 11,
-        "HP": 5553,
-        "Attack": 318,
-        "Defense": 243,
-        "SpAttack": 70,
-        "SpDefense": 193,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 0.0,
-        "CritRate": 30.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 12,
-        "HP": 5953,
-        "Attack": 345,
-        "Defense": 272,
-        "SpAttack": 78,
-        "SpDefense": 217,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 0.0,
-        "CritRate": 30.0,
-        "Lifesteal": 10.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 13,
-        "HP": 6433,
-        "Attack": 377,
-        "Defense": 307,
-        "SpAttack": 88,
-        "SpDefense": 245,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 0.0,
-        "CritRate": 30.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 14,
-        "HP": 7009,
-        "Attack": 416,
-        "Defense": 349,
-        "SpAttack": 100,
-        "SpDefense": 279,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 0.0,
-        "CritRate": 30.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
-      },
-      {
-        "Level": 15,
-        "HP": 7700,
-        "Attack": 462,
-        "Defense": 400,
-        "SpAttack": 115,
-        "SpDefense": 320,
-        "MoveSpeed": 4300,
-        "AttackSpeed": 0.0,
-        "CritRate": 30.0,
-        "Lifesteal": 15.0,
-        "CDR": 0.0,
-        "Tenacity": 19.98
+        "CDR": 10.0,
+        "Tenacity": 34.98
       }
     ]
   }

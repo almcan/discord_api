@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service as ChromeService
 from bs4 import BeautifulSoup, Tag
 import time
+import glob
 import re
 import json
 import traceback
@@ -604,7 +605,6 @@ def scrape_pokemon_data(driver, url):
                                         match = re.match(p_info['pattern'], line)
                                         if match:
                                             # マッチしたグループ(計算式部分)を取得
-                                            # ★★★ HTMLタグ除去は clean_text で行われる前提 ★★★
                                             value_str = clean_text(match.group(1).strip())
 
                                             key = None; base_key = None
@@ -751,8 +751,7 @@ def scrape_pokemon_data(driver, url):
 # --- メイン処理 ---
 if __name__ == "__main__":
     target_urls = []
-    
-    # pokemon_urls.json から読み込み
+
     if os.path.exists(url_list_file):
         try:
             with open(url_list_file, 'r', encoding='utf-8') as f:
@@ -789,7 +788,6 @@ if __name__ == "__main__":
                 
                 if data:
                     all_data.append(data)
-                    # ... (保存処理はそのまま) ...
                     try:
                         p_name = data.get('Name', url.split('/')[-1])
                         safe_name = re.sub(r'[\\/*?:"<>|]', '', p_name)
@@ -799,6 +797,34 @@ if __name__ == "__main__":
                     except: pass
                 else:
                     print(f"スキップ: {url}")
+
+        # 1. 全データをまとめたファイルを保存
+            if all_data:
+                save_path = os.path.join(output_dir, "all_pokemon_data.json")
+                try:
+                    with open(save_path, 'w', encoding='utf-8') as f:
+                        json.dump(all_data, f, indent=2, ensure_ascii=False)
+                    print(f"\n★ 全データを保存しました: {save_path}")
+                except Exception as e:
+                    print(f"全データの保存に失敗しました: {e}")
+
+            # 2. 個別のjsonファイルを削除 (all_pokemon_data.json以外)
+            print("不要な個別JSONファイルの削除を開始します...")
+            target_files = glob.glob(os.path.join(output_dir, "*_data.json"))
+            
+            deleted_count = 0
+            for file_path in target_files:
+                file_name = os.path.basename(file_path)
+                if file_name == "all_pokemon_data.json":
+                    continue
+                
+                try:
+                    os.remove(file_path)
+                    deleted_count += 1
+                except Exception as e:
+                    print(f"削除エラー: {file_name} ({e})")
+            
+            print(f"完了: 個別ファイル {deleted_count} 件を削除しました。")
 
         except Exception as e:
             print(f"予期せぬエラー: {e}")
