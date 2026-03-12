@@ -125,6 +125,20 @@ class MyBot(commands.Bot):
             self.update_pokemon_home_database.start()
             logger.info("[TASK] Pokémon HOME database update task started.")
 
+    async def on_reaction_add(self, reaction, user):
+        """Bot投稿にユーザーがリアクションしたら、その投稿を削除する"""
+        if user.bot:
+            return
+
+        message = reaction.message
+        if message.author == self.user:
+            try:
+                await message.delete()
+            except discord.Forbidden:
+                logger.warning(f"メッセージ削除権限がありません: {message.channel}")
+            except Exception as e:
+                logger.exception(f"メッセージ削除中のエラー: {e}")
+
     # ------------------------------------------------------------------
     # ユーティリティ & タスク
     # ------------------------------------------------------------------

@@ -20,7 +20,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[logging.StreamHandler()]
 )
-logger = logging.getLogger(__name__)  # "main" ではなく __name__ を使うのが一般的
+logger = logging.getLogger(__name__)
 
 # ------------------------------------------------------------------
 # 2. 設定値の取得 (Fail Fast)
@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)  # "main" ではなく __name__ を使う�
 TOKEN = os.getenv('DISCORD_TOKEN')
 DSN = os.getenv('DSN')
 GUILD_ID = os.getenv('GUILD_ID') # 開発用サーバーID（あれば）
-PREFIX = os.getenv('PREFIX', '?')
+PREFIX = os.getenv('COMMAND_PREFIX', '!')
 
 if TOKEN is None:
     logger.critical("環境変数 'DISCORD_TOKEN' が設定されていません。終了します。")
@@ -70,7 +70,6 @@ async def main():
 
 if __name__ == '__main__':
     try:
-        # KeyboardInterrupt は Docker停止時にも送られるシグナル
         asyncio.run(main())
     except KeyboardInterrupt:
         logger.info("Bot is shutting down...")

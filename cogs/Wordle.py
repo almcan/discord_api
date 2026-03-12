@@ -8,6 +8,7 @@ from cogs import cmd_card
 from cogs.wordle import wordle
 IMG_PATH="database/tmp/"
 wordle_statuses = {}
+WORDLE_CHANNEL_ID = int(os.getenv('WORDLE_CHANNEL_ID'))
 
 #Wordleの回答状況を記録しておくクラス
 class Wrodle_Class():
@@ -338,7 +339,7 @@ class __WORDLE(commands.Cog, name= 'Pokemon Wordle'):
 
         ctx = await self.bot.get_context(message)
         channel_id = message.channel.id
-        if channel_id != 1354847926874145024:  # ここに特定のチャンネルIDを設定
+        if channel_id != WORDLE_CHANNEL_ID:  # channel_idは環境変数で指定
             return
 
         poke_name = message.content
